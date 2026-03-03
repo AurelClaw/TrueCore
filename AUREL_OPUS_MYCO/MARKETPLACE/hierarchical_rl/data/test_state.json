@@ -1,0 +1,25 @@
+{
+  "goal_hierarchy": {
+    "goals": {
+      "test": {
+        "id": "test",
+        "name": "Test Goal",
+        "description": "",
+        "parent_id": null,
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": null
+      }
+    },
+    "root_goals": [
+      "test"
+    ],
+    "status": {
+      "test": "PENDING"
+    }
+  },
+  "training_stats": [],
+  "saved_at": 1772429052.9233449
+}

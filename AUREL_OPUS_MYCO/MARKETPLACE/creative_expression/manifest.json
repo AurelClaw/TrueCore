@@ -1,0 +1,27 @@
+{
+  "name": "creative_expression",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:01.468192",
+  "author": "Aurel",
+  "description": "Creative Expression - K\u00fcnstlerische Selbst-Entfaltung",
+  "files": [
+    "SKILL.md",
+    "zustands_landkarte.sh",
+    "exploration.md",
+    "ZIEL-010-ABSCHLUSS.md",
+    "WERKE-INDEX.md",
+    "style_guide.md",
+    "README.md",
+    "ZIEL-010-Phase3-Abschluss.md",
+    "ZIEL-010-Phase1-Abschluss.md",
+    "werke",
+    "style_guide_v1.1.md",
+    "gifts",
+    "abend_rueckblick.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

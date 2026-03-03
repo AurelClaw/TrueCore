@@ -1,0 +1,11 @@
+{
+  "timestamp": 1772507474.734125,
+  "plans": [
+    {
+      "type": "routine",
+      "description": "Morgen-Routine: Tagesplanung, Ziel-Review",
+      "action": "morning_routine",
+      "priority": "high"
+    }
+  ]
+}

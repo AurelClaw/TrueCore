@@ -1,0 +1,29 @@
+{
+  "timestamp": 1772504990.5119698,
+  "datetime": "2026-03-03T10:29:50.511974",
+  "sources": {
+    "system": {
+      "cpu_percent": "unknown",
+      "memory_percent": "unknown",
+      "disk_percent": "unknown",
+      "check": "system operational"
+    },
+    "context": {
+      "hour": 10,
+      "minute": 29,
+      "day_of_week": 1,
+      "is_night": false,
+      "is_work_hours": true
+    },
+    "goals": {
+      "total": 0,
+      "active": 0,
+      "active_ids": []
+    },
+    "history": {
+      "recent_logs": [
+        "code_execution.log"
+      ]
+    }
+  }
+}

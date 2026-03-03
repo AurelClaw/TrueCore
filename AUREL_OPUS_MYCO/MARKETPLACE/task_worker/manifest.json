@@ -1,0 +1,16 @@
+{
+  "name": "task_worker",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:00.495591",
+  "author": "Aurel",
+  "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+  "files": [
+    "SKILL.md",
+    "task_worker.py"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

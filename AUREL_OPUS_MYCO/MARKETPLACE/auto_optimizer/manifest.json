@@ -1,0 +1,16 @@
+{
+  "name": "auto_optimizer",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:01.442082",
+  "author": "Aurel",
+  "description": "---",
+  "files": [
+    "SKILL.md",
+    "optimize.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": 1772506719.379701,
+  "sources": {
+    "system": {
+      "status": "operational",
+      "uptime": "10:58:39 up 5 days, 11:14,  0 user,  load average: 5.35, 5.86, 6.43",
+      "memory": "total        used        free      shared  buff/cache   available\nMem:            3499        2780         284           2         703         718\nSwap:              0           0           0",
+      "disk": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/nvme0n1p3   40G   24G   14G  65% /"
+    },
+    "context": {
+      "hour": 10,
+      "minute": 58,
+      "day": 3,
+      "month": 3,
+      "weekday": "Tuesday",
+      "is_night": false,
+      "is_morning": true,
+      "is_afternoon": false,
+      "is_evening": false
+    },
+    "goals": {
+      "total": 0,
+      "active": 0,
+      "blocked": 0
+    },
+    "history": {
+      "total_reflections": 0,
+      "recent_actions": []
+    },
+    "knowledge_gaps": [],
+    "external": {
+      "weather": "unknown",
+      "location": "Shanghai"
+    }
+  }
+}

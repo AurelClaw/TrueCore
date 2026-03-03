@@ -1,0 +1,10 @@
+{
+  "timestamp": 1772505788.9345906,
+  "results": [
+    {
+      "plan_type": "routine",
+      "status": "fallback",
+      "details": "Kein Sub-Agent f\u00fcr diesen Plan-Typ"
+    }
+  ]
+}

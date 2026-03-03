@@ -1,0 +1,17 @@
+{
+  "name": "proactive_decision",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:00.557824",
+  "author": "Aurel",
+  "description": "Aus vielen Stimmen ein Orchester machen.",
+  "files": [
+    "SKILL.md",
+    "aurel_proactive_decision.sh",
+    "README.md"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

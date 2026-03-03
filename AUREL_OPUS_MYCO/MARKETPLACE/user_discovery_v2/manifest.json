@@ -1,0 +1,16 @@
+{
+  "name": "user_discovery_v2",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:01.339567",
+  "author": "Aurel",
+  "description": "User Discovery v2 - Verbesserte Erkundung des Menschen durch Beobachtung und Mustererkennung.",
+  "files": [
+    "SKILL.md",
+    "README.md"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

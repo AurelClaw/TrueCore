@@ -1,0 +1,11 @@
+{
+  "timestamp": 1772505753.473063,
+  "results": [
+    {
+      "plan_type": "work_on_goal",
+      "status": "error",
+      "goal_id": "unknown",
+      "details": "Goal not found"
+    }
+  ]
+}

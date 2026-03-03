@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-03-03T11:17:02.623733",
+  "active_skills": [
+    "world_model",
+    "emotional_model",
+    "research_scout",
+    "hierarchical_rl",
+    "resource_monitor",
+    "ziel_007_active",
+    "v10_cron",
+    "phase_3_act_v3"
+  ],
+  "details": [
+    {
+      "name": "world_model",
+      "matches": [
+        "model",
+        "simulation",
+        "prediction",
+        "world",
+        "state"
+      ],
+      "description": "Internes Simulationsmodell f\u00fcr kontrafaktisches Denken und P",
+      "functions": [
+        "__hash__",
+        "__eq__",
+        "__len__"
+      ]
+    },
+    {
+      "name": "emotional_model",
+      "matches": [
+        "state",
+        "model"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "ensure_dir",
+        "load_emotions",
+        "save_emotions"
+      ]
+    },
+    {
+      "name": "research_scout",
+      "matches": [
+        "world",
+        "model"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "ensure_dir",
+        "save_research",
+        "scout_meta_learning"
+      ]
+    },
+    {
+      "name": "hierarchical_rl",
+      "matches": [
+        "state"
+      ],
+      "description": "Hierarchisches Reinforcement Learning - Mehrstufige Lernarch",
+      "functions": [
+        "__init__",
+        "get_state",
+        "execute"
+      ]
+    },
+    {
+      "name": "resource_monitor",
+      "matches": [
+        "state"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "get_system_stats",
+        "load_state",
+        "save_state"
+      ]
+    },
+    {
+      "name": "ziel_007_active",
+      "matches": [
+        "state"
+      ],
+      "description": "Skill f\u00fcr autonome Agenten-Funktionalit\u00e4t",
+      "functions": [
+        "test_initialization",
+        "test_basic_functionality",
+        "__init__"
+      ]
+    },
+    {
+      "name": "v10_cron",
+      "matches": [
+        "state"
+      ],
+      "description": "Multi-Voice Self-Awareness System f\u00fcr v10 Architektur.",
+      "functions": [
+        "load_state",
+        "save_state",
+        "think_loop_voice"
+      ]
+    },
+    {
+      "name": "phase_3_act_v3",
+      "matches": [
+        "state"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "__init__",
+        "act",
+        "_load_plans"
+      ]
+    }
+  ]
+}

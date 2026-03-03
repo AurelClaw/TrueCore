@@ -1,0 +1,3997 @@
+{
+  "planning_id": "plan_20260302_125032_2e592ea2",
+  "start_state": {
+    "version": "1.0",
+    "time": {
+      "timestamp": "2026-03-02T12:50:32.192587",
+      "time_of_day": "afternoon",
+      "day_of_week": 0,
+      "week_of_year": 10,
+      "is_weekend": false,
+      "is_holiday": false
+    },
+    "context": {
+      "location": "workspace",
+      "activity_context": "morning_routine",
+      "last_interaction_minutes_ago": null,
+      "recent_topics": [],
+      "open_goals": [
+        "send_morgen_gruss",
+        "check_weather"
+      ]
+    },
+    "system": {
+      "active_skills": [
+        "world_model",
+        "planner"
+      ],
+      "running_processes": [],
+      "pending_notifications": 0,
+      "system_load": 0.2,
+      "recent_events": []
+    },
+    "human": {
+      "mood_estimate": "sleepy",
+      "engagement_level": "low",
+      "preferred_communication": "unknown",
+      "recent_successes": [],
+      "recent_frustrations": []
+    },
+    "environment": {
+      "weather_condition": "sunny",
+      "temperature": 18.0,
+      "humidity": null,
+      "calendar_load": "unknown",
+      "upcoming_events": []
+    }
+  },
+  "horizon": 2,
+  "best_sequence": {
+    "sequence_id": "seq_0",
+    "actions": [
+      {
+        "action_id": "send_message",
+        "action_params": {
+          "urgency": "high",
+          "channel": "telegram"
+        },
+        "description": "Sende Nachricht an Menschen"
+      },
+      {
+        "action_id": "send_message",
+        "action_params": {
+          "urgency": "high",
+          "channel": "discord"
+        },
+        "description": "Sende Nachricht an Menschen"
+      }
+    ],
+    "predicted_outcome": {
+      "version": "1.0",
+      "time": {
+        "timestamp": "2026-03-02T14:50:32.192587",
+        "time_of_day": "afternoon",
+        "day_of_week": 0,
+        "week_of_year": 10,
+        "is_weekend": false,
+        "is_holiday": false
+      },
+      "context": {
+        "location": "workspace",
+        "activity_context": "morning_routine",
+        "last_interaction_minutes_ago": 0,
+        "recent_topics": [],
+        "open_goals": [
+          "send_morgen_gruss",
+          "check_weather",
+          "predicted_1h_ahead",
+          "predicted_1h_ahead"
+        ]
+      },
+      "system": {
+        "active_skills": [
+          "world_model",
+          "planner"
+        ],
+        "running_processes": [],
+        "pending_notifications": 0,
+        "system_load": 0.32800000000000007,
+        "recent_events": []
+      },
+      "human": {
+        "mood_estimate": "sleepy",
+        "engagement_level": "active",
+        "preferred_communication": "unknown",
+        "recent_successes": [],
+        "recent_frustrations": []
+      },
+      "environment": {
+        "weather_condition": "sunny",
+        "temperature": 18.0,
+        "humidity": null,
+        "calendar_load": "unknown",
+        "upcoming_events": []
+      }
+    },
+    "total_reward": 0.73366,
+    "confidence": 1.0,
+    "metadata": {},
+    "length": 2
+  },
+  "all_sequences": [
+    {
+      "sequence_id": "seq_0",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_8",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_13",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_14",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_15",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_18",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_24",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_26",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_28",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_31",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_10",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_11",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.46065999999999996,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_12",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.46065999999999996,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_13",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_14",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.46065999999999996,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_15",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_16",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_17",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_18",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_19",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_20",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_21",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_22",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_23",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_24",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_25",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_26",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_27",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_28",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.46065999999999996,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_29",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.46065999999999996,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_30",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_31",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_32",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_33",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_34",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.46065999999999996,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_35",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_36",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_37",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_38",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_39",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_40",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_41",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.5936600000000001,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_42",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_43",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.5936600000000001,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_44",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_45",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.5936600000000001,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_46",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_47",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_48",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "low",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    },
+    {
+      "sequence_id": "seq_49",
+      "actions": [
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T14:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.32800000000000007,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.73366,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 2
+    }
+  ],
+  "cem_stats": [
+    {
+      "iteration": 0,
+      "mean_reward": 0.7919394200000002,
+      "best_reward": 1.5451055,
+      "worst_reward": 0.5688305,
+      "std_reward": 0.25227042485278295,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.31854722714214145
+    },
+    {
+      "iteration": 1,
+      "mean_reward": 1.09369286,
+      "best_reward": 1.566585,
+      "worst_reward": 0.6071305,
+      "std_reward": 0.24332926844683195,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.22248389366182597
+    },
+    {
+      "iteration": 2,
+      "mean_reward": 1.2760656099999999,
+      "best_reward": 1.566585,
+      "worst_reward": 0.866468,
+      "std_reward": 0.23240494812134035,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.18212603190153248
+    },
+    {
+      "iteration": 3,
+      "mean_reward": 1.34963908,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8940305,
+      "std_reward": 0.22220740405273087,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.16464197184536108
+    },
+    {
+      "iteration": 4,
+      "mean_reward": 1.3263116,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8277055,
+      "std_reward": 0.25271885978640374,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.19054245566724146
+    },
+    {
+      "iteration": 5,
+      "mean_reward": 1.3816644,
+      "best_reward": 1.566585,
+      "worst_reward": 0.6339305,
+      "std_reward": 0.2368451634181918,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.1714200582993479
+    },
+    {
+      "iteration": 6,
+      "mean_reward": 1.38579124,
+      "best_reward": 1.566585,
+      "worst_reward": 0.9842805,
+      "std_reward": 0.17213724282671194,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.12421576471427777
+    },
+    {
+      "iteration": 7,
+      "mean_reward": 1.3432831100000002,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8990305000000001,
+      "std_reward": 0.19603185914509633,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.14593477112231776
+    },
+    {
+      "iteration": 8,
+      "mean_reward": 1.3660402399999998,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8186804999999999,
+      "std_reward": 0.21014056374144516,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.15383178603117809
+    },
+    {
+      "iteration": 9,
+      "mean_reward": 1.40923131,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8890305000000001,
+      "std_reward": 0.18361802775078725,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.1302964929542293
+    },
+    {
+      "iteration": 0,
+      "mean_reward": 0.5619398,
+      "best_reward": 0.9469,
+      "worst_reward": 0.43640999999999996,
+      "std_reward": 0.14309886482414877,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.2546511390953438
+    },
+    {
+      "iteration": 1,
+      "mean_reward": 0.7549132000000002,
+      "best_reward": 0.96166,
+      "worst_reward": 0.48991,
+      "std_reward": 0.15172001370208216,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.20097649998116623
+    },
+    {
+      "iteration": 2,
+      "mean_reward": 0.8660804,
+      "best_reward": 0.96166,
+      "worst_reward": 0.49966,
+      "std_reward": 0.1094568273788346,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.12638168580786355
+    },
+    {
+      "iteration": 3,
+      "mean_reward": 0.8510469999999999,
+      "best_reward": 0.96166,
+      "worst_reward": 0.49466,
+      "std_reward": 0.12215509715521491,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.1435349089066832
+    },
+    {
+      "iteration": 4,
+      "mean_reward": 0.8966748000000001,
+      "best_reward": 0.96166,
+      "worst_reward": 0.46616,
+      "std_reward": 0.1005098922144482,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.11209167484440662
+    },
+    {
+      "iteration": 5,
+      "mean_reward": 0.8675448000000001,
+      "best_reward": 0.96166,
+      "worst_reward": 0.5849099999999999,
+      "std_reward": 0.11266140102519584,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.12986219404807886
+    },
+    {
+      "iteration": 6,
+      "mean_reward": 0.855795,
+      "best_reward": 0.96166,
+      "worst_reward": 0.5699099999999999,
+      "std_reward": 0.12346494654354327,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.14426913253105095
+    },
+    {
+      "iteration": 7,
+      "mean_reward": 0.8809500000000001,
+      "best_reward": 0.96166,
+      "worst_reward": 0.48966,
+      "std_reward": 0.11591859600599033,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.13158347740792656
+    },
+    {
+      "iteration": 8,
+      "mean_reward": 0.834195,
+      "best_reward": 0.96166,
+      "worst_reward": 0.47116,
+      "std_reward": 0.14904630161463248,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.17867060213023375
+    },
+    {
+      "iteration": 9,
+      "mean_reward": 0.8529698,
+      "best_reward": 0.96166,
+      "worst_reward": 0.54566,
+      "std_reward": 0.11129090855033932,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.13047446471829904
+    },
+    {
+      "iteration": 0,
+      "mean_reward": 0.5611799999999999,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.1213708762430263,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.21627759358037124
+    },
+    {
+      "iteration": 1,
+      "mean_reward": 0.70608,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.07265730245474297,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.10290222007778564
+    },
+    {
+      "iteration": 2,
+      "mean_reward": 0.7062199999999998,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.0774168353783594,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.10962125932018364
+    },
+    {
+      "iteration": 3,
+      "mean_reward": 0.71714,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.05909525869306267,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.08240396057827215
+    },
+    {
+      "iteration": 4,
+      "mean_reward": 0.7116799999999999,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.06908414868839305,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.09707179015372486
+    },
+    {
+      "iteration": 5,
+      "mean_reward": 0.7007599999999999,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.08458421838617414,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.12070337588161176
+    },
+    {
+      "iteration": 6,
+      "mean_reward": 0.7144799999999999,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.06705123115946492,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.09384606610877676
+    },
+    {
+      "iteration": 7,
+      "mean_reward": 0.6842400000000001,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.09777383903683029,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.1428938620118208
+    },
+    {
+      "iteration": 8,
+      "mean_reward": 0.71714,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.05909525869306267,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.08240396057827215
+    },
+    {
+      "iteration": 9,
+      "mean_reward": 0.6925,
+      "best_reward": 0.73366,
+      "worst_reward": 0.46065999999999996,
+      "std_reward": 0.09178962032822666,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.13254799679455576
+    }
+  ],
+  "computation_time_ms": 299.23439025878906,
+  "final_confidence": 0.8937128012821778
+}

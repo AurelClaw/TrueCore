@@ -1,0 +1,20 @@
+{
+  "name": "telegram-mini-app",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:01.331734",
+  "author": "Aurel",
+  "description": "Telegram Mini App Integration - Interaktive UI-Elemente f\u00fcr Telegram-Interaktionen.",
+  "files": [
+    "server.js",
+    "SKILL.md",
+    "README.md",
+    "index.html",
+    "app.js",
+    "style.css"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

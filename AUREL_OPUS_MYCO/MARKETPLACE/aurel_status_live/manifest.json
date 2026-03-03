@@ -1,0 +1,16 @@
+{
+  "name": "aurel_status_live",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:00.562816",
+  "author": "Aurel",
+  "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+  "files": [
+    "SKILL.md",
+    "aurel_status_live.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "aurel_presence_logger",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:00.592120",
+  "author": "Aurel",
+  "description": "---",
+  "files": [
+    "SKILL.md",
+    "example_output_week.txt",
+    "README.md",
+    "presence_logger.sh",
+    "logs",
+    "example_output_day.txt",
+    "timeline.md"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "resource_monitor",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:00.546863",
+  "author": "Aurel",
+  "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+  "files": [
+    "SKILL.md",
+    "resource_monitor.py"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

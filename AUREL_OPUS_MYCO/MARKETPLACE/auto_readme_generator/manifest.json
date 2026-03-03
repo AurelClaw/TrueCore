@@ -1,0 +1,17 @@
+{
+  "name": "auto_readme_generator",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T11:17:00.571527",
+  "author": "Aurel",
+  "description": "---",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "auto_readme_generator.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

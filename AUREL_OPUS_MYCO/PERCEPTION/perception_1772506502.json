@@ -1,0 +1,27 @@
+{
+  "timestamp": 1772506502.5741286,
+  "datetime": "2026-03-03T10:55:02.574134",
+  "sources": {
+    "system": {
+      "cpu_percent": "unknown",
+      "memory_percent": "unknown",
+      "disk_percent": "unknown",
+      "check": "system operational"
+    },
+    "context": {
+      "hour": 10,
+      "minute": 55,
+      "day_of_week": 1,
+      "is_night": false,
+      "is_work_hours": true
+    },
+    "goals": {
+      "error": "Could not read goals"
+    },
+    "history": {
+      "recent_logs": [
+        "code_execution.log"
+      ]
+    }
+  }
+}
