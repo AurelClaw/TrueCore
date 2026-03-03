@@ -1,7 +1,7 @@
 {
   "name": "conversation_memory",
   "version": "1.0.0",
-  "created_at": "2026-03-03T09:17:28.777885",
+  "created_at": "2026-03-03T10:25:43.324555",
   "author": "Aurel",
   "description": "Gespr\u00e4chsmuster-Erkennung und -Speicherung. Lernt aus jeder Interaktion, um die Kommunikation mit de",
   "files": [

@@ -1,48 +1,37 @@
 {
-  "timestamp": "2026-03-03T09:31:57.074199",
+  "timestamp": "2026-03-03T10:25:45.472427",
   "active_skills": [
-    "world_model",
-    "research_scout",
+    "ziel_012_v2",
     "hierarchical_rl",
-    "resource_monitor",
-    "ziel_007_active",
-    "v10_cron",
-    "phase_3_act_v3"
+    "research_scout",
+    "skill_relationship_mapper",
+    "phase_2_plan",
+    "skill_doc_generator",
+    "auto_skill_activator",
+    "skill_router",
+    "creativity_engine",
+    "ziel_006_v2"
   ],
   "details": [
     {
-      "name": "world_model",
+      "name": "ziel_012_v2",
       "matches": [
-        "simulation",
-        "world",
-        "model",
-        "state",
-        "prediction"
+        "auto",
+        "self",
+        "learning"
       ],
-      "description": "Internes Simulationsmodell f\u00fcr kontrafaktisches Denken und P",
+      "description": "Hierarchical Reinforcement Learning",
       "functions": [
-        "__hash__",
-        "__eq__",
-        "__len__"
-      ]
-    },
-    {
-      "name": "research_scout",
-      "matches": [
-        "model",
-        "world"
-      ],
-      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
-      "functions": [
-        "ensure_dir",
-        "save_research",
-        "scout_meta_learning"
+        "__init__",
+        "run"
       ]
     },
     {
       "name": "hierarchical_rl",
       "matches": [
-        "state"
+        "auto",
+        "self",
+        "learning"
       ],
       "description": "Hierarchisches Reinforcement Learning - Mehrstufige Lernarch",
       "functions": [
@@ -52,51 +41,114 @@
       ]
     },
     {
-      "name": "resource_monitor",
+      "name": "research_scout",
       "matches": [
-        "state"
+        "auto",
+        "self",
+        "learning"
       ],
       "description": "Automatisch generierter Skill aus Ziel-Management-System.",
       "functions": [
-        "get_system_stats",
-        "load_state",
-        "save_state"
+        "ensure_dir",
+        "save_research",
+        "scout_meta_learning"
       ]
     },
     {
-      "name": "ziel_007_active",
+      "name": "skill_relationship_mapper",
       "matches": [
-        "state"
+        "auto",
+        "self",
+        "learning"
       ],
-      "description": "\u26a0\ufe0f Keine SKILL.md",
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
       "functions": [
-        "test_initialization",
-        "test_basic_functionality",
-        "__init__"
+        "extract_skill_info",
+        "find_relationships",
+        "main"
       ]
     },
     {
-      "name": "v10_cron",
+      "name": "phase_2_plan",
       "matches": [
-        "state"
-      ],
-      "description": "Multi-Voice Self-Awareness System f\u00fcr v10 Architektur.",
-      "functions": [
-        "load_state",
-        "save_state",
-        "think_loop_voice"
-      ]
-    },
-    {
-      "name": "phase_3_act_v3",
-      "matches": [
-        "state"
+        "auto",
+        "self",
+        "learning"
       ],
       "description": "Automatisch generierter Skill aus Ziel-Management-System.",
       "functions": [
         "__init__",
-        "act",
-        "_load_plans"
+        "plan",
+        "_load_perception"
+      ]
+    },
+    {
+      "name": "skill_doc_generator",
+      "matches": [
+        "auto",
+        "self",
+        "learning"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "analyze_skill",
+        "generate_skill_md",
+        "main"
+      ]
+    },
+    {
+      "name": "auto_skill_activator",
+      "matches": [
+        "auto",
+        "self",
+        "learning"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "load_relationships",
+        "load_current_goal",
+        "find_relevant_skills"
+      ]
+    },
+    {
+      "name": "skill_router",
+      "matches": [
+        "auto",
+        "self",
+        "learning"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "__init__",
+        "route",
+        "_select_skill"
+      ]
+    },
+    {
+      "name": "creativity_engine",
+      "matches": [
+        "auto",
+        "self",
+        "learning"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "generate_idea",
+        "generate_combination",
+        "save_idea"
+      ]
+    },
+    {
+      "name": "ziel_006_v2",
+      "matches": [
+        "auto",
+        "self",
+        "learning"
+      ],
+      "description": "Meta-Learning / Learning to Learn",
+      "functions": [
+        "__init__",
+        "run"
       ]
     }
   ]

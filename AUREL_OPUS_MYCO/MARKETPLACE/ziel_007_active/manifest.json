@@ -1,11 +1,12 @@
 {
   "name": "ziel_007_active",
   "version": "1.0.0",
-  "created_at": "2026-03-03T09:17:28.701279",
+  "created_at": "2026-03-03T10:25:42.971002",
   "author": "Aurel",
-  "description": "Keine Beschreibung verf\u00fcgbar",
+  "description": "Skill f\u00fcr autonome Agenten-Funktionalit\u00e4t",
   "files": [
     "test_core.py",
+    "SKILL.md",
     "world_model_core.py"
   ],
   "dependencies": [],

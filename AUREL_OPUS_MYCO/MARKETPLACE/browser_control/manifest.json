@@ -1,7 +1,7 @@
 {
   "name": "browser_control",
   "version": "1.0.0",
-  "created_at": "2026-03-03T09:17:28.761519",
+  "created_at": "2026-03-03T10:25:43.299550",
   "author": "Aurel",
   "description": "Steuerung eines realen Browsers f\u00fcr komplexe Web-Interaktionen. Nutzt Playwright oder Selenium wenn ",
   "files": [

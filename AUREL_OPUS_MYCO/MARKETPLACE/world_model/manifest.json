@@ -1,7 +1,7 @@
 {
   "name": "world_model",
   "version": "1.0.0",
-  "created_at": "2026-03-03T09:17:28.800390",
+  "created_at": "2026-03-03T10:25:43.364287",
   "author": "Aurel",
   "description": "Internes Simulationsmodell f\u00fcr kontrafaktisches Denken und Planning in latentem Raum. Das World Mode",
   "files": [
@@ -31,7 +31,6 @@
     "data",
     "lib",
     "observations",
-    "__pycache__",
     "observation_model.md",
     "config",
     "test_counterfactual.py",

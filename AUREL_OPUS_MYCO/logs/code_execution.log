@@ -1,54 +1,262 @@
-2026-03-03T08:57:39.602872: ✅ SUCCESS /tmp/tmphz91n0r7.py
-2026-03-03T08:57:39.648235: ✅ SUCCESS /tmp/tmpuo6n5_si.py
-2026-03-03T08:57:39.679431: ✅ SUCCESS /tmp/tmprvcwkq1f.py
-2026-03-03T08:57:39.703698: ✅ SUCCESS /tmp/tmp5wtaw5zr.py
-2026-03-03T08:57:39.852216: ❌ FAILED /tmp/tmpecqhmoy2.py
+2026-03-03T10:25:41.868662: ✅ SUCCESS /tmp/tmpwnsg8cqt.py
+2026-03-03T10:25:42.075284: ❌ FAILED /tmp/tmpfnxbo3bu.py
   Error: Traceback (most recent call last):
-  File "/tmp/tmpecqhmoy2.py", line 23, in <module>
+  File "/tmp/tmpfnxbo3bu.py", line 23, in <module>
     from hierarchical_rl import (
 ModuleNotFoundError: No module named 'hierarchical_rl'
 
-2026-03-03T08:57:39.886567: ✅ SUCCESS /tmp/tmpa2n4hbb4.py
-2026-03-03T08:57:39.913499: ✅ SUCCESS /tmp/tmpwe5e94be.py
-2026-03-03T08:57:39.936233: ✅ SUCCESS /tmp/tmphwbx5kc0.py
-2026-03-03T08:57:39.958823: ✅ SUCCESS /tmp/tmpg88en5jd.py
-2026-03-03T08:57:39.990824: ✅ SUCCESS /tmp/tmpedaa7q02.py
-2026-03-03T08:57:40.012717: ✅ SUCCESS /tmp/tmp7vj1xcnr.py
-2026-03-03T08:57:40.035930: ✅ SUCCESS /tmp/tmpig26_ikx.py
-2026-03-03T08:57:40.064570: ✅ SUCCESS /tmp/tmp0awjszuy.py
-2026-03-03T08:57:40.092938: ✅ SUCCESS /tmp/tmp2kwt2o3s.py
-2026-03-03T08:57:40.115798: ✅ SUCCESS /tmp/tmprocw1pp0.py
-2026-03-03T08:57:40.140759: ✅ SUCCESS /tmp/tmpx_eci0zl.py
-2026-03-03T08:57:45.188070: ✅ SUCCESS /tmp/tmp7pi1zb5m.py
-2026-03-03T08:57:45.288276: ❌ FAILED /tmp/tmp8ngk3rwh.py
+2026-03-03T10:25:42.124704: ✅ SUCCESS /tmp/tmpv40ycu7u.py
+2026-03-03T10:25:42.210477: ✅ SUCCESS /tmp/tmpwnkyf3i1.py
+2026-03-03T10:25:42.239028: ✅ SUCCESS /tmp/tmpm1xwrkew.py
+2026-03-03T10:25:42.266413: ✅ SUCCESS /tmp/tmp89qmp57h.py
+2026-03-03T10:25:42.295565: ✅ SUCCESS /tmp/tmpx_20576c.py
+2026-03-03T10:25:42.328174: ✅ SUCCESS /tmp/tmpkl8ggpbb.py
+2026-03-03T10:25:42.351947: ✅ SUCCESS /tmp/tmp0yygzzhf.py
+2026-03-03T10:25:42.373636: ✅ SUCCESS /tmp/tmp4aywjgz3.py
+2026-03-03T10:25:42.412407: ✅ SUCCESS /tmp/tmpy379yg_c.py
+2026-03-03T10:25:42.535380: ❌ FAILED /tmp/tmp3hdq53di.py
   Error: Traceback (most recent call last):
-  File "/tmp/tmp8ngk3rwh.py", line 12, in <module>
+  File "/tmp/tmp3hdq53di.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:42.573863: ✅ SUCCESS /tmp/tmpv8edmc28.py
+2026-03-03T10:25:42.576470: ✅ SUCCESS /tmp/tmp0x70h9og.py
+2026-03-03T10:25:42.649157: ✅ SUCCESS /tmp/tmpxb70731s.py
+2026-03-03T10:25:42.653464: ✅ SUCCESS /tmp/tmppea3dbxd.py
+2026-03-03T10:25:42.687490: ✅ SUCCESS /tmp/tmp6lqnbcto.py
+2026-03-03T10:25:42.687490: ✅ SUCCESS /tmp/tmpl4u2k4wy.py
+2026-03-03T10:25:42.728613: ✅ SUCCESS /tmp/tmpl34v9c3f.py
+2026-03-03T10:25:42.774352: ✅ SUCCESS /tmp/tmp2paq66ph.py
+2026-03-03T10:25:42.839615: ❌ FAILED /tmp/tmpp0h6yur0.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpp0h6yur0.py", line 12, in <module>
     import pytest
 ModuleNotFoundError: No module named 'pytest'
 
-2026-03-03T08:57:45.404947: ✅ SUCCESS /tmp/tmpzn09lsz_.py
-2026-03-03T08:57:45.503358: ❌ FAILED /tmp/tmp3m8gtyjs.py
+2026-03-03T10:25:42.860323: ✅ SUCCESS /tmp/tmpexu2apsi.py
+2026-03-03T10:25:42.899750: ✅ SUCCESS /tmp/tmpfqz3gi84.py
+2026-03-03T10:25:42.937234: ✅ SUCCESS /tmp/tmpaft_djm6.py
+2026-03-03T10:25:43.011181: ✅ SUCCESS /tmp/tmpvn9qz5vu.py
+2026-03-03T10:25:43.201696: ❌ FAILED /tmp/tmpan4y2uw2.py
   Error: Traceback (most recent call last):
-  File "/tmp/tmp3m8gtyjs.py", line 172, in <module>
-    l.learn()
-  File "/tmp/tmp3m8gtyjs.py", line 40, in learn
-    self._update_memory()
-  File "/tmp/tmp3m8gtyjs.py", line 149, in _update_memory
-    entry += f"- {icon} **{lesson['plan_type']}**: {lesson['lesson']}\n"
-                           ~~~~~~^^^^^^^^^^^^^
-KeyError: 'plan_type'
+  File "/tmp/tmpan4y2uw2.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
 
-2026-03-03T08:57:45.526713: ✅ SUCCESS /tmp/tmphzf38j6f.py
-2026-03-03T08:57:45.552247: ✅ SUCCESS /tmp/tmpeoclm2ow.py
-2026-03-03T08:57:45.582365: ✅ SUCCESS /tmp/tmp6li_ntn5.py
-2026-03-03T08:57:45.609600: ✅ SUCCESS /tmp/tmptuspo4ca.py
-2026-03-03T08:57:45.630388: ✅ SUCCESS /tmp/tmpys1nnf8i.py
-2026-03-03T08:57:45.650654: ✅ SUCCESS /tmp/tmp27g_ucw9.py
-2026-03-03T08:57:45.673269: ✅ SUCCESS /tmp/tmppub30lla.py
-2026-03-03T08:57:45.703901: ✅ SUCCESS /tmp/tmpjq2p1__9.py
-2026-03-03T08:57:45.919929: ❌ FAILED /tmp/tmpukufr_ip.py
+2026-03-03T10:25:43.252203: ✅ SUCCESS /tmp/tmp_latwnbm.py
+2026-03-03T10:25:43.344496: ✅ SUCCESS /tmp/tmp1n29plhm.py
+2026-03-03T10:25:43.379171: ✅ SUCCESS /tmp/tmpntc8dppx.py
+2026-03-03T10:25:43.406945: ✅ SUCCESS /tmp/tmpssvr6vii.py
+2026-03-03T10:25:43.432871: ✅ SUCCESS /tmp/tmpf2xokgxu.py
+2026-03-03T10:25:43.484503: ✅ SUCCESS /tmp/tmp8vj9oc0s.py
+2026-03-03T10:25:43.530543: ✅ SUCCESS /tmp/tmpcl73jxw4.py
+2026-03-03T10:25:43.563531: ✅ SUCCESS /tmp/tmpgqpdzemo.py
+2026-03-03T10:25:43.593004: ✅ SUCCESS /tmp/tmpa0qb8ss7.py
+2026-03-03T10:25:43.654520: ✅ SUCCESS /tmp/tmpme217lr3.py
+2026-03-03T10:25:43.675782: ✅ SUCCESS /tmp/tmpvnwdpg26.py
+2026-03-03T10:25:43.842920: ❌ FAILED /tmp/tmpb7ut8usi.py
   Error: Traceback (most recent call last):
-  File "/tmp/tmpukufr_ip.py", line 25, in <module>
-    from state import WorldState, TimeState, ContextState, SystemState
-ModuleNotFoundError: No module named 'state'
+  File "/tmp/tmpb7ut8usi.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
 
+2026-03-03T10:25:43.877392: ✅ SUCCESS /tmp/tmpw4l3foqg.py
+2026-03-03T10:25:43.933398: ✅ SUCCESS /tmp/tmpewykxiww.py
+2026-03-03T10:25:43.956489: ✅ SUCCESS /tmp/tmpk490kalf.py
+2026-03-03T10:25:43.983466: ✅ SUCCESS /tmp/tmph0fmkgxh.py
+2026-03-03T10:25:44.012233: ✅ SUCCESS /tmp/tmprdwl_mms.py
+2026-03-03T10:25:44.057439: ✅ SUCCESS /tmp/tmp3y70hmno.py
+2026-03-03T10:25:44.080766: ✅ SUCCESS /tmp/tmp3a0_iz1_.py
+2026-03-03T10:25:44.101939: ✅ SUCCESS /tmp/tmpu7bes7au.py
+2026-03-03T10:25:44.140630: ✅ SUCCESS /tmp/tmpkh33e_7_.py
+2026-03-03T10:25:44.246994: ❌ FAILED /tmp/tmpp5m_k3ew.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpp5m_k3ew.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:44.282040: ✅ SUCCESS /tmp/tmpaswchttb.py
+2026-03-03T10:25:44.346160: ✅ SUCCESS /tmp/tmpi_m_hb8l.py
+2026-03-03T10:25:44.368999: ✅ SUCCESS /tmp/tmpkx43nfgm.py
+2026-03-03T10:25:44.395052: ✅ SUCCESS /tmp/tmp41ydhnei.py
+2026-03-03T10:25:44.428508: ✅ SUCCESS /tmp/tmpak4fb4lw.py
+2026-03-03T10:25:44.459885: ✅ SUCCESS /tmp/tmph00yjixg.py
+2026-03-03T10:25:44.485086: ✅ SUCCESS /tmp/tmph1s8b2fj.py
+2026-03-03T10:25:44.506024: ✅ SUCCESS /tmp/tmpi1f0t0es.py
+2026-03-03T10:25:44.544508: ✅ SUCCESS /tmp/tmp09wxpo_2.py
+2026-03-03T10:25:44.663618: ❌ FAILED /tmp/tmptth_qn6k.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmptth_qn6k.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:44.666076: ❌ FAILED /tmp/tmpnba59h17.py
+  Error: Timeout
+2026-03-03T10:25:44.709953: ✅ SUCCESS /tmp/tmpo2xt6wig.py
+2026-03-03T10:25:44.713276: ✅ SUCCESS /tmp/tmpv92dxfzq.py
+2026-03-03T10:25:44.741172: ✅ SUCCESS /tmp/tmp5xybci6k.py
+2026-03-03T10:25:44.798088: ✅ SUCCESS /tmp/tmpxig01f41.py
+2026-03-03T10:25:44.800181: ✅ SUCCESS /tmp/tmpovwo9y6c.py
+2026-03-03T10:25:44.834003: ✅ SUCCESS /tmp/tmpf3uz84uu.py
+2026-03-03T10:25:44.834001: ✅ SUCCESS /tmp/tmph1o7wz_8.py
+2026-03-03T10:25:44.888207: ✅ SUCCESS /tmp/tmpa8qzdeaw.py
+2026-03-03T10:25:44.893452: ✅ SUCCESS /tmp/tmphsqzpkdn.py
+2026-03-03T10:25:44.943331: ✅ SUCCESS /tmp/tmpvsiqmsze.py
+2026-03-03T10:25:44.948869: ✅ SUCCESS /tmp/tmpqyz18ng9.py
+2026-03-03T10:25:44.992579: ✅ SUCCESS /tmp/tmpsr6fj0ym.py
+2026-03-03T10:25:45.033742: ✅ SUCCESS /tmp/tmps5prsc6f.py
+2026-03-03T10:25:45.063808: ✅ SUCCESS /tmp/tmptrati7l3.py
+2026-03-03T10:25:45.106193: ✅ SUCCESS /tmp/tmps0_9t1fl.py
+2026-03-03T10:25:45.138264: ✅ SUCCESS /tmp/tmpnal9dl2e.py
+2026-03-03T10:25:45.157463: ✅ SUCCESS /tmp/tmp1h3l_jdd.py
+2026-03-03T10:25:45.199744: ✅ SUCCESS /tmp/tmpwyw4i2jl.py
+2026-03-03T10:25:45.282595: ✅ SUCCESS /tmp/tmpgwk6brt7.py
+2026-03-03T10:25:45.315287: ✅ SUCCESS /tmp/tmp455km3an.py
+2026-03-03T10:25:45.323825: ❌ FAILED /tmp/tmpxcpynd3o.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpxcpynd3o.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:45.349334: ✅ SUCCESS /tmp/tmpn1ftzvyh.py
+2026-03-03T10:25:45.375097: ✅ SUCCESS /tmp/tmpbp4e26pl.py
+2026-03-03T10:25:45.400398: ✅ SUCCESS /tmp/tmpjpinpr9v.py
+2026-03-03T10:25:45.435499: ✅ SUCCESS /tmp/tmpzl5sion7.py
+2026-03-03T10:25:45.454398: ✅ SUCCESS /tmp/tmprtqwttpf.py
+2026-03-03T10:25:45.486048: ✅ SUCCESS /tmp/tmp0oo14eqs.py
+2026-03-03T10:25:45.488015: ✅ SUCCESS /tmp/tmpc_1re54a.py
+2026-03-03T10:25:45.525816: ✅ SUCCESS /tmp/tmpsi17_oxo.py
+2026-03-03T10:25:45.559860: ✅ SUCCESS /tmp/tmp5kr9tbdw.py
+2026-03-03T10:25:45.580371: ✅ SUCCESS /tmp/tmp0ua1h78y.py
+2026-03-03T10:25:45.604021: ✅ SUCCESS /tmp/tmpybodm87w.py
+2026-03-03T10:25:45.636823: ✅ SUCCESS /tmp/tmp6nsee7e4.py
+2026-03-03T10:25:45.644199: ✅ SUCCESS /tmp/tmp63lippiu.py
+2026-03-03T10:25:45.671808: ✅ SUCCESS /tmp/tmpe0m8kyv3.py
+2026-03-03T10:25:45.703010: ✅ SUCCESS /tmp/tmpuzdko2fz.py
+2026-03-03T10:25:45.740974: ✅ SUCCESS /tmp/tmpfl5hb7pe.py
+2026-03-03T10:25:45.865156: ❌ FAILED /tmp/tmpmie3oxap.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpmie3oxap.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:45.899775: ✅ SUCCESS /tmp/tmpvb135246.py
+2026-03-03T10:25:45.953514: ✅ SUCCESS /tmp/tmpbguhaq8r.py
+2026-03-03T10:25:45.976381: ✅ SUCCESS /tmp/tmprit71dng.py
+2026-03-03T10:25:46.005090: ✅ SUCCESS /tmp/tmploxpa6x8.py
+2026-03-03T10:25:46.035144: ✅ SUCCESS /tmp/tmpa390tiu3.py
+2026-03-03T10:25:46.067149: ✅ SUCCESS /tmp/tmps2chsdoa.py
+2026-03-03T10:25:46.099080: ✅ SUCCESS /tmp/tmpy3_yzegy.py
+2026-03-03T10:25:46.122940: ✅ SUCCESS /tmp/tmpdt32s8hj.py
+2026-03-03T10:25:46.161486: ✅ SUCCESS /tmp/tmpysvx9wea.py
+2026-03-03T10:25:46.268546: ❌ FAILED /tmp/tmp5dcssgcv.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmp5dcssgcv.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:46.303944: ✅ SUCCESS /tmp/tmp6fpsvu8l.py
+2026-03-03T10:25:46.358940: ✅ SUCCESS /tmp/tmpd4mgmihw.py
+2026-03-03T10:25:46.392952: ✅ SUCCESS /tmp/tmpr4c6zly8.py
+2026-03-03T10:25:46.419330: ✅ SUCCESS /tmp/tmpcrrapr3j.py
+2026-03-03T10:25:46.449439: ✅ SUCCESS /tmp/tmpqy_ru104.py
+2026-03-03T10:25:46.484841: ✅ SUCCESS /tmp/tmpzyosgnnm.py
+2026-03-03T10:25:46.507845: ✅ SUCCESS /tmp/tmpr3qc9rlk.py
+2026-03-03T10:25:46.528365: ✅ SUCCESS /tmp/tmp8o5tb_8l.py
+2026-03-03T10:25:46.567530: ✅ SUCCESS /tmp/tmpaxyp3k7g.py
+2026-03-03T10:25:46.687499: ❌ FAILED /tmp/tmpq5s381fo.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpq5s381fo.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:46.721825: ✅ SUCCESS /tmp/tmpif2411qu.py
+2026-03-03T10:25:46.776506: ✅ SUCCESS /tmp/tmpkfkc3poh.py
+2026-03-03T10:25:46.799339: ✅ SUCCESS /tmp/tmpqop5jvgo.py
+2026-03-03T10:25:46.827246: ✅ SUCCESS /tmp/tmpxoquzlm7.py
+2026-03-03T10:25:46.857352: ✅ SUCCESS /tmp/tmpisp_ve3d.py
+2026-03-03T10:25:46.891385: ✅ SUCCESS /tmp/tmp7mvo_d_h.py
+2026-03-03T10:25:46.916342: ✅ SUCCESS /tmp/tmp5s1woky_.py
+2026-03-03T10:25:46.945170: ✅ SUCCESS /tmp/tmp49qukz80.py
+2026-03-03T10:25:46.988515: ✅ SUCCESS /tmp/tmpdrjog3xt.py
+2026-03-03T10:25:47.102112: ❌ FAILED /tmp/tmpn83yasxo.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpn83yasxo.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:47.135923: ✅ SUCCESS /tmp/tmpss4sqbok.py
+2026-03-03T10:25:47.196422: ✅ SUCCESS /tmp/tmpfohtssig.py
+2026-03-03T10:25:47.224293: ✅ SUCCESS /tmp/tmp2jrc5who.py
+2026-03-03T10:25:47.259504: ✅ SUCCESS /tmp/tmpn5azu_ve.py
+2026-03-03T10:25:47.294160: ✅ SUCCESS /tmp/tmpo6v3nf_m.py
+2026-03-03T10:25:47.325897: ✅ SUCCESS /tmp/tmp4v4raf41.py
+2026-03-03T10:25:47.349081: ✅ SUCCESS /tmp/tmppcfwb94c.py
+2026-03-03T10:25:47.374615: ✅ SUCCESS /tmp/tmp3cz6dase.py
+2026-03-03T10:25:47.413572: ✅ SUCCESS /tmp/tmpy8p3gvz2.py
+2026-03-03T10:25:47.534727: ❌ FAILED /tmp/tmpn0meu4lg.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpn0meu4lg.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:47.569644: ✅ SUCCESS /tmp/tmp00wm2c2x.py
+2026-03-03T10:25:47.625045: ✅ SUCCESS /tmp/tmprazf7xmo.py
+2026-03-03T10:25:47.648499: ✅ SUCCESS /tmp/tmppoyrlk1k.py
+2026-03-03T10:25:47.675255: ✅ SUCCESS /tmp/tmpq1pkunym.py
+2026-03-03T10:25:47.704474: ✅ SUCCESS /tmp/tmpcv3edk4y.py
+2026-03-03T10:25:47.736216: ✅ SUCCESS /tmp/tmp5sgzif_y.py
+2026-03-03T10:25:47.759526: ✅ SUCCESS /tmp/tmpm_9zzjjm.py
+2026-03-03T10:25:47.783937: ✅ SUCCESS /tmp/tmpnj3zw5be.py
+2026-03-03T10:25:47.832437: ✅ SUCCESS /tmp/tmp0vztu_1n.py
+2026-03-03T10:25:47.939121: ❌ FAILED /tmp/tmpnc9wifer.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpnc9wifer.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:47.973908: ✅ SUCCESS /tmp/tmp3wm6naa3.py
+2026-03-03T10:25:48.031046: ✅ SUCCESS /tmp/tmpak5d6tst.py
+2026-03-03T10:25:48.053341: ✅ SUCCESS /tmp/tmped8ut_x3.py
+2026-03-03T10:25:48.088978: ✅ SUCCESS /tmp/tmp4zgc9cf3.py
+2026-03-03T10:25:48.122401: ✅ SUCCESS /tmp/tmpmas5bk_m.py
+2026-03-03T10:25:48.154949: ✅ SUCCESS /tmp/tmpft3qyzk5.py
+2026-03-03T10:25:48.178487: ✅ SUCCESS /tmp/tmplp82x620.py
+2026-03-03T10:25:48.199711: ✅ SUCCESS /tmp/tmprgm0jwpj.py
+2026-03-03T10:25:48.238207: ✅ SUCCESS /tmp/tmp7fedk0br.py
+2026-03-03T10:25:48.346286: ❌ FAILED /tmp/tmp_yiwxuqw.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmp_yiwxuqw.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:48.393611: ✅ SUCCESS /tmp/tmp_t596atb.py
+2026-03-03T10:25:48.448131: ✅ SUCCESS /tmp/tmp9wlhclw4.py
+2026-03-03T10:25:48.471874: ✅ SUCCESS /tmp/tmp9cal299z.py
+2026-03-03T10:25:48.499264: ✅ SUCCESS /tmp/tmpai38nrsh.py
+2026-03-03T10:25:48.528572: ✅ SUCCESS /tmp/tmpho08r0_3.py
+2026-03-03T10:25:48.560633: ✅ SUCCESS /tmp/tmpbwdrdx7s.py
+2026-03-03T10:25:48.583979: ✅ SUCCESS /tmp/tmp2_t08h1f.py
+2026-03-03T10:25:48.608392: ✅ SUCCESS /tmp/tmpsrwykuv7.py
+2026-03-03T10:25:48.671313: ✅ SUCCESS /tmp/tmp16emcy7k.py
+2026-03-03T10:25:48.785239: ❌ FAILED /tmp/tmp2kiri9m2.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmp2kiri9m2.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T10:25:48.820892: ✅ SUCCESS /tmp/tmpbv43hslk.py
+2026-03-03T10:25:48.835786: ❌ FAILED /tmp/tmpl0wco6kh.py
+  Error: Timeout
+2026-03-03T10:25:48.879975: ✅ SUCCESS /tmp/tmp0x41gt55.py
+2026-03-03T10:25:48.894927: ✅ SUCCESS /tmp/tmpu1ledjr0.py
+2026-03-03T10:25:48.912698: ✅ SUCCESS /tmp/tmpb2ye8z8e.py
+2026-03-03T10:25:48.947868: ✅ SUCCESS /tmp/tmp6htnmwvt.py
+2026-03-03T10:25:48.989731: ✅ SUCCESS /tmp/tmpgka9hip2.py
+2026-03-03T10:25:49.020339: ✅ SUCCESS /tmp/tmp6bpsl92x.py
+2026-03-03T10:25:49.045273: ✅ SUCCESS /tmp/tmpq9y6hel7.py
+2026-03-03T10:25:49.125932: ✅ SUCCESS /tmp/tmp91t8jw4z.py
+2026-03-03T10:25:49.154762: ✅ SUCCESS /tmp/tmpebw2u9yp.py
+2026-03-03T10:25:49.196749: ✅ SUCCESS /tmp/tmpq5gfi2xq.py
+2026-03-03T10:25:49.225150: ✅ SUCCESS /tmp/tmphbastxyu.py

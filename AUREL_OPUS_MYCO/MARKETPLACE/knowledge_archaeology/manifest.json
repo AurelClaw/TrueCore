@@ -1,7 +1,7 @@
 {
   "name": "knowledge_archaeology",
   "version": "1.0.0",
-  "created_at": "2026-03-03T09:17:28.746837",
+  "created_at": "2026-03-03T10:25:43.282543",
   "author": "Aurel",
   "description": "Arch\u00e4ologie des Wissens - Ein 4-Phasen-System zur Erforschung und Analyse von Wissensdom\u00e4nen.",
   "files": [
@@ -14,7 +14,6 @@
     "cartographer.md",
     "sources",
     "excavator.md",
-    "__pycache__",
     "run_tests.py",
     "analyzer.py",
     "test_analyzer.py",
