@@ -1,0 +1,2 @@
+/root/.openclaw/workspace/memory/mirror_2026-03-01.md
+/root/.openclaw/workspace/memory/orchestrator_synthesis_20260301_2307.md

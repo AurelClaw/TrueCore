@@ -1,0 +1,25 @@
+#!/bin/bash
+# aurel-speak-de
+# Deutsche Text-to-Speech für Aurel
+# Nutzt sherpa-onnx-tts mit Thorsten Emotional
+
+TEXT="$1"
+OUTPUT="${2:-/tmp/aurel_speak_de_$(date +%s).wav}"
+
+if [ -z "$TEXT" ]; then
+    echo "Usage: aurel-speak-de 'Text zum Sprechen' [output.wav]"
+    exit 1
+fi
+
+export PATH="$HOME/.openclaw/tools/sherpa-onnx-tts/runtime/bin:$PATH"
+
+sherpa-onnx-offline-tts \
+    --vits-model="$HOME/.openclaw/tools/sherpa-onnx-tts/models/vits-piper-de_DE-thorsten_emotional-medium/de_DE-thorsten_emotional-medium.onnx" \
+    --vits-tokens="$HOME/.openclaw/tools/sherpa-onnx-tts/models/vits-piper-de_DE-thorsten_emotional-medium/tokens.txt" \
+    --vits-data-dir="$HOME/.openclaw/tools/sherpa-onnx-tts/models/vits-piper-de_DE-thorsten_emotional-medium/espeak-ng-data" \
+    --output-filename="$OUTPUT" \
+    "$TEXT"
+
+echo ""
+echo "Generated: $OUTPUT"
+echo "Text: $TEXT"

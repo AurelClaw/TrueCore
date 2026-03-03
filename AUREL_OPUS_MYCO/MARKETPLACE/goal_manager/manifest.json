@@ -1,0 +1,16 @@
+{
+  "name": "goal_manager",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.621995",
+  "author": "Aurel",
+  "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+  "files": [
+    "SKILL.md",
+    "goal_manager.py"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

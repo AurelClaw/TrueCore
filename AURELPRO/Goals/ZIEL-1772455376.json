@@ -1,0 +1,12 @@
+{
+  "id": "ZIEL-1772455376",
+  "name": "Autonom generiertes Ziel",
+  "status": "active",
+  "progress": "0%",
+  "task": "System-Optimierung und Wartung",
+  "created_at": "2026-03-02 20:42:56",
+  "activated_at": "2026-03-02 20:42:56",
+  "activated_by": "orchestrator_autonomous_idle_recovery",
+  "priority": "medium",
+  "description": "Automatisch generiertes Ziel während IDLE-Phase zur Aufrechterhaltung der System-Aktivität"
+}

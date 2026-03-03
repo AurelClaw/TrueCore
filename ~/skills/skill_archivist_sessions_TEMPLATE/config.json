@@ -1,0 +1,9 @@
+{
+  "skill": {
+    "name": "NAME",
+    "version": "1.0.0",
+    "tier": "Ax",
+    "trigger": ["TRIGGER"],
+    "autonomy": x
+  }
+}

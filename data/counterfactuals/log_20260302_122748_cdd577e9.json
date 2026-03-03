@@ -1,0 +1,493 @@
+{
+  "log_id": "log_20260302_122748_cdd577e9",
+  "timestamp": "2026-03-02T12:27:48.704944",
+  "scenario": {
+    "scenario_id": "cf_20260302_122748_a1f6965b",
+    "created_at": "2026-03-02T12:27:48.704854",
+    "actual": {
+      "action": "send_morgen_gruss_now",
+      "outcome": {
+        "branch_id": "branch_0_factual",
+        "name": "factual",
+        "steps": [
+          {
+            "step_number": 0,
+            "timestamp": "2026-03-02T12:27:48.701433",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T12:27:48.701433",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "morning_routine",
+                "last_interaction_minutes_ago": null,
+                "recent_topics": [],
+                "open_goals": [
+                  "send_morgen_gruss"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "morgen_gruss",
+                  "world_model"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.2,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "sleepy",
+                "engagement_level": "low",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "sunny",
+                "temperature": 18.0,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 1.0,
+            "action": null,
+            "parent_step": null
+          },
+          {
+            "step_number": 1,
+            "timestamp": "2026-03-02T13:27:48.701433",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T13:27:48.701433",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "morning_routine",
+                "last_interaction_minutes_ago": null,
+                "recent_topics": [],
+                "open_goals": [
+                  "send_morgen_gruss",
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "morgen_gruss",
+                  "world_model"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.264,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "sleepy",
+                "engagement_level": "low",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "sunny",
+                "temperature": 18.0,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.9,
+            "action": "send_morgen_gruss_now",
+            "parent_step": 0
+          },
+          {
+            "step_number": 2,
+            "timestamp": "2026-03-02T14:27:48.701433",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T14:27:48.701433",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "morning_routine",
+                "last_interaction_minutes_ago": null,
+                "recent_topics": [],
+                "open_goals": [
+                  "send_morgen_gruss",
+                  "predicted_1h_ahead",
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "morgen_gruss",
+                  "world_model"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.32800000000000007,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "sleepy",
+                "engagement_level": "low",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "sunny",
+                "temperature": 18.0,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.81,
+            "action": "continue",
+            "parent_step": 1
+          },
+          {
+            "step_number": 3,
+            "timestamp": "2026-03-02T15:27:48.701433",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T15:27:48.701433",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "morning_routine",
+                "last_interaction_minutes_ago": null,
+                "recent_topics": [],
+                "open_goals": [
+                  "send_morgen_gruss",
+                  "predicted_1h_ahead",
+                  "predicted_1h_ahead",
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "morgen_gruss",
+                  "world_model"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.3920000000000001,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "sleepy",
+                "engagement_level": "low",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "sunny",
+                "temperature": 18.0,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.7290000000000001,
+            "action": "continue",
+            "parent_step": 2
+          }
+        ],
+        "final_confidence": 0.7290000000000001,
+        "total_steps": 4
+      }
+    },
+    "counterfactual": {
+      "action": "delay:1h",
+      "outcome": {
+        "branch_id": "cf_branch_99d3afca",
+        "name": "counterfactual",
+        "steps": [
+          {
+            "step_number": 0,
+            "timestamp": "2026-03-02T12:27:48.701433",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T12:27:48.701433",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "morning_routine",
+                "last_interaction_minutes_ago": null,
+                "recent_topics": [],
+                "open_goals": [
+                  "send_morgen_gruss"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "morgen_gruss",
+                  "world_model"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.2,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "sleepy",
+                "engagement_level": "low",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "sunny",
+                "temperature": 18.0,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 1.0,
+            "action": null,
+            "parent_step": null
+          },
+          {
+            "step_number": 1,
+            "timestamp": "2026-03-02T13:27:48.701433",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T13:27:48.701433",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "delayed_1h",
+                "last_interaction_minutes_ago": null,
+                "recent_topics": [],
+                "open_goals": [
+                  "send_morgen_gruss"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "morgen_gruss",
+                  "world_model"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.2,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "sleepy",
+                "engagement_level": "low",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "sunny",
+                "temperature": 18.0,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.9,
+            "action": "delay:1h",
+            "parent_step": 0
+          },
+          {
+            "step_number": 2,
+            "timestamp": "2026-03-02T14:27:48.701433",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T14:27:48.701433",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "delayed_1h",
+                "last_interaction_minutes_ago": null,
+                "recent_topics": [],
+                "open_goals": [
+                  "send_morgen_gruss",
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "morgen_gruss",
+                  "world_model"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.264,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "sleepy",
+                "engagement_level": "low",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "sunny",
+                "temperature": 18.0,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.81,
+            "action": "continue",
+            "parent_step": 1
+          },
+          {
+            "step_number": 3,
+            "timestamp": "2026-03-02T15:27:48.701433",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T15:27:48.701433",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "delayed_1h",
+                "last_interaction_minutes_ago": null,
+                "recent_topics": [],
+                "open_goals": [
+                  "send_morgen_gruss",
+                  "predicted_1h_ahead",
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "morgen_gruss",
+                  "world_model"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.32800000000000007,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "sleepy",
+                "engagement_level": "low",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "sunny",
+                "temperature": 18.0,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.7290000000000001,
+            "action": "continue",
+            "parent_step": 2
+          }
+        ],
+        "final_confidence": 0.7290000000000001,
+        "total_steps": 4
+      }
+    },
+    "intervention": {
+      "intervention_type": "timing",
+      "target": "action",
+      "value": "delay:1h",
+      "timestamp": "2026-03-02T12:27:48.704847",
+      "description": "Changed action from 'send_morgen_gruss_now' to 'delay:1h'"
+    },
+    "steps_simulated": 3,
+    "confidence": 0.7290000000000001
+  },
+  "comparison": {
+    "comparison_id": "comp_20260302_122748_8e3f7400",
+    "scenario_id": "cf_20260302_122748_a1f6965b",
+    "timestamp": "2026-03-02T12:27:48.704907",
+    "state_differences": [
+      {
+        "field": "context.activity_context",
+        "actual": "morning_routine",
+        "counterfactual": "delayed_1h",
+        "significance": "medium"
+      },
+      {
+        "field": "system.system_load",
+        "actual": 0.3920000000000001,
+        "counterfactual": 0.32800000000000007,
+        "difference": 0.06400000000000006,
+        "significance": "medium"
+      }
+    ],
+    "metrics": {
+      "divergence_score": 0.2,
+      "impact_score": 0.03200000000000003,
+      "confidence": 0.7290000000000001
+    },
+    "interpretation": {
+      "key_insights": [
+        "Outcomes are roughly equivalent"
+      ],
+      "recommendation": "Both options appear viable - consider additional context"
+    }
+  },
+  "tags": [
+    "morgen_gruss",
+    "timing",
+    "demo"
+  ],
+  "notes": "Test scenario for morning greeting timing"
+}

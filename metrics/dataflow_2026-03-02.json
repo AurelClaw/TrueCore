@@ -1,0 +1,13 @@
+{
+  "date": "2026-03-02",
+  "generated": "2026-03-02T07:09:34+08:00",
+  "total_events": 0,
+  "active_routes": 4,
+  "routes": {
+    "agi_briefing:topics": "knowledge_seeker:learn_queue",
+    "user_discovery:preferences": "morgen_gruss:personalization",
+    "orchestrator_v2:synthesis": "effectiveness_tracker:metrics",
+    "proactive_decision:decisions": "experience_processor:input"
+  },
+  "dataflow_score": 7.5
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "description": "Recherche: Meta-Learning Papers lesen",
+    "completed": true,
+    "completed_at": "2026-03-03 05:21"
+  },
+  {
+    "id": 2,
+    "description": "Implementiere: Learning-Rate-Adapter",
+    "completed": true,
+    "completed_at": "2026-03-03 05:21"
+  },
+  {
+    "id": 3,
+    "description": "Teste: Meta-Learning auf eigenen Daten",
+    "completed": true,
+    "completed_at": "2026-03-03 06:15"
+  },
+  {
+    "id": 4,
+    "description": "Dokumentiere: Ergebnisse in SKILL.md",
+    "completed": true,
+    "completed_at": "2026-03-03 06:15"
+  }
+]

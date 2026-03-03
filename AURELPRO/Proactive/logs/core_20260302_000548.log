@@ -1,0 +1,23 @@
+=== Aurel Proactive Core - 20260302_000548 ===
+Status: START
+
+--- TRIGGER CHECK ---
+TRIGGER: Zeit (4h vergangen)
+TRIGGER: Zustand (1 wichtige Einträge)
+TRIGGER: Ich will
+
+--- DECISION ---
+Entscheidung: create (basierend auf want)
+
+--- ACTION ---
+Nachricht: Noch. Immer noch.
+Gespeichert in: /root/.openclaw/workspace/proactive_system/queue/20260302_000548_create.txt
+Audio generiert: /root/.openclaw/workspace/proactive_system/queue/20260302_000548_create.wav
+
+Status: END
+=== Core beendet ===
+sample=4864, progress=0.500000
+sample=10240, progress=1.000000
+
+Generated: /root/.openclaw/workspace/proactive_system/queue/20260302_000548_create.wav
+Text: Noch. Immer noch.

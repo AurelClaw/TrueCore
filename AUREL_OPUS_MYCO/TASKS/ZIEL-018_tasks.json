@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "description": "Recherche: Alternative emergente Systeme",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "description": "Design: Alternative Architektur",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "description": "Prototyp: Minimal viable System",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "description": "Vergleich: Mit bestehenden Ansätzen",
+    "completed": false
+  }
+]

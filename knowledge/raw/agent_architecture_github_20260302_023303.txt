@@ -1,0 +1,436 @@
+Title: Build software better, together
+
+URL Source: http://github.com/search?q=agent+architecture&type=repositories
+
+Markdown Content:
+Repository search results · GitHub
+===============
+
+[Skip to content](http://github.com/search?q=agent+architecture&type=repositories#start-of-content)
+Navigation Menu
+---------------
+
+Toggle navigation
+
+[](http://github.com/)
+
+[Sign in](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+Appearance settings
+
+*   
+Platform
+
+    *   
+AI CODE CREATION
+        *   [GitHub Copilot Write better code with AI](https://github.com/features/copilot)
+        *   [GitHub Spark Build and deploy intelligent apps](https://github.com/features/spark)
+        *   [GitHub Models Manage and compare prompts](https://github.com/features/models)
+        *   [MCP Registry New Integrate external tools](https://github.com/mcp)
+
+    *   
+DEVELOPER WORKFLOWS
+        *   [Actions Automate any workflow](https://github.com/features/actions)
+        *   [Codespaces Instant dev environments](https://github.com/features/codespaces)
+        *   [Issues Plan and track work](https://github.com/features/issues)
+        *   [Code Review Manage code changes](https://github.com/features/code-review)
+
+    *   
+APPLICATION SECURITY
+        *   [GitHub Advanced Security Find and fix vulnerabilities](https://github.com/security/advanced-security)
+        *   [Code security Secure your code as you build](https://github.com/security/advanced-security/code-security)
+        *   [Secret protection Stop leaks before they start](https://github.com/security/advanced-security/secret-protection)
+
+    *   
+EXPLORE
+        *   [Why GitHub](https://github.com/why-github)
+        *   [Documentation](https://docs.github.com/)
+        *   [Blog](https://github.blog/)
+        *   [Changelog](https://github.blog/changelog)
+        *   [Marketplace](https://github.com/marketplace)
+
+[View all features](https://github.com/features)
+
+*   
+Solutions
+
+    *   
+BY COMPANY SIZE
+        *   [Enterprises](https://github.com/enterprise)
+        *   [Small and medium teams](https://github.com/team)
+        *   [Startups](https://github.com/enterprise/startups)
+        *   [Nonprofits](https://github.com/solutions/industry/nonprofits)
+
+    *   
+BY USE CASE
+        *   [App Modernization](https://github.com/solutions/use-case/app-modernization)
+        *   [DevSecOps](https://github.com/solutions/use-case/devsecops)
+        *   [DevOps](https://github.com/solutions/use-case/devops)
+        *   [CI/CD](https://github.com/solutions/use-case/ci-cd)
+        *   [View all use cases](https://github.com/solutions/use-case)
+
+    *   
+BY INDUSTRY
+        *   [Healthcare](https://github.com/solutions/industry/healthcare)
+        *   [Financial services](https://github.com/solutions/industry/financial-services)
+        *   [Manufacturing](https://github.com/solutions/industry/manufacturing)
+        *   [Government](https://github.com/solutions/industry/government)
+        *   [View all industries](https://github.com/solutions/industry)
+
+[View all solutions](https://github.com/solutions)
+
+*   
+Resources
+
+    *   
+EXPLORE BY TOPIC
+        *   [AI](https://github.com/resources/articles?topic=ai)
+        *   [Software Development](https://github.com/resources/articles?topic=software-development)
+        *   [DevOps](https://github.com/resources/articles?topic=devops)
+        *   [Security](https://github.com/resources/articles?topic=security)
+        *   [View all topics](https://github.com/resources/articles)
+
+    *   
+EXPLORE BY TYPE
+        *   [Customer stories](https://github.com/customer-stories)
+        *   [Events & webinars](https://github.com/resources/events)
+        *   [Ebooks & reports](https://github.com/resources/whitepapers)
+        *   [Business insights](https://github.com/solutions/executive-insights)
+        *   [GitHub Skills](https://skills.github.com/)
+
+    *   
+SUPPORT & SERVICES
+        *   [Documentation](https://docs.github.com/)
+        *   [Customer support](https://support.github.com/)
+        *   [Community forum](https://github.com/orgs/community/discussions)
+        *   [Trust center](https://github.com/trust-center)
+        *   [Partners](https://github.com/partners)
+
+[View all resources](https://github.com/resources)
+
+*   
+Open Source
+
+    *   
+COMMUNITY
+        *   [GitHub Sponsors Fund open source developers](https://github.com/sponsors)
+
+    *   
+PROGRAMS
+        *   [Security Lab](https://securitylab.github.com/)
+        *   [Maintainer Community](https://maintainers.github.com/)
+        *   [Accelerator](https://github.com/accelerator)
+        *   [Archive Program](https://archiveprogram.github.com/)
+
+    *   
+REPOSITORIES
+        *   [Topics](https://github.com/topics)
+        *   [Trending](https://github.com/trending)
+        *   [Collections](https://github.com/collections)
+
+*   
+Enterprise
+
+    *   
+ENTERPRISE SOLUTIONS
+        *   [Enterprise platform AI-powered developer platform](https://github.com/enterprise)
+
+    *   
+AVAILABLE ADD-ONS
+        *   [GitHub Advanced Security Enterprise-grade security features](https://github.com/security/advanced-security)
+        *   [Copilot for Business Enterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+        *   [Premium Support Enterprise-grade 24/7 support](https://github.com/premium-support)
+
+*   [Pricing](https://github.com/pricing)
+
+agent architecture
+
+Search code, repositories, users, issues, pull requests...
+==========================================================
+
+ Search  
+
+Clear
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+
+Provide feedback
+================
+
+We read every piece of feedback, and take your input very seriously.
+
+- [x] Include my email address so I can be contacted 
+
+ Cancel  Submit feedback 
+
+Saved searches
+==============
+
+Use saved searches to filter your results more quickly
+------------------------------------------------------
+
+Name 
+
+Query 
+
+To see all available qualifiers, see our [documentation](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax).
+
+ Cancel  Create saved search 
+
+[Sign in](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+[Sign up](http://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header)
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. [Reload](http://github.com/search?q=agent+architecture&type=repositories) to refresh your session.You signed out in another tab or window. [Reload](http://github.com/search?q=agent+architecture&type=repositories) to refresh your session.You switched accounts on another tab or window. [Reload](http://github.com/search?q=agent+architecture&type=repositories) to refresh your session.Dismiss alert
+
+{{ message }}
+
+repositories Search Results · agent architecture
+================================================
+
+Filter by
+---------
+
+*       *   [Code...(...)results](https://github.com/search?q=agent+architecture&type=code)
+    *   [Repositories results](https://github.com/search?q=agent+architecture&type=repositories)
+    *   [Issues results](https://github.com/search?q=agent+architecture&type=issues)
+    *   [Pull requests results](https://github.com/search?q=agent+architecture&type=pullrequests)
+    *   [Discussions results](https://github.com/search?q=agent+architecture&type=discussions)
+    *   [Users results](https://github.com/search?q=agent+architecture&type=users)
+    *   More
+
+*   ### Languages 
+    *   [Python](https://github.com/search?q=agent+architecture+language%3APython&type=repositories)
+    *   [TypeScript](https://github.com/search?q=agent+architecture+language%3ATypeScript&type=repositories)
+    *   [Jupyter Notebook](https://github.com/search?q=agent+architecture+language%3AJupyter+Notebook&type=repositories)
+    *   [JavaScript](https://github.com/search?q=agent+architecture+language%3AJavaScript&type=repositories)
+    *   [HTML](https://github.com/search?q=agent+architecture+language%3AHTML&type=repositories)
+    *   [Java](https://github.com/search?q=agent+architecture+language%3AJava&type=repositories)
+    *   [Shell](https://github.com/search?q=agent+architecture+language%3AShell&type=repositories)
+    *   [C#](https://github.com/search?q=agent+architecture+language%3AC%23&type=repositories)
+    *   [Rust](https://github.com/search?q=agent+architecture+language%3ARust&type=repositories)
+    *   [Go](https://github.com/search?q=agent+architecture+language%3AGo&type=repositories)
+    *   More languages... 
+
+*   ### Advanced 
+    *   Owner  
+    *   Size  
+    *   Number of followers  
+    *   Number of forks  
+    *   Number of stars  
+    *   Date created  
+    *   Date pushed  
+    *   Topic  
+    *   License  
+    *   Archived  
+    *   [Public](https://github.com/search?q=agent+architecture+is%3Apublic&type=repositories)
+    *   [Private](https://github.com/search?q=agent+architecture+is%3Aprivate&type=repositories)
+
+*   [Advanced search](http://github.com/search/advanced)
+
+Repositories 6.8k(6.8k)
+
+6.8k results 
+
+(174 ms)
+6.8k results
+------------
+
+Sort by: Best match
+
+Filter
+
+### ![Image 1](https://github.com/FareedKhan-dev.png?size=40)
+
+[FareedKhan-dev/all-_agentic_-_architectures_](http://github.com/FareedKhan-dev/all-agentic-architectures)
+
+Implementation of 17+ _agentic_ _architectures_ designed for practical use across different stages of AI system development.
+
+[ai-agents](http://github.com/topics/ai-agents)
+
+[llm](http://github.com/topics/llm)
+
+[langchain](http://github.com/topics/langchain)
+
+[langsmith](http://github.com/topics/langsmith)
+
+[langgraph](http://github.com/topics/langgraph)
+
+*     Jupyter Notebook
+·*   [2.7k](http://github.com/FareedKhan-dev/all-agentic-architectures/stargazers)
+·*   Updated on Sep 24, 2025 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 2](https://github.com/muratcankoylan.png?size=40)
+
+[muratcankoylan/_Agent_-Skills-for-Context-Engineering](http://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)
+
+A comprehensive collection of _Agent_ Skills for context engineering, multi-_agent_ _architectures_, and production _agent_ systems. Use when bui…
+
+*     Python
+·*   [12.9k](http://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/stargazers)
+·*   Updated 2 days ago 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 3](https://github.com/google-deepmind.png?size=40)
+
+[google-deepmind/scalable_ _agent_](http://github.com/google-deepmind/scalable_agent)
+
+A TensorFlow implementation of Scalable Distributed Deep-RL with Importance Weighted Actor-Learner _Architectures_.
+
+*     Python
+·*   [1k](http://github.com/google-deepmind/scalable_agent/stargazers)
+·*   Updated on Mar 13, 2019 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 4](https://github.com/facebookresearch.png?size=40)
+
+[facebookresearch/fairo](http://github.com/facebookresearch/fairo)
+
+A modular embodied _agent_ _architecture_ and platform for building embodied _agents_
+
+*     Jupyter Notebook
+·*   [920](http://github.com/facebookresearch/fairo/stargazers)
+·*   Updated yesterday 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 5](https://github.com/microsoft.png?size=40)
+
+[microsoft/multi-_agent_-reference-_architecture_](http://github.com/microsoft/multi-agent-reference-architecture)
+
+Guide for designing adaptive, scalable, and secure enterprise multi-_agent_ systems
+
+[azure](http://github.com/topics/azure)
+
+[architecture](http://github.com/topics/architecture)
+
+[multi-agent](http://github.com/topics/multi-agent)
+
+[generative-ai](http://github.com/topics/generative-ai)
+
+*     Python
+·*   [168](http://github.com/microsoft/multi-agent-reference-architecture/stargazers)
+·*   Updated on Dec 1, 2025 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 6](https://github.com/ALucek.png?size=40)
+
+[ALucek/_agentic_-memory](http://github.com/ALucek/agentic-memory)
+
+Implementing cognitive _architecture_ and psychological memory concepts into _Agentic_ LLM Systems
+
+*     Jupyter Notebook
+·*   [513](http://github.com/ALucek/agentic-memory/stargazers)
+·*   Updated on Dec 12, 2024 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 7](https://github.com/mainframecomputer.png?size=40)
+
+[mainframecomputer/orchestra](http://github.com/mainframecomputer/orchestra)
+
+Cognitive _Architectures_ for Multi-_Agent_ Teams
+
+*     Python
+·*   [751](http://github.com/mainframecomputer/orchestra/stargazers)
+·*   Updated on Jul 19, 2025 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 8](https://github.com/ysymyth.png?size=40)
+
+[ysymyth/awesome-language-_agents_](http://github.com/ysymyth/awesome-language-agents)
+
+List of language _agents_ based on paper "Cognitive _Architectures_ for Language _Agents_"
+
+[natural-language-processing](http://github.com/topics/natural-language-processing)
+
+[artificial-intelligence](http://github.com/topics/artificial-intelligence)
+
+[awesome-list](http://github.com/topics/awesome-list)
+
+[language-model](http://github.com/topics/language-model)
+
+[llm](http://github.com/topics/llm)
+
+*     TeX
+·*   [1.2k](http://github.com/ysymyth/awesome-language-agents/stargazers)
+·*   Updated on Jan 16, 2025 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 9](https://github.com/Gentleman-Programming.png?size=40)
+
+[Gentleman-Programming/gentleman-_architecture_-agents](http://github.com/Gentleman-Programming/gentleman-architecture-agents)
+
+🏗️ Claude Code _agents_ that enforce the Scope Rule _architectural_ pattern for Angular, Next.js & Astro - Battle-tested patterns from Google…
+
+*   [130](http://github.com/Gentleman-Programming/gentleman-architecture-agents/stargazers)
+·*   Updated on Sep 4, 2025 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+### ![Image 10](https://github.com/databendlabs.png?size=40)
+
+[databendlabs/databend](http://github.com/databendlabs/databend)
+
+Data _Agent_ Ready Warehouse : One for Analytics, Search, AI, Python Sandbox. — rebuilt from scratch. Unified _architecture_ on your S3.
+
+[rust](http://github.com/topics/rust)
+
+[elasticsearch](http://github.com/topics/elasticsearch)
+
+[sql](http://github.com/topics/sql)
+
+[database](http://github.com/topics/database)
+
+[ai](http://github.com/topics/ai)
+
+*     Rust
+·*   [9.2k](http://github.com/databendlabs/databend/stargazers)
+·*   Updated 1 hour ago 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dagent%2Barchitecture%26type%3Drepositories)
+
+[Previous](http://github.com/search?q=agent+architecture&type=repositories)[1](https://github.com/search?q=agent+architecture&type=repositories&p=1)[2](https://github.com/search?q=agent+architecture&type=repositories&p=2)[3](https://github.com/search?q=agent+architecture&type=repositories&p=3)[4](https://github.com/search?q=agent+architecture&type=repositories&p=4)[5](https://github.com/search?q=agent+architecture&type=repositories&p=5)[6](https://github.com/search?q=agent+architecture&type=repositories&p=6)[7](https://github.com/search?q=agent+architecture&type=repositories&p=7)…[100](https://github.com/search?q=agent+architecture&type=repositories&p=100)[Next](https://github.com/search?q=agent+architecture&type=repositories&p=2)
+
+![Image 11: Package icon](http://github.com/images/modules/search/mona-love.png)
+
+Sponsor open source projects you depend on
+------------------------------------------
+
+Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.[Explore sponsorable projects](https://github.com/sponsors/explore)
+
+ProTip!
+
+Press the
+
+/
+
+key to activate the search input again and adjust your query.
+
+![Image 12: Package icon](http://github.com/images/modules/search/mona-love.png)
+
+Sponsor open source projects you depend on
+------------------------------------------
+
+Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.[Explore sponsorable projects](https://github.com/sponsors/explore)
+
+ProTip!
+
+Press the
+
+/
+
+key to activate the search input again and adjust your query.
+
+ You can’t perform that action at this time.

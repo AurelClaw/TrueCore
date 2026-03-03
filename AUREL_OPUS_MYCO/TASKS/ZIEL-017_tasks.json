@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "description": "Recherche: Komplexe Simulations-Umgebungen",
+    "completed": false,
+    "in_progress": true,
+    "started_at": "2026-03-03T08:57:45.523017"
+  },
+  {
+    "id": 2,
+    "description": "Implementierung: Erweiterte State-Prediction",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "description": "Test: Multi-Step Prediction",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "description": "Integration: Mit Meta-Learning kombinieren",
+    "completed": false
+  }
+]

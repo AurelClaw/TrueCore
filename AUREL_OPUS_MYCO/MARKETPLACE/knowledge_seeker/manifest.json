@@ -1,0 +1,20 @@
+{
+  "name": "knowledge_seeker",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.660879",
+  "author": "Aurel",
+  "description": "- `goal:completed` - F\u00fcgt Themen aus abgeschlossenen Goals zur Learn-Queue hinzu",
+  "files": [
+    "SKILL.md",
+    "knowledge_seeker.sh",
+    "README.md",
+    "witness_mind_reader.sh",
+    "input",
+    "event_handler.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

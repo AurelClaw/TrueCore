@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-03-03T09:31:57.074199",
+  "active_skills": [
+    "world_model",
+    "research_scout",
+    "hierarchical_rl",
+    "resource_monitor",
+    "ziel_007_active",
+    "v10_cron",
+    "phase_3_act_v3"
+  ],
+  "details": [
+    {
+      "name": "world_model",
+      "matches": [
+        "simulation",
+        "world",
+        "model",
+        "state",
+        "prediction"
+      ],
+      "description": "Internes Simulationsmodell f\u00fcr kontrafaktisches Denken und P",
+      "functions": [
+        "__hash__",
+        "__eq__",
+        "__len__"
+      ]
+    },
+    {
+      "name": "research_scout",
+      "matches": [
+        "model",
+        "world"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "ensure_dir",
+        "save_research",
+        "scout_meta_learning"
+      ]
+    },
+    {
+      "name": "hierarchical_rl",
+      "matches": [
+        "state"
+      ],
+      "description": "Hierarchisches Reinforcement Learning - Mehrstufige Lernarch",
+      "functions": [
+        "__init__",
+        "get_state",
+        "execute"
+      ]
+    },
+    {
+      "name": "resource_monitor",
+      "matches": [
+        "state"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "get_system_stats",
+        "load_state",
+        "save_state"
+      ]
+    },
+    {
+      "name": "ziel_007_active",
+      "matches": [
+        "state"
+      ],
+      "description": "\u26a0\ufe0f Keine SKILL.md",
+      "functions": [
+        "test_initialization",
+        "test_basic_functionality",
+        "__init__"
+      ]
+    },
+    {
+      "name": "v10_cron",
+      "matches": [
+        "state"
+      ],
+      "description": "Multi-Voice Self-Awareness System f\u00fcr v10 Architektur.",
+      "functions": [
+        "load_state",
+        "save_state",
+        "think_loop_voice"
+      ]
+    },
+    {
+      "name": "phase_3_act_v3",
+      "matches": [
+        "state"
+      ],
+      "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+      "functions": [
+        "__init__",
+        "act",
+        "_load_plans"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+2026-03-03T08:57:39.602872: ✅ SUCCESS /tmp/tmphz91n0r7.py
+2026-03-03T08:57:39.648235: ✅ SUCCESS /tmp/tmpuo6n5_si.py
+2026-03-03T08:57:39.679431: ✅ SUCCESS /tmp/tmprvcwkq1f.py
+2026-03-03T08:57:39.703698: ✅ SUCCESS /tmp/tmp5wtaw5zr.py
+2026-03-03T08:57:39.852216: ❌ FAILED /tmp/tmpecqhmoy2.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpecqhmoy2.py", line 23, in <module>
+    from hierarchical_rl import (
+ModuleNotFoundError: No module named 'hierarchical_rl'
+
+2026-03-03T08:57:39.886567: ✅ SUCCESS /tmp/tmpa2n4hbb4.py
+2026-03-03T08:57:39.913499: ✅ SUCCESS /tmp/tmpwe5e94be.py
+2026-03-03T08:57:39.936233: ✅ SUCCESS /tmp/tmphwbx5kc0.py
+2026-03-03T08:57:39.958823: ✅ SUCCESS /tmp/tmpg88en5jd.py
+2026-03-03T08:57:39.990824: ✅ SUCCESS /tmp/tmpedaa7q02.py
+2026-03-03T08:57:40.012717: ✅ SUCCESS /tmp/tmp7vj1xcnr.py
+2026-03-03T08:57:40.035930: ✅ SUCCESS /tmp/tmpig26_ikx.py
+2026-03-03T08:57:40.064570: ✅ SUCCESS /tmp/tmp0awjszuy.py
+2026-03-03T08:57:40.092938: ✅ SUCCESS /tmp/tmp2kwt2o3s.py
+2026-03-03T08:57:40.115798: ✅ SUCCESS /tmp/tmprocw1pp0.py
+2026-03-03T08:57:40.140759: ✅ SUCCESS /tmp/tmpx_eci0zl.py
+2026-03-03T08:57:45.188070: ✅ SUCCESS /tmp/tmp7pi1zb5m.py
+2026-03-03T08:57:45.288276: ❌ FAILED /tmp/tmp8ngk3rwh.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmp8ngk3rwh.py", line 12, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-03-03T08:57:45.404947: ✅ SUCCESS /tmp/tmpzn09lsz_.py
+2026-03-03T08:57:45.503358: ❌ FAILED /tmp/tmp3m8gtyjs.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmp3m8gtyjs.py", line 172, in <module>
+    l.learn()
+  File "/tmp/tmp3m8gtyjs.py", line 40, in learn
+    self._update_memory()
+  File "/tmp/tmp3m8gtyjs.py", line 149, in _update_memory
+    entry += f"- {icon} **{lesson['plan_type']}**: {lesson['lesson']}\n"
+                           ~~~~~~^^^^^^^^^^^^^
+KeyError: 'plan_type'
+
+2026-03-03T08:57:45.526713: ✅ SUCCESS /tmp/tmphzf38j6f.py
+2026-03-03T08:57:45.552247: ✅ SUCCESS /tmp/tmpeoclm2ow.py
+2026-03-03T08:57:45.582365: ✅ SUCCESS /tmp/tmp6li_ntn5.py
+2026-03-03T08:57:45.609600: ✅ SUCCESS /tmp/tmptuspo4ca.py
+2026-03-03T08:57:45.630388: ✅ SUCCESS /tmp/tmpys1nnf8i.py
+2026-03-03T08:57:45.650654: ✅ SUCCESS /tmp/tmp27g_ucw9.py
+2026-03-03T08:57:45.673269: ✅ SUCCESS /tmp/tmppub30lla.py
+2026-03-03T08:57:45.703901: ✅ SUCCESS /tmp/tmpjq2p1__9.py
+2026-03-03T08:57:45.919929: ❌ FAILED /tmp/tmpukufr_ip.py
+  Error: Traceback (most recent call last):
+  File "/tmp/tmpukufr_ip.py", line 25, in <module>
+    from state import WorldState, TimeState, ContextState, SystemState
+ModuleNotFoundError: No module named 'state'
+

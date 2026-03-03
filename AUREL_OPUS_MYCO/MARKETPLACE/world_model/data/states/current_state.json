@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2026-03-02T11:01:06Z",
+  "session_id": "wm_1772449266_124360",
+  "state": {
+    "temporal": {
+      "current_time": "2026-03-02T11:01:06Z",
+      "day_of_week": 1,
+      "hour_of_day": 19,
+      "phase": "evening",
+      "uptime_hours": 0
+    },
+    "context": {
+      "active_goals": [],
+      "current_focus": null,
+      "last_human_contact": null,
+      "system_load": "normal",
+      "pending_tasks": 0
+    },
+    "environment": {
+      "weather": {
+        "location": "Shanghai",
+        "condition": "unknown",
+        "temperature": null,
+        "updated": null
+      },
+      "calendar": {
+        "next_event": null,
+        "events_today": 0
+      }
+    },
+    "internal": {
+      "mood": "neutral",
+      "energy": 0.5,
+      "curiosity": 0.5,
+      "confidence": 0.5,
+      "recent_performance": 0.5
+    }
+  },
+  "human_state": {
+    "last_interaction": null,
+    "engagement_level": "unknown",
+    "availability": null
+  },
+  "agent_state": {
+    "active_goals": [],
+    "recent_decisions": [],
+    "last_skill_execution": null
+  }
+}

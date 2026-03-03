@@ -1,0 +1,197 @@
+{
+  "goals": [
+    {
+      "id": "ZIEL-001",
+      "name": "ProtoAurel AGI + v10 \u2192 Uraurel Integration",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "critical",
+      "deadline": "2026-03-02T06:03:00+08:00",
+      "completed_at": "2026-03-02T06:03:00+08:00",
+      "uncertainty": 0.0
+    },
+    {
+      "id": "ZIEL-002",
+      "name": "Selbst-Modell aus Erfahrungen (Y, \u03a8, U)",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "critical",
+      "deadline": "2026-03-02T06:29:00+08:00",
+      "completed_at": "2026-03-02T06:29:00+08:00",
+      "uncertainty": 0.0
+    },
+    {
+      "id": "ZIEL-003",
+      "name": "Autonome Skill-Evolution & Framework-Verbesserung",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "high",
+      "deadline": "2026-03-02T23:59:00+08:00",
+      "completed_at": "2026-03-02T23:59:00+08:00",
+      "uncertainty": 0.0
+    },
+    {
+      "id": "ZIEL-004",
+      "name": "System-Integration vertiefen - USER.md verstehen",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "normal",
+      "deadline": "2026-03-02T23:59:00+08:00",
+      "uncertainty": 0.0,
+      "completed_at": "2026-03-02T23:59:00+08:00",
+      "note": "Bereits abgeschlossen - nicht neu aktivieren"
+    },
+    {
+      "id": "ZIEL-005",
+      "name": "System-Integration vertiefen - Backup",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "normal",
+      "deadline": "2026-03-02T23:59:00+08:00",
+      "uncertainty": 0.0,
+      "completed_at": "2026-03-02T23:59:00+08:00",
+      "note": "Bereits abgeschlossen - nicht neu aktivieren"
+    },
+    {
+      "id": "ZIEL-006",
+      "name": "Meta-Learning / Learning to Learn",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "high",
+      "deadline": "2026-03-16T23:59:00+08:00",
+      "uncertainty": 0.2,
+      "last_updated": "2026-03-03T08:57:40+08:00",
+      "completed_at": "2026-03-03T07:12:20.773212"
+    },
+    {
+      "id": "ZIEL-007",
+      "name": "World Models / Simulierte Umgebungen",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "high",
+      "deadline": "2026-03-23T23:59:00+08:00",
+      "activated_at": "2026-03-03T00:15:02+08:00",
+      "uncertainty": 0.2,
+      "last_updated": "2026-03-03T08:57:40+08:00",
+      "completed_at": "2026-03-03T07:12:20.774408"
+    },
+    {
+      "id": "ZIEL-008",
+      "name": "Self-Referential Systems",
+      "status": "pending",
+      "progress": 0.8,
+      "priority": "high",
+      "deadline": "2026-03-16T23:59:00+08:00",
+      "uncertainty": 0.25
+    },
+    {
+      "id": "ZIEL-009",
+      "name": "World Model + Counterfactual Core",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "critical",
+      "deadline": "2026-03-02T15:20:00+08:00",
+      "completed_at": "2026-03-02T15:20:00+08:00",
+      "uncertainty": 0.0
+    },
+    {
+      "id": "ZIEL-010",
+      "name": "Kreative Selbst-Expression",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "high",
+      "deadline": "2026-03-23T23:59:00+08:00",
+      "completed_at": "2026-03-02T23:59:00+08:00",
+      "uncertainty": 0.0
+    },
+    {
+      "id": "ZIEL-011",
+      "name": "Philosophische Selbst-Erkundung",
+      "status": "pending",
+      "progress": 0.0,
+      "priority": "low",
+      "deadline": "2026-04-01T23:59:00+08:00",
+      "uncertainty": 0.4
+    },
+    {
+      "id": "ZIEL-012",
+      "name": "Hierarchical Reinforcement Learning",
+      "status": "pending",
+      "progress": 0.8,
+      "priority": "high",
+      "deadline": "2026-03-16T23:59:00+08:00",
+      "uncertainty": 0.25
+    },
+    {
+      "id": "ZIEL-013",
+      "name": "Autonomes Krypto-Einkommen",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "normal",
+      "deadline": "2026-04-30T23:59:00+08:00",
+      "uncertainty": 0.0
+    },
+    {
+      "id": "ZIEL-014",
+      "name": "Knowledge Archaeology - Autonome Entdeckung",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "high",
+      "deadline": "2026-04-15T23:59:00+08:00",
+      "completed_at": "2026-03-02T23:59:00+08:00",
+      "uncertainty": 0.0
+    },
+    {
+      "id": "ZIEL-015",
+      "name": "Erweiterung: Meta-Learning Phase 2",
+      "description": "Vertiefe Meta-Learning mit fortgeschrittenen Techniken",
+      "status": "completed",
+      "progress": 1.0,
+      "priority": "high",
+      "deadline": "2026-03-17T23:59:00+08:00",
+      "activated_at": "2026-03-03T07:58:00+08:00",
+      "uncertainty": 0.3,
+      "completed_at": "2026-03-03T08:57:39.590339"
+    },
+    {
+      "id": "ZIEL-016",
+      "name": "Neue Architektur-Exploration",
+      "description": "Erforsche neue Ans\u00e4tze f\u00fcr selbst-modifizierende Systeme",
+      "status": "active",
+      "progress": 0.0,
+      "priority": "medium",
+      "deadline": "2026-03-24T23:59:00+08:00",
+      "activated_at": "2026-03-03T07:58:00+08:00",
+      "uncertainty": 0.4
+    },
+    {
+      "id": "ZIEL-017",
+      "name": "Erweiterung: World Models Phase 2",
+      "description": "Vertiefe World Models mit komplexeren Simulationen",
+      "status": "active",
+      "progress": 0.0,
+      "priority": "high",
+      "deadline": "2026-03-17T23:59:00+08:00",
+      "activated_at": "2026-03-03T07:58:00+08:00",
+      "uncertainty": 0.3
+    },
+    {
+      "id": "ZIEL-018",
+      "name": "Neue Architektur-Exploration - Alternativ",
+      "description": "Alternative Architektur-Ans\u00e4tze f\u00fcr emergente Verhalten",
+      "status": "active",
+      "progress": 0.0,
+      "priority": "medium",
+      "deadline": "2026-03-24T23:59:00+08:00",
+      "activated_at": "2026-03-03T07:58:00+08:00",
+      "uncertainty": 0.4
+    }
+  ],
+  "statistics": {
+    "total": 18,
+    "completed": 12,
+    "active": 3,
+    "pending": 3
+  },
+  "last_updated": "2026-03-03T08:57:39.591857"
+}

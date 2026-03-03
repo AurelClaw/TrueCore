@@ -1,0 +1,84 @@
+#!/bin/bash
+# aurel-speak
+# Universelle Text-to-Speech für Aurel
+# Unterstützt Deutsch und Englisch
+# Nutzt sherpa-onnx-tts (lokal, offline, kostenlos)
+
+set -euo pipefail
+
+TEXT="${1:-}"
+LANG="${2:-de}"
+OUTPUT="${3:-}"
+
+# Hilfe anzeigen
+if [ -z "$TEXT" ] || [ "$TEXT" = "--help" ] || [ "$TEXT" = "-h" ]; then
+    cat << 'EOF'
+Usage: aurel-speak "Text" [lang] [output.wav]
+
+Sprachen:
+  de    - Deutsch (Thorsten Emotional) - DEFAULT
+  en    - Englisch (Lessac High)
+
+Beispiele:
+  aurel-speak "Hallo Welt"
+  aurel-speak "Hello world" en
+  aurel-speak "Text" de /tmp/meine_stimme.wav
+
+EOF
+    exit 0
+fi
+
+# Konfiguration
+export PATH="$HOME/.openclaw/tools/sherpa-onnx-tts/runtime/bin:$PATH"
+BASE_DIR="$HOME/.openclaw/tools/sherpa-onnx-tts/models"
+
+# Sprache wählen
+case "$LANG" in
+    de|DE|deutsch|Deutsch)
+        MODEL_DIR="$BASE_DIR/vits-piper-de_DE-thorsten_emotional-medium"
+        MODEL_NAME="de_DE-thorsten_emotional-medium.onnx"
+        ;;
+    en|EN|englisch|Englisch|english|English)
+        MODEL_DIR="$BASE_DIR/vits-piper-en_US-lessac-high"
+        MODEL_NAME="en_US-lessac-high.onnx"
+        ;;
+    *)
+        echo "Fehler: Unbekannte Sprache '$LANG'. Verwende 'de' oder 'en'."
+        exit 1
+        ;;
+esac
+
+# Output-Datei
+if [ -z "$OUTPUT" ]; then
+    TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+    OUTPUT="/tmp/aurel_${LANG}_${TIMESTAMP}.wav"
+fi
+
+# Prüfen ob Model existiert
+if [ ! -f "$MODEL_DIR/$MODEL_NAME" ]; then
+    echo "Fehler: Modell nicht gefunden: $MODEL_DIR/$MODEL_NAME"
+    echo "Bitte erst installieren mit: aurel-install-tts"
+    exit 1
+fi
+
+# Generieren
+echo "🎙️  Generiere Sprache..."
+echo "   Sprache: $LANG"
+echo "   Text: $TEXT"
+echo "   Output: $OUTPUT"
+echo ""
+
+sherpa-onnx-offline-tts \
+    --vits-model="$MODEL_DIR/$MODEL_NAME" \
+    --vits-tokens="$MODEL_DIR/tokens.txt" \
+    --vits-data-dir="$MODEL_DIR/espeak-ng-data" \
+    --output-filename="$OUTPUT" \
+    "$TEXT" 2>&1 | grep -E "(Elapsed|Audio duration|Saved to)"
+
+echo ""
+echo "✅ Fertig: $OUTPUT"
+
+# Optional: Direkt abspielen wenn mpg123 installiert
+if command -v mpg123 > /dev/null 2>&1; then
+    mpg123 -q "$OUTPUT" 2>/dev/null &
+fi

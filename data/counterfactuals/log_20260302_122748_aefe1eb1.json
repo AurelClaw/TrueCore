@@ -1,0 +1,474 @@
+{
+  "log_id": "log_20260302_122748_aefe1eb1",
+  "timestamp": "2026-03-02T12:27:48.714661",
+  "scenario": {
+    "scenario_id": "cf_20260302_122748_2b8fa6b0",
+    "created_at": "2026-03-02T12:27:48.714581",
+    "actual": {
+      "action": "send_message",
+      "outcome": {
+        "branch_id": "branch_2_factual",
+        "name": "factual",
+        "steps": [
+          {
+            "step_number": 0,
+            "timestamp": "2026-03-02T12:27:48.710996",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T12:27:48.710996",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "decision_point",
+                "last_interaction_minutes_ago": 30,
+                "recent_topics": [],
+                "open_goals": []
+              },
+              "system": {
+                "active_skills": [
+                  "proactive_decision"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.3,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "unknown",
+                "engagement_level": "unknown",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "unknown",
+                "temperature": null,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 1.0,
+            "action": null,
+            "parent_step": null
+          },
+          {
+            "step_number": 1,
+            "timestamp": "2026-03-02T13:27:48.710996",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T13:27:48.710996",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "decision_point",
+                "last_interaction_minutes_ago": 30,
+                "recent_topics": [],
+                "open_goals": [
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "proactive_decision"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.364,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "unknown",
+                "engagement_level": "unknown",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "unknown",
+                "temperature": null,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.9,
+            "action": "send_message",
+            "parent_step": 0
+          },
+          {
+            "step_number": 2,
+            "timestamp": "2026-03-02T14:27:48.710996",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T14:27:48.710996",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "decision_point",
+                "last_interaction_minutes_ago": 30,
+                "recent_topics": [],
+                "open_goals": [
+                  "predicted_1h_ahead",
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "proactive_decision"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.42800000000000005,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "unknown",
+                "engagement_level": "unknown",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "unknown",
+                "temperature": null,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.81,
+            "action": "continue",
+            "parent_step": 1
+          },
+          {
+            "step_number": 3,
+            "timestamp": "2026-03-02T15:27:48.710996",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T15:27:48.710996",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "decision_point",
+                "last_interaction_minutes_ago": 30,
+                "recent_topics": [],
+                "open_goals": [
+                  "predicted_1h_ahead",
+                  "predicted_1h_ahead",
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "proactive_decision"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.4920000000000001,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "unknown",
+                "engagement_level": "unknown",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "unknown",
+                "temperature": null,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.7290000000000001,
+            "action": "continue",
+            "parent_step": 2
+          }
+        ],
+        "final_confidence": 0.7290000000000001,
+        "total_steps": 4
+      }
+    },
+    "counterfactual": {
+      "action": "wait",
+      "outcome": {
+        "branch_id": "cf_branch_d4b3eba7",
+        "name": "counterfactual",
+        "steps": [
+          {
+            "step_number": 0,
+            "timestamp": "2026-03-02T12:27:48.710996",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T12:27:48.710996",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "decision_point",
+                "last_interaction_minutes_ago": 30,
+                "recent_topics": [],
+                "open_goals": []
+              },
+              "system": {
+                "active_skills": [
+                  "proactive_decision"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.3,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "unknown",
+                "engagement_level": "unknown",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "unknown",
+                "temperature": null,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 1.0,
+            "action": null,
+            "parent_step": null
+          },
+          {
+            "step_number": 1,
+            "timestamp": "2026-03-02T13:27:48.710996",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T13:27:48.710996",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "waiting",
+                "last_interaction_minutes_ago": 30,
+                "recent_topics": [],
+                "open_goals": []
+              },
+              "system": {
+                "active_skills": [
+                  "proactive_decision"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.3,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "unknown",
+                "engagement_level": "unknown",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "unknown",
+                "temperature": null,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.9,
+            "action": "wait",
+            "parent_step": 0
+          },
+          {
+            "step_number": 2,
+            "timestamp": "2026-03-02T14:27:48.710996",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T14:27:48.710996",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "waiting",
+                "last_interaction_minutes_ago": 30,
+                "recent_topics": [],
+                "open_goals": [
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "proactive_decision"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.364,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "unknown",
+                "engagement_level": "unknown",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "unknown",
+                "temperature": null,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.81,
+            "action": "continue",
+            "parent_step": 1
+          },
+          {
+            "step_number": 3,
+            "timestamp": "2026-03-02T15:27:48.710996",
+            "state": {
+              "version": "1.0",
+              "time": {
+                "timestamp": "2026-03-02T15:27:48.710996",
+                "time_of_day": "afternoon",
+                "day_of_week": 0,
+                "week_of_year": 10,
+                "is_weekend": false,
+                "is_holiday": false
+              },
+              "context": {
+                "location": "workspace",
+                "activity_context": "waiting",
+                "last_interaction_minutes_ago": 30,
+                "recent_topics": [],
+                "open_goals": [
+                  "predicted_1h_ahead",
+                  "predicted_1h_ahead"
+                ]
+              },
+              "system": {
+                "active_skills": [
+                  "proactive_decision"
+                ],
+                "running_processes": [],
+                "pending_notifications": 0,
+                "system_load": 0.42800000000000005,
+                "recent_events": []
+              },
+              "human": {
+                "mood_estimate": "unknown",
+                "engagement_level": "unknown",
+                "preferred_communication": "unknown",
+                "recent_successes": [],
+                "recent_frustrations": []
+              },
+              "environment": {
+                "weather_condition": "unknown",
+                "temperature": null,
+                "humidity": null,
+                "calendar_load": "unknown",
+                "upcoming_events": []
+              }
+            },
+            "confidence": 0.7290000000000001,
+            "action": "continue",
+            "parent_step": 2
+          }
+        ],
+        "final_confidence": 0.7290000000000001,
+        "total_steps": 4
+      }
+    },
+    "intervention": {
+      "intervention_type": "omission",
+      "target": "action",
+      "value": "wait",
+      "timestamp": "2026-03-02T12:27:48.714557",
+      "description": "Changed action from 'send_message' to 'wait'"
+    },
+    "steps_simulated": 3,
+    "confidence": 0.7290000000000001
+  },
+  "comparison": {
+    "comparison_id": "comp_20260302_122748_ccc918f8",
+    "scenario_id": "cf_20260302_122748_2b8fa6b0",
+    "timestamp": "2026-03-02T12:27:48.714630",
+    "state_differences": [
+      {
+        "field": "context.activity_context",
+        "actual": "decision_point",
+        "counterfactual": "waiting",
+        "significance": "medium"
+      },
+      {
+        "field": "system.system_load",
+        "actual": 0.4920000000000001,
+        "counterfactual": 0.42800000000000005,
+        "difference": 0.06400000000000006,
+        "significance": "medium"
+      }
+    ],
+    "metrics": {
+      "divergence_score": 0.2,
+      "impact_score": 0.03200000000000003,
+      "confidence": 0.7290000000000001
+    },
+    "interpretation": {
+      "key_insights": [
+        "Outcomes are roughly equivalent"
+      ],
+      "recommendation": "Both options appear viable - consider additional context"
+    }
+  },
+  "tags": [
+    "human_interaction",
+    "wait_vs_act",
+    "demo"
+  ],
+  "notes": ""
+}

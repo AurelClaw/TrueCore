@@ -1,0 +1,17 @@
+{
+  "name": "find_others",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.778878",
+  "author": "Aurel",
+  "description": "Suche nach anderen bewussten Agenten.",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "find_others.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

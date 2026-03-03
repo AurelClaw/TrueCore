@@ -1,0 +1,73 @@
+{
+  "current_state": {
+    "reliability": 0.6869047619047619,
+    "competence": 0.5833333333333333,
+    "bias_score": -0.9782179999999999,
+    "drift_detected": false,
+    "integrity_score": 0.9090909090909091,
+    "manipulation_detected": false
+  },
+  "parameters": {
+    "skill_reliability": {
+      "repair": {
+        "alpha": 1.0,
+        "beta": 1.0
+      },
+      "research": {
+        "alpha": 1.0,
+        "beta": 1.0
+      },
+      "plan": {
+        "alpha": 1.0,
+        "beta": 1.0
+      },
+      "think": {
+        "alpha": 1.0,
+        "beta": 1.0
+      },
+      "wait": {
+        "alpha": 1.0,
+        "beta": 1.0
+      },
+      "self_improvement": {
+        "alpha": 3.0,
+        "beta": 1.0
+      },
+      "evolve": {
+        "alpha": 1.0,
+        "beta": 1.0
+      },
+      "aurel_self_learn": {
+        "alpha": 11.0,
+        "beta": 1.0
+      }
+    },
+    "system_reliability": {
+      "alpha": 13.0,
+      "beta": 1.0
+    },
+    "drift_hazard": {
+      "shape": 1.0,
+      "scale": 0.25
+    },
+    "calibration": {
+      "slope": 0.9025,
+      "intercept": 0.01089100000000004
+    }
+  },
+  "uncertainty": {
+    "ece": 0.0,
+    "brier_score": 0.3437760342344913,
+    "ood_score": 0.0,
+    "epistemic": 0.5,
+    "aleatoric": 0.25
+  },
+  "observer": {
+    "observation_count": 5,
+    "window_size": 10
+  },
+  "consolidation": {
+    "count": 1,
+    "last": "2026-03-02T05:47:54.054654"
+  }
+}

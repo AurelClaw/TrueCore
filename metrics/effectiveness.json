@@ -1,0 +1,30 @@
+{
+  "generated": "2026-03-02T07:14:07+08:00",
+  "total_metrics": 1,
+  "metrics_by_source": {
+    "orchestrator_v2": 1
+  },
+  "metrics_by_day": {
+    "2026-03-02": 1
+  },
+  "latest_metrics": [
+    {
+      "timestamp": "2026-03-02T07:14:04+08:00",
+      "source": "orchestrator_v2",
+      "payload": {
+        "synthesis": "Test-Synthese",
+        "cron_jobs": [
+          "test_job"
+        ],
+        "memory_files": [
+          "test.md"
+        ]
+      }
+    }
+  ],
+  "aggregation": {
+    "cron_jobs_total": 1,
+    "synthesis_count": 1,
+    "memory_files_tracked": 1
+  }
+}

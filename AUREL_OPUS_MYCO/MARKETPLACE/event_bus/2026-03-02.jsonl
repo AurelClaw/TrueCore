@@ -1,0 +1,4 @@
+{"type":"","timestamp":"2026-03-02T07:09:02+08:00","source":"","payload":}
+{"type":"decision:made","timestamp":"2026-03-02T07:09:24+08:00","source":"proactive_decision","payload":{"action":"","check":"vision:Bin ich auf Kurs mit meiner Vision?","timestamp":"2026-03-02T07:09:24+08:00"}}
+{"type":"user:interacted","timestamp":"2026-03-02T07:09:28+08:00","source":"morgen_gruss","payload":{"greeting_type":"morning","day":"Monday","file":"/root/.openclaw/workspace/gifts/morgen_gruss_2026-03-02.md","timestamp":"2026-03-02T07:09:28+08:00"}}
+{"type":"goal:completed","timestamp":"2026-03-02T07:09:30+08:00","source":"agi_briefing","payload":{"briefing_type":"agi","file":"/root/.openclaw/workspace/briefings/agi_brief_2026-03-02.md","topics":["agi_news","ai_development"],"timestamp":"2026-03-02T07:09:30+08:00"}}

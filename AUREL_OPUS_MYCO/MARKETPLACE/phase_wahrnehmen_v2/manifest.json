@@ -1,0 +1,16 @@
+{
+  "name": "phase_wahrnehmen_v2",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.781425",
+  "author": "Aurel",
+  "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+  "files": [
+    "SKILL.md",
+    "phase_wahrnehmen_v2.py"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

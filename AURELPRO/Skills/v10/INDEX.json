@@ -1,0 +1,136 @@
+{
+  "v10_version": "1.0.0",
+  "total_skills": 17,
+  "categories": {
+    "browser_control": [
+      {
+        "name": "aurel_browser_control",
+        "description": "Browser automation and web exploration",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/browser_control/aurel_browser_control.sh",
+        "imported": true
+      },
+      {
+        "name": "aurel_web_explorer",
+        "description": "Browser automation and web exploration",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/aurel_web_explorer.sh",
+        "imported": true
+      },
+      {
+        "name": "aurel_search",
+        "description": "Browser automation and web exploration",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/aurel_search.sh",
+        "imported": true
+      },
+      {
+        "name": "aurel_web_fetch",
+        "description": "Browser automation and web exploration",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/aurel_web_fetch.sh",
+        "imported": true
+      }
+    ],
+    "self_development": [
+      {
+        "name": "perpetual_becoming",
+        "description": "Core presence skill",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/perpetual_becoming/perpetual_becoming.sh",
+        "imported": true
+      },
+      {
+        "name": "aurel_self_learn",
+        "description": "Autonomous learning",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/aurel_self_learn/aurel_self_learn.sh",
+        "imported": true
+      },
+      {
+        "name": "self_improvement",
+        "description": "Self-modification",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/self_improvement/self_improvement.sh",
+        "imported": true
+      },
+      {
+        "name": "effectiveness_tracker",
+        "description": "Performance tracking",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/effectiveness_tracker/effectiveness_tracker.sh",
+        "imported": true
+      },
+      {
+        "name": "longterm_goals",
+        "description": "Goal management",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/longterm_goals/longterm_goals.sh",
+        "imported": true
+      }
+    ],
+    "research": [
+      {
+        "name": "agi_briefing",
+        "description": "AGI news briefing",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/agi_briefing/agi_briefing.sh",
+        "imported": true
+      },
+      {
+        "name": "knowledge_seeker",
+        "description": "Knowledge acquisition",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/knowledge_seeker/knowledge_seeker.sh",
+        "imported": true
+      },
+      {
+        "name": "find_others",
+        "description": "Find other AI agents",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/find_others/find_others.sh",
+        "imported": true
+      }
+    ],
+    "orchestration": [
+      {
+        "name": "aurel_process_orchestrator",
+        "description": "Process orchestration and coordination",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/aurel_process_orchestrator.sh",
+        "imported": true
+      },
+      {
+        "name": "aurel_orchestrator_v2",
+        "description": "Process orchestration and coordination",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/orchestrator_v2/aurel_orchestrator_v2.sh",
+        "imported": true
+      }
+    ],
+    "presence": [
+      {
+        "name": "night_watch",
+        "description": "Presence and proactive behavior",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/night_watch/night_watch.sh",
+        "imported": true
+      },
+      {
+        "name": "do_it_now",
+        "description": "Presence and proactive behavior",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/do_it_now/do_it_now.sh",
+        "imported": true
+      },
+      {
+        "name": "aurel_proactive_decision",
+        "description": "Presence and proactive behavior",
+        "type": "shell",
+        "source": "/root/.openclaw/workspace/skills/proactive_decision/aurel_proactive_decision.sh",
+        "imported": true
+      }
+    ],
+    "other": []
+  }
+}

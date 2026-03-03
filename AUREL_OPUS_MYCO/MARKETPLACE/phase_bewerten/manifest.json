@@ -1,0 +1,16 @@
+{
+  "name": "phase_bewerten",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.674487",
+  "author": "Aurel",
+  "description": "Automatisch generierter Skill aus Ziel-Management-System.",
+  "files": [
+    "SKILL.md",
+    "phase_bewerten.py"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

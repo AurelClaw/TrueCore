@@ -1,0 +1,16 @@
+{
+  "name": "ziel_007_active",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.701279",
+  "author": "Aurel",
+  "description": "Keine Beschreibung verf\u00fcgbar",
+  "files": [
+    "test_core.py",
+    "world_model_core.py"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

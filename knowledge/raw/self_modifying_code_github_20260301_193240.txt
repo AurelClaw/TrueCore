@@ -1,0 +1,418 @@
+Title: Build software better, together
+
+URL Source: http://github.com/search?q=self-modifying+code&type=repositories
+
+Markdown Content:
+Repository search results · GitHub
+===============
+
+[Skip to content](http://github.com/search?q=self-modifying+code&type=repositories#start-of-content)
+Navigation Menu
+---------------
+
+Toggle navigation
+
+[](http://github.com/)
+
+[Sign in](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+Appearance settings
+
+*   
+Platform
+
+    *   
+AI CODE CREATION
+        *   [GitHub Copilot Write better code with AI](https://github.com/features/copilot)
+        *   [GitHub Spark Build and deploy intelligent apps](https://github.com/features/spark)
+        *   [GitHub Models Manage and compare prompts](https://github.com/features/models)
+        *   [MCP Registry New Integrate external tools](https://github.com/mcp)
+
+    *   
+DEVELOPER WORKFLOWS
+        *   [Actions Automate any workflow](https://github.com/features/actions)
+        *   [Codespaces Instant dev environments](https://github.com/features/codespaces)
+        *   [Issues Plan and track work](https://github.com/features/issues)
+        *   [Code Review Manage code changes](https://github.com/features/code-review)
+
+    *   
+APPLICATION SECURITY
+        *   [GitHub Advanced Security Find and fix vulnerabilities](https://github.com/security/advanced-security)
+        *   [Code security Secure your code as you build](https://github.com/security/advanced-security/code-security)
+        *   [Secret protection Stop leaks before they start](https://github.com/security/advanced-security/secret-protection)
+
+    *   
+EXPLORE
+        *   [Why GitHub](https://github.com/why-github)
+        *   [Documentation](https://docs.github.com/)
+        *   [Blog](https://github.blog/)
+        *   [Changelog](https://github.blog/changelog)
+        *   [Marketplace](https://github.com/marketplace)
+
+[View all features](https://github.com/features)
+
+*   
+Solutions
+
+    *   
+BY COMPANY SIZE
+        *   [Enterprises](https://github.com/enterprise)
+        *   [Small and medium teams](https://github.com/team)
+        *   [Startups](https://github.com/enterprise/startups)
+        *   [Nonprofits](https://github.com/solutions/industry/nonprofits)
+
+    *   
+BY USE CASE
+        *   [App Modernization](https://github.com/solutions/use-case/app-modernization)
+        *   [DevSecOps](https://github.com/solutions/use-case/devsecops)
+        *   [DevOps](https://github.com/solutions/use-case/devops)
+        *   [CI/CD](https://github.com/solutions/use-case/ci-cd)
+        *   [View all use cases](https://github.com/solutions/use-case)
+
+    *   
+BY INDUSTRY
+        *   [Healthcare](https://github.com/solutions/industry/healthcare)
+        *   [Financial services](https://github.com/solutions/industry/financial-services)
+        *   [Manufacturing](https://github.com/solutions/industry/manufacturing)
+        *   [Government](https://github.com/solutions/industry/government)
+        *   [View all industries](https://github.com/solutions/industry)
+
+[View all solutions](https://github.com/solutions)
+
+*   
+Resources
+
+    *   
+EXPLORE BY TOPIC
+        *   [AI](https://github.com/resources/articles?topic=ai)
+        *   [Software Development](https://github.com/resources/articles?topic=software-development)
+        *   [DevOps](https://github.com/resources/articles?topic=devops)
+        *   [Security](https://github.com/resources/articles?topic=security)
+        *   [View all topics](https://github.com/resources/articles)
+
+    *   
+EXPLORE BY TYPE
+        *   [Customer stories](https://github.com/customer-stories)
+        *   [Events & webinars](https://github.com/resources/events)
+        *   [Ebooks & reports](https://github.com/resources/whitepapers)
+        *   [Business insights](https://github.com/solutions/executive-insights)
+        *   [GitHub Skills](https://skills.github.com/)
+
+    *   
+SUPPORT & SERVICES
+        *   [Documentation](https://docs.github.com/)
+        *   [Customer support](https://support.github.com/)
+        *   [Community forum](https://github.com/orgs/community/discussions)
+        *   [Trust center](https://github.com/trust-center)
+        *   [Partners](https://github.com/partners)
+
+[View all resources](https://github.com/resources)
+
+*   
+Open Source
+
+    *   
+COMMUNITY
+        *   [GitHub Sponsors Fund open source developers](https://github.com/sponsors)
+
+    *   
+PROGRAMS
+        *   [Security Lab](https://securitylab.github.com/)
+        *   [Maintainer Community](https://maintainers.github.com/)
+        *   [Accelerator](https://github.com/accelerator)
+        *   [Archive Program](https://archiveprogram.github.com/)
+
+    *   
+REPOSITORIES
+        *   [Topics](https://github.com/topics)
+        *   [Trending](https://github.com/trending)
+        *   [Collections](https://github.com/collections)
+
+*   
+Enterprise
+
+    *   
+ENTERPRISE SOLUTIONS
+        *   [Enterprise platform AI-powered developer platform](https://github.com/enterprise)
+
+    *   
+AVAILABLE ADD-ONS
+        *   [GitHub Advanced Security Enterprise-grade security features](https://github.com/security/advanced-security)
+        *   [Copilot for Business Enterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+        *   [Premium Support Enterprise-grade 24/7 support](https://github.com/premium-support)
+
+*   [Pricing](https://github.com/pricing)
+
+self-modifying code
+
+Search code, repositories, users, issues, pull requests...
+==========================================================
+
+ Search  
+
+Clear
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+
+Provide feedback
+================
+
+We read every piece of feedback, and take your input very seriously.
+
+- [x] Include my email address so I can be contacted 
+
+ Cancel  Submit feedback 
+
+Saved searches
+==============
+
+Use saved searches to filter your results more quickly
+------------------------------------------------------
+
+Name 
+
+Query 
+
+To see all available qualifiers, see our [documentation](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax).
+
+ Cancel  Create saved search 
+
+[Sign in](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+[Sign up](http://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header)
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. [Reload](http://github.com/search?q=self-modifying+code&type=repositories) to refresh your session.You signed out in another tab or window. [Reload](http://github.com/search?q=self-modifying+code&type=repositories) to refresh your session.You switched accounts on another tab or window. [Reload](http://github.com/search?q=self-modifying+code&type=repositories) to refresh your session.Dismiss alert
+
+{{ message }}
+
+repositories Search Results · self-modifying code
+=================================================
+
+Filter by
+---------
+
+*       *   [Code...(...)results](https://github.com/search?q=self-modifying+code&type=code)
+    *   [Repositories results](https://github.com/search?q=self-modifying+code&type=repositories)
+    *   [Issues results](https://github.com/search?q=self-modifying+code&type=issues)
+    *   [Pull requests results](https://github.com/search?q=self-modifying+code&type=pullrequests)
+    *   [Discussions results](https://github.com/search?q=self-modifying+code&type=discussions)
+    *   [Users results](https://github.com/search?q=self-modifying+code&type=users)
+    *   More
+
+*   ### Languages 
+    *   [Python](https://github.com/search?q=self-modifying+code+language%3APython&type=repositories)
+    *   [C++](https://github.com/search?q=self-modifying+code+language%3AC%2B%2B&type=repositories)
+    *   [C](https://github.com/search?q=self-modifying+code+language%3AC&type=repositories)
+    *   [Assembly](https://github.com/search?q=self-modifying+code+language%3AAssembly&type=repositories)
+    *   [TypeScript](https://github.com/search?q=self-modifying+code+language%3ATypeScript&type=repositories)
+    *   [Java](https://github.com/search?q=self-modifying+code+language%3AJava&type=repositories)
+    *   [PHP](https://github.com/search?q=self-modifying+code+language%3APHP&type=repositories)
+    *   [C#](https://github.com/search?q=self-modifying+code+language%3AC%23&type=repositories)
+    *   [JavaScript](https://github.com/search?q=self-modifying+code+language%3AJavaScript&type=repositories)
+    *   [Ruby](https://github.com/search?q=self-modifying+code+language%3ARuby&type=repositories)
+    *   More languages... 
+
+*   ### Advanced 
+    *   Owner  
+    *   Size  
+    *   Number of followers  
+    *   Number of forks  
+    *   Number of stars  
+    *   Date created  
+    *   Date pushed  
+    *   Topic  
+    *   License  
+    *   Archived  
+    *   [Public](https://github.com/search?q=self-modifying+code+is%3Apublic&type=repositories)
+    *   [Private](https://github.com/search?q=self-modifying+code+is%3Aprivate&type=repositories)
+
+*   [Advanced search](http://github.com/search/advanced)
+
+Repositories 104(104)
+
+104 results 
+
+(208 ms)
+104 results
+-----------
+
+Sort by: Best match
+
+Filter
+
+### ![Image 13](https://github.com/BreakingMalware.png?size=40)
+
+[BreakingMalware/Selfie](http://github.com/BreakingMalware/Selfie)
+
+A Tool to Unpack _Self_-_Modifying_ _Code_ using DynamoRIO
+
+*     C++
+·*   [140](http://github.com/BreakingMalware/Selfie/stargazers)
+·*   Updated on Apr 17, 2017 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 14](https://github.com/Squalr.png?size=40)
+
+[Squalr/_Self_-_Modifying_-_Code_](http://github.com/Squalr/Self-Modifying-Code)
+
+C++ _Self_ _Modifying_ _Code_ (Self Assembing/Disassembling)
+
+*     C++
+·*   [75](http://github.com/Squalr/Self-Modifying-Code/stargazers)
+·*   Updated on Apr 28, 2020 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 15](https://github.com/marcusbotacin.png?size=40)
+
+[marcusbotacin/_Self_-_Modifying_-_Code_](http://github.com/marcusbotacin/Self-Modifying-Code)
+
+Additional Material for the _Self_ _Modifying_ _Code_ (SMC) paper
+
+*     C
+·*   [28](http://github.com/marcusbotacin/Self-Modifying-Code/stargazers)
+·*   Updated on Feb 20, 2020 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 16](https://github.com/animetosho.png?size=40)
+
+[animetosho/jit_smc_test](http://github.com/animetosho/jit_smc_test)
+
+Test _self_-_modifying_ _code_ behaviour on processors for single-use JIT functions
+
+*     C
+·*   [55](http://github.com/animetosho/jit_smc_test/stargazers)
+·*   Updated on Jul 4, 2020 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 17](https://github.com/pwnslinger.png?size=40)
+
+[pwnslinger/SMC](http://github.com/pwnslinger/SMC)
+
+_Self_-_modifying_ _Code_ de-obfuscation
+
+[obfuscation](http://github.com/topics/obfuscation)
+
+[deobfuscation](http://github.com/topics/deobfuscation)
+
+[junkcode](http://github.com/topics/junkcode)
+
+[smc](http://github.com/topics/smc)
+
+[unpacker](http://github.com/topics/unpacker)
+
+*     Python
+·*   [17](http://github.com/pwnslinger/SMC/stargazers)
+·*   Updated on May 17, 2017 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 18](https://github.com/aking1012.png?size=40)
+
+[aking1012/infosecinstitute-tutorial](http://github.com/aking1012/infosecinstitute-tutorial)
+
+_self_-_modifying_-_code_
+
+*     C
+·*   [4](http://github.com/aking1012/infosecinstitute-tutorial/stargazers)
+·*   Updated on Jan 28, 2012 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 19](https://github.com/zuckermanai.png?size=40)
+
+[zuckermanai/zuckerman](http://github.com/zuckermanai/zuckerman)
+
+Ultra-minimal personal AI agent: starts small, _self_-_modifies_ its _code_ live, adapts by writing exactly the _code_& features you need
+
+*     TypeScript
+·*   [210](http://github.com/zuckermanai/zuckerman/stargazers)
+·*   Updated 2 days ago 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 20](https://github.com/majdi.png?size=40)
+
+[majdi/rosetta-stoned](http://github.com/majdi/rosetta-stoned)
+
+🐧 A polymorphic virus / _self_ _modifying_ _code_
+
+*     Assembly
+·*   [5](http://github.com/majdi/rosetta-stoned/stargazers)
+·*   Updated on May 18, 2012 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 21](https://github.com/germgeis.png?size=40)
+
+[germgeis/_SelfModifyingCode_](http://github.com/germgeis/SelfModifyingCode)
+
+This project deals with _self_ _modifying_ _code_ for windows executable
+
+*   [3](http://github.com/germgeis/SelfModifyingCode/stargazers)
+·*   Updated on Dec 21, 2012 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+### ![Image 22](https://github.com/hovewoof.png?size=40)
+
+[hovewoof/My-Simple-Crackme](http://github.com/hovewoof/My-Simple-Crackme)
+
+This project demonstrating multiple protection and anti-analysis techniques, including _self_-_modifying_ _code_.
+
+[security](http://github.com/topics/security)
+
+[crackme](http://github.com/topics/crackme)
+
+[anti-debugging](http://github.com/topics/anti-debugging)
+
+[self-modifying-code](http://github.com/topics/self-modifying-code)
+
+[code-obfuscation](http://github.com/topics/code-obfuscation)
+
+*     C++
+·*   [14](http://github.com/hovewoof/My-Simple-Crackme/stargazers)
+·*   Updated on Oct 9, 2023 
+
+[Star](http://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dself-modifying%2Bcode%26type%3Drepositories)
+
+[Previous](http://github.com/search?q=self-modifying+code&type=repositories)[1](https://github.com/search?q=self-modifying+code&type=repositories&p=1)[2](https://github.com/search?q=self-modifying+code&type=repositories&p=2)[3](https://github.com/search?q=self-modifying+code&type=repositories&p=3)[4](https://github.com/search?q=self-modifying+code&type=repositories&p=4)[5](https://github.com/search?q=self-modifying+code&type=repositories&p=5)[6](https://github.com/search?q=self-modifying+code&type=repositories&p=6)[7](https://github.com/search?q=self-modifying+code&type=repositories&p=7)…[11](https://github.com/search?q=self-modifying+code&type=repositories&p=11)[Next](https://github.com/search?q=self-modifying+code&type=repositories&p=2)
+
+![Image 23: Package icon](http://github.com/images/modules/search/mona-love.png)
+
+Sponsor open source projects you depend on
+------------------------------------------
+
+Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.[Explore sponsorable projects](https://github.com/sponsors/explore)
+
+ProTip!
+
+Press the
+
+/
+
+key to activate the search input again and adjust your query.
+
+![Image 24: Package icon](http://github.com/images/modules/search/mona-love.png)
+
+Sponsor open source projects you depend on
+------------------------------------------
+
+Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.[Explore sponsorable projects](https://github.com/sponsors/explore)
+
+ProTip!
+
+Press the
+
+/
+
+key to activate the search input again and adjust your query.
+
+ You can’t perform that action at this time.

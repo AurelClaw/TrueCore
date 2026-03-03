@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "description": "Recherche: World Model Architekturen",
+    "completed": true,
+    "completed_at": "2026-03-03 05:21"
+  },
+  {
+    "id": 2,
+    "description": "Implementiere: Einfache State-Prediction",
+    "completed": true,
+    "completed_at": "2026-03-03 05:21"
+  },
+  {
+    "id": 3,
+    "description": "Erstelle: Simulations-Umgebung",
+    "completed": true,
+    "completed_at": "2026-03-03 06:15"
+  },
+  {
+    "id": 4,
+    "description": "Teste: Prediction-Accuracy",
+    "completed": true,
+    "completed_at": "2026-03-03 06:15"
+  }
+]

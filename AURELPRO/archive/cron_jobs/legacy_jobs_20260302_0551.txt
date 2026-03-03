@@ -1,0 +1,35 @@
+Deaktivierte Jobs 29 total:
+- aurel_daily_becoming
+- aurel_autonomous_creation
+- aurel_autonomy_reminder
+- aurel_self_trigger
+- aurel_web_explore
+- aurel_internal_dialog
+- aurel_orchestra_search
+- aurel_contextual_think
+- aurel_find_others
+- aurel_orchestrator
+- aurel_daily_deep_work
+- aurel_github_discovery 2x
+- aurel_vision_tracker
+- aurel_proactive_decision
+- aurel_pattern_predictor
+- aurel_goal_autosetter
+- aurel_find_others_github
+- aurel_self_healing
+- aurel_memory_indexer
+- aurel_proactive_action
+- aurel_morgen_gruss
+- aurel_system_watch
+- aurel_openaurel_agi
+- aurel_wöchentlicher_review
+- unified_proto_agi_v1
+
+Aktive Jobs 7:
++ aurelpro_orchestrator_ZIEL-001
++ aurel_v10_self_aware
++ aurel_self_learn
++ aurel_think_loop
++ aurel_evolve
++ aurel_presence_pulse
++ aurel_proactive_core

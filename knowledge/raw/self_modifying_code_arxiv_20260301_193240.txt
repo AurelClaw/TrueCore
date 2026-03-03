@@ -1,0 +1,402 @@
+Title: Search | arXiv e-print repository
+
+URL Source: http://arxiv.org/search/?query=self-modifying+code&searchtype=all
+
+Markdown Content:
+1.   From Hallucination to Articulation: Language Model-Driven Losses for Ultra Low-Bitrate Neural Speech Coding
+
+Abstract:  …settings. The proposed LM losses build upon language models pretrained to associate speech with text. When ground-truth transcripts are unavailable, we propose to modify a popular automatic speech recognition (ASR) model, Whisper, to compare the decoded utterance against the ASR-inferred transcriptions of the input speech. Else, we propose to use the timed-t… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 5 February, 2026; originally announced February 2026.
+
+2.   Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing
+
+Authors:[Zhaotian Weng](https://arxiv.org/search/?searchtype=author&query=Weng%2C+Z), [Antonis Antoniades](https://arxiv.org/search/?searchtype=author&query=Antoniades%2C+A), [Deepak Nathani](https://arxiv.org/search/?searchtype=author&query=Nathani%2C+D), [Zhen Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+Z), [Xiao Pu](https://arxiv.org/search/?searchtype=author&query=Pu%2C+X), [Xin Eric Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+X+E)
+
+Abstract:  Open-ended self-improving agents can autonomously… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 4 February, 2026; originally announced February 2026.
+
+3.   Evaluating the Vulnerability Landscape of LLM-Generated Smart Contracts
+
+Authors:[Hoang Long Do](https://arxiv.org/search/?searchtype=author&query=Do%2C+H+L), [Nasrin Sohrabi](https://arxiv.org/search/?searchtype=author&query=Sohrabi%2C+N), [Muneeb Ul Hassan](https://arxiv.org/search/?searchtype=author&query=Hassan%2C+M+U)
+
+Abstract:  Large language models (LLMs) have been widely adopted in modern software development lifecycles, where they are increasingly used to automate and assist code generation, significantly improving developer productivity and reducing development time. In the blockchain domain, developers increasingly rely on LLMs to generate and maintain smart contracts, the imm… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 3 February, 2026; originally announced February 2026.
+
+4.   Training-Free Self-Correction for Multimodal Masked Diffusion Models
+
+Authors:[Yidong Ouyang](https://arxiv.org/search/?searchtype=author&query=Ouyang%2C+Y), [Panwen Hu](https://arxiv.org/search/?searchtype=author&query=Hu%2C+P), [Zhengyan Wan](https://arxiv.org/search/?searchtype=author&query=Wan%2C+Z), [Zhe Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+Z), [Liyan Xie](https://arxiv.org/search/?searchtype=author&query=Xie%2C+L), [Dmitriy Bespalov](https://arxiv.org/search/?searchtype=author&query=Bespalov%2C+D), [Ying Nian Wu](https://arxiv.org/search/?searchtype=author&query=Wu%2C+Y+N), [Guang Cheng](https://arxiv.org/search/?searchtype=author&query=Cheng%2C+G), [Hongyuan Zha](https://arxiv.org/search/?searchtype=author&query=Zha%2C+H), [Qiang Sun](https://arxiv.org/search/?searchtype=author&query=Sun%2C+Q)
+
+Abstract:  …tokens simultaneously and treats generated tokens as immutable, which may lead to error accumulation when early mistakes cannot be revised. In this work, we revisit existing self-correction methods and identify limitations stemming from additional training requirements or reliance on misaligned likelihood estimates. We propose a training-free… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 2 February, 2026; originally announced February 2026.
+
+5.   Internal Flow Signatures for Self-Checking and Refinement in LLMs
+
+Authors:[Sungheon Jeong](https://arxiv.org/search/?searchtype=author&query=Jeong%2C+S), [Sanggeon Yun](https://arxiv.org/search/?searchtype=author&query=Yun%2C+S), [Ryozo Masukawa](https://arxiv.org/search/?searchtype=author&query=Masukawa%2C+R), [Wenjun Haung](https://arxiv.org/search/?searchtype=author&query=Haung%2C+W), [Hanning Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+H), [Mohsen Imani](https://arxiv.org/search/?searchtype=author&query=Imani%2C+M)
+
+Abstract:  …step lengths, turning angles, and subspace drift summaries that are invariant to within-window basis choices. A lightweight GRU validator trained on these signatures performs self-checking without… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 2 February, 2026; originally announced February 2026.
+
+6.   SyNeT: Synthetic Negatives for Traversability Learning
+
+Authors:[Bomena Kim](https://arxiv.org/search/?searchtype=author&query=Kim%2C+B), [Hojun Lee](https://arxiv.org/search/?searchtype=author&query=Lee%2C+H), [Younsoo Park](https://arxiv.org/search/?searchtype=author&query=Park%2C+Y), [Yaoyu Hu](https://arxiv.org/search/?searchtype=author&query=Hu%2C+Y), [Sebastian Scherer](https://arxiv.org/search/?searchtype=author&query=Scherer%2C+S), [Inwook Shim](https://arxiv.org/search/?searchtype=author&query=Shim%2C+I)
+
+Abstract:  Reliable traversability estimation is crucial for autonomous robots to navigate complex outdoor environments safely. Existing self-supervised learning frameworks primarily rely on positive and unlabeled data; however, the lack of explicit negative data remains a critical limitation, hindering the model's ability to accurately identify diverse non-travers… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 2 February, 2026; v1 submitted 31 January, 2026; originally announced February 2026.
+
+7.   Rethinking Intelligence: Brain-like Neuron Network
+
+Authors:[Weifeng Liu](https://arxiv.org/search/?searchtype=author&query=Liu%2C+W)
+
+Abstract:  …a new neural network paradigm, Brain-like Neural Network (BNN). We further present the first instantiation of a BNN termed LuminaNet that operates without convolutions or self-attention and is capable of autonomously… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 27 January, 2026; originally announced January 2026.
+
+8.   Recursivism: An Artistic Paradigm for Self-Transforming Art in the Age of AI
+
+Authors:[Florentin Koch](https://arxiv.org/search/?searchtype=author&query=Koch%2C+F)
+
+Abstract:  …parametric recursion, reflexive recursion, and meta-recursion. This scale clarifies the threshold at which a system shifts from variation within a fixed rule to genuine self-modification of the rule itself. From this perspective, art history is reinterpreted as a recursive dynamic alternating between internal recursion within movements and meta-recursive tr… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 20 January, 2026; originally announced January 2026.
+
+9.   Same Activity, Divergent Impacts: Representing Paths Towards Physics Computational Literacy and Physics Identity with Conjecture Mapping-Based Narrative Analysis
+
+Authors:[Sarah McHale](https://arxiv.org/search/?searchtype=author&query=McHale%2C+S), [Tor Ole B. Odden](https://arxiv.org/search/?searchtype=author&query=Odden%2C+T+O+B), [Ken Heller](https://arxiv.org/search/?searchtype=author&query=Heller%2C+K)
+
+Abstract:  …of a computationally integrated physics course. We study two students' experiences with a multi-day activity to understand how and why they came to affectively divergent self-perceptions. We propose a… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 14 January, 2026; originally announced January 2026.
+
+10.   Two Families of Linear Codes Containing Non-GRS MDS Codes
+
+Authors:[Kanat Abdukhalikov](https://arxiv.org/search/?searchtype=author&query=Abdukhalikov%2C+K), [Gyanendra K. Verma](https://arxiv.org/search/?searchtype=author&query=Verma%2C+G+K)
+
+Abstract:  We construct two new families of linear codes by… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 15 December, 2025; originally announced December 2025.
+
+11.   MaxwellLink: A unified framework for self-consistent light-matter simulations
+
+Authors:[Xinwei Ji](https://arxiv.org/search/?searchtype=author&query=Ji%2C+X), [Andres Felipe Bocanegra Vargas](https://arxiv.org/search/?searchtype=author&query=Vargas%2C+A+F+B), [Gang Meng](https://arxiv.org/search/?searchtype=author&query=Meng%2C+G), [Tao E. Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+T+E)
+
+Abstract:  …component, hindering the exploration of complex light-matter systems. Herein, MaxwellLink -- a modular, open-source Python framework -- is developed for the massively parallel, self-consistent propagation of classical EM fields interacting with a large heterogeneous molecular ensemble. The package utilizes a robust TCP/UNIX socket interface to couple EM solv… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 25 February, 2026; v1 submitted 5 December, 2025; originally announced December 2025.
+
+12.   Differentially rotating neutron stars with dark matter cores
+
+Authors:[Lorenzo Cipriani](https://arxiv.org/search/?searchtype=author&query=Cipriani%2C+L), [Violetta Sagun](https://arxiv.org/search/?searchtype=author&query=Sagun%2C+V), [Kalin V. Staykov](https://arxiv.org/search/?searchtype=author&query=Staykov%2C+K+V), [Daniela D. Doneva](https://arxiv.org/search/?searchtype=author&query=Doneva%2C+D+D), [Stoytcho S. Yazadjiev](https://arxiv.org/search/?searchtype=author&query=Yazadjiev%2C+S+S)
+
+Abstract:  Dark matter is expected to accumulate inside neutron stars, modifying the structure of isolated stars and influencing both the dynamics of binary mergers and the evolution of the resulting hypermassive remnants. Since differential rotation is the primary mechanism delaying the collapse of these remnants, understanding its behavior is crucial when assessing t… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 5 December, 2025; originally announced December 2025.
+
+13.   Cosmic chronometers with galaxy clusters: a new avenue for multi-probe cosmology
+
+Authors:[E. Tomasetti](https://arxiv.org/search/?searchtype=author&query=Tomasetti%2C+E), [M. Moresco](https://arxiv.org/search/?searchtype=author&query=Moresco%2C+M), [G. Granata](https://arxiv.org/search/?searchtype=author&query=Granata%2C+G), [M. D'Addona](https://arxiv.org/search/?searchtype=author&query=D%27Addona%2C+M), [P. Bergamini](https://arxiv.org/search/?searchtype=author&query=Bergamini%2C+P), [C. Grillo](https://arxiv.org/search/?searchtype=author&query=Grillo%2C+C), [A. Mercurio](https://arxiv.org/search/?searchtype=author&query=Mercurio%2C+A), [P. Rosati](https://arxiv.org/search/?searchtype=author&query=Rosati%2C+P), [A. Cimatti](https://arxiv.org/search/?searchtype=author&query=Cimatti%2C+A), [L. Tortorelli](https://arxiv.org/search/?searchtype=author&query=Tortorelli%2C+L), [S. Schuldt](https://arxiv.org/search/?searchtype=author&query=Schuldt%2C+S), [M. Meneghetti](https://arxiv.org/search/?searchtype=author&query=Meneghetti%2C+M)
+
+Abstract:  …measurements via time delay cosmography (TDC). This represents the first step for a self-consistent probe combination, where different methods are applied to the same data sample. After selecting the most passive and massive cluster members (38 CCs), we derive their age and physical parameters via full spectrum fitting. We use the… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 1 December, 2025; originally announced December 2025.
+
+14.   Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?
+
+Authors:[Chunqiu Steven Xia](https://arxiv.org/search/?searchtype=author&query=Xia%2C+C+S), [Zhe Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+Z), [Yan Yang](https://arxiv.org/search/?searchtype=author&query=Yang%2C+Y), [Yuxiang Wei](https://arxiv.org/search/?searchtype=author&query=Wei%2C+Y), [Lingming Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+L)
+
+Abstract:  …engineering. In recent years, a number of LLM agents have been proposed to solve real-world software problems. Such software agents are typically equipped with a suite of coding tools and can autonomously decide the next actions to form complete trajectories to solve end-to-end software tasks. While promising, they typically require dedicated design and may… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 24 November, 2025; v1 submitted 17 November, 2025; originally announced November 2025.
+
+15.   Structurally Refined Graph Transformer for Multimodal Recommendation
+
+Authors:[Ke Shi](https://arxiv.org/search/?searchtype=author&query=Shi%2C+K), [Yan Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+Y), [Miao Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+M), [Lifan Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+L), [Jiali Yi](https://arxiv.org/search/?searchtype=author&query=Yi%2C+J), [Kui Xiao](https://arxiv.org/search/?searchtype=author&query=Xiao%2C+K), [Xiaoju Hou](https://arxiv.org/search/?searchtype=author&query=Hou%2C+X), [Zhifei Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+Z)
+
+Abstract:  …items, limiting the model's ability to meet diverse users. To address these challenges, we present SRGFormer, a structurally optimized multimodal recommendation model. By modifying the transformer for better integration into our model, we capture the overall behavior patterns of users. Then, we enhance structural information by embedding multimodal infor… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 1 November, 2025; originally announced November 2025.
+
+16.   Toward First-Principles Multi-Messenger Predictions: Coupling Nuclear Networks with GR Radiation-MHD in {\tt Gmunu}
+
+Authors:[Patrick Chi-Kit Cheong](https://arxiv.org/search/?searchtype=author&query=Cheong%2C+P+C), [Christopher L. Fryer](https://arxiv.org/search/?searchtype=author&query=Fryer%2C+C+L)
+
+Abstract:  We present a new implementation of nuclear reaction networks in the \texttt{G}eneral-relativistic \texttt{mu}ltigrid \texttt{nu}merical (\texttt{Gmunu}) code, a framework for general relativistic radiation magnetohydrodynamics (GRRMHD). The extended… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 14 October, 2025; originally announced October 2025.
+
+17.   Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation
+
+Authors:[Muhammad Ali Shafique](https://arxiv.org/search/?searchtype=author&query=Shafique%2C+M+A), [Kanwal Mehreen](https://arxiv.org/search/?searchtype=author&query=Mehreen%2C+K), [Muhammad Arham](https://arxiv.org/search/?searchtype=author&query=Arham%2C+M), [Maaz Amjad](https://arxiv.org/search/?searchtype=author&query=Amjad%2C+M), [Sabur Butt](https://arxiv.org/search/?searchtype=author&query=Butt%2C+S), [Hamza Farooq](https://arxiv.org/search/?searchtype=author&query=Farooq%2C+H)
+
+Abstract:  …model, that tackles these challenges with a unique approach. We train the model on a high-quality, multilingual synthetic dataset (Urdu-Instruct), developed using a modified self-instruct technique. By using unique prompts and seed values for each task along with a global task pool, this dataset incorporates Urdu-nativ… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 10 October, 2025; originally announced October 2025.
+
+18.   A-MemGuard: A Proactive Defense Framework for LLM-Based Agent Memory
+
+Authors:[Qianshan Wei](https://arxiv.org/search/?searchtype=author&query=Wei%2C+Q), [Tengchao Yang](https://arxiv.org/search/?searchtype=author&query=Yang%2C+T), [Yaochen Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+Y), [Xinfeng Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+X), [Lijun Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+L), [Zhenfei Yin](https://arxiv.org/search/?searchtype=author&query=Yin%2C+Z), [Yi Zhan](https://arxiv.org/search/?searchtype=author&query=Zhan%2C+Y), [Thorsten Holz](https://arxiv.org/search/?searchtype=author&query=Holz%2C+T), [Zhiqiang Lin](https://arxiv.org/search/?searchtype=author&query=Lin%2C+Z), [XiaoFeng Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+X)
+
+Abstract:  …activated within a specific context, making them hard to detect when individual memory entries are audited in isolation. Second, once triggered, the manipulation can initiate a self-reinforcing error cycle: the corrupted outcome is stored as precedent, which not only amplifies the initial error but also progressively lowers the threshold for similar attacks… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 29 September, 2025; originally announced October 2025.
+
+19.   To Remember, To Adapt, To Preempt: A Stable Continual Test-Time Adaptation Framework for Remote Physiological Measurement in Dynamic Domain Shifts
+
+Authors:[Shuyang Chu](https://arxiv.org/search/?searchtype=author&query=Chu%2C+S), [Jingang Shi](https://arxiv.org/search/?searchtype=author&query=Shi%2C+J), [Xu Cheng](https://arxiv.org/search/?searchtype=author&query=Cheng%2C+X), [Haoyu Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+H), [Xin Liu](https://arxiv.org/search/?searchtype=author&query=Liu%2C+X), [Jian Xu](https://arxiv.org/search/?searchtype=author&query=Xu%2C+J), [Guoying Zhao](https://arxiv.org/search/?searchtype=author&query=Zhao%2C+G)
+
+Abstract:  …struggle to bridge the gap between source and target domains. Recent test-time adaptation (TTA) solutions typically optimize rPPG model for the incoming test videos using self-training loss under an unrealistic assumption that the target domain remains stationary. However, time-varying factors like weather and lighting in dynamic environments often cause con… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 30 September, 2025; originally announced October 2025.
+
+20.   Automated Code Development for PDE Solvers Using Large Language Models
+
+Authors:[Haoyang Wu](https://arxiv.org/search/?searchtype=author&query=Wu%2C+H), [Xinxin Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+X), [Lailai Zhu](https://arxiv.org/search/?searchtype=author&query=Zhu%2C+L)
+
+Abstract:  …growing interest. Yet existing studies mainly automate case setup and execution for end users. We introduce LLM-PDEveloper, a zero-shot, multi-agent LLM framework that automates code development for PDE libraries, specifically targeting secondary developers. By translating mathematical and algorithmic descriptions directly into source… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 8 August, 2025; originally announced September 2025.
+
+21.   Graph Your Own Prompt
+
+Authors:[Xi Ding](https://arxiv.org/search/?searchtype=author&query=Ding%2C+X), [Lei Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+L), [Piotr Koniusz](https://arxiv.org/search/?searchtype=author&query=Koniusz%2C+P), [Yongsheng Gao](https://arxiv.org/search/?searchtype=author&query=Gao%2C+Y)
+
+Abstract:  …graph structures, derived from model predictions, into the learning process to promote class-aware, semantically meaningful feature representations. Functioning as a form of self-prompting, GCR enables the model to refine its internal structure using its own outputs. While deep networks learn rich representations, these often capture noisy inter-class simila… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 12 October, 2025; v1 submitted 27 September, 2025; originally announced September 2025.
+
+22.   Post-Hoc Split-Point Self-Consistency Verification for Efficient, Unified Quantification of Aleatoric and Epistemic Uncertainty in Deep Learning
+
+Authors:[Zhizhong Zhao](https://arxiv.org/search/?searchtype=author&query=Zhao%2C+Z), [Ke Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+K)
+
+Abstract:  …such as single-forward-pass techniques. In this paper, we propose a post-hoc single-forward-pass framework that jointly captures aleatoric and epistemic uncertainty without modifying or retraining pretrained models. Our method applies \emph{Split-Point Analysis} (SPA) to decompose predictive residuals into upper and lower subsets, computing \emph{Mean Absol… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 17 September, 2025; v1 submitted 16 September, 2025; originally announced September 2025.
+
+23.   End-to-End Visual Autonomous Parking via Control-Aided Attention
+
+Authors:[Chao Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+C), [Shunyu Yao](https://arxiv.org/search/?searchtype=author&query=Yao%2C+S), [Yuanwu He](https://arxiv.org/search/?searchtype=author&query=He%2C+Y), [Feng Tao](https://arxiv.org/search/?searchtype=author&query=Tao%2C+F), [Ruojing Song](https://arxiv.org/search/?searchtype=author&query=Song%2C+R), [Yuliang Guo](https://arxiv.org/search/?searchtype=author&query=Guo%2C+Y), [Xinyu Huang](https://arxiv.org/search/?searchtype=author&query=Huang%2C+X), [Chenxu Wu](https://arxiv.org/search/?searchtype=author&query=Wu%2C+C), [Liu Ren](https://arxiv.org/search/?searchtype=author&query=Ren%2C+L), [Chen Feng](https://arxiv.org/search/?searchtype=author&query=Feng%2C+C)
+
+Abstract:  …learning system that allows control signal to guide the learning of visual attention via a novel Control-Aided Attention (CAA) mechanism. We train such an attention module in a self-supervised manner, using backpropagated gradients from the control outputs instead of from the training loss. This strategy encourages attention to focus on visual features that… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 23 November, 2025; v1 submitted 14 September, 2025; originally announced September 2025.
+
+24.   LLMs Don't Know Their Own Decision Boundaries: The Unreliability of Self-Generated Counterfactual Explanations
+
+Authors:[Harry Mayne](https://arxiv.org/search/?searchtype=author&query=Mayne%2C+H), [Ryan Othniel Kearns](https://arxiv.org/search/?searchtype=author&query=Kearns%2C+R+O), [Yushi Yang](https://arxiv.org/search/?searchtype=author&query=Yang%2C+Y), [Andrew M. Bean](https://arxiv.org/search/?searchtype=author&query=Bean%2C+A+M), [Eoin Delaney](https://arxiv.org/search/?searchtype=author&query=Delaney%2C+E), [Chris Russell](https://arxiv.org/search/?searchtype=author&query=Russell%2C+C), [Adam Mahdi](https://arxiv.org/search/?searchtype=author&query=Mahdi%2C+A)
+
+Abstract:  To collaborate effectively with humans, language models must be able to explain their decisions in natural language. We study a specific type of self-explanation:… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 11 September, 2025; originally announced September 2025.
+
+25.   Simulations of Flare Chemistry in Brown Dwarf Companions to Active M Dwarfs
+
+Authors:[Aidan Gibbs](https://arxiv.org/search/?searchtype=author&query=Gibbs%2C+A), [Michael P. Fitzgerald](https://arxiv.org/search/?searchtype=author&query=Fitzgerald%2C+M+P)
+
+Abstract:  …and structural changes in an extrasolar planet-like atmosphere. To assess the viability of directly observing flare impacts in the atmosphere of a brown dwarf, we perform self-consistent temperature-chemistry modeling of the atmospheric response to individual energetic superflares. We… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 8 September, 2025; originally announced September 2025.
+
+26.   The Structure and Interpretation of Quantum Programs I: Foundations
+
+Authors:[David Wakeham](https://arxiv.org/search/?searchtype=author&query=Wakeham%2C+D)
+
+Abstract:  …and re-deriving the Bloch sphere as the set of all consistent correlations of operators in the Pauli algebra. We then turn to intervention, showing how measurement modifies state, proving an operator-algebraic version of the Knill-Laflamme conditions, and expressing stabilizer… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 3 September, 2025; originally announced September 2025.
+
+27.   Social-MAE: A Transformer-Based Multimodal Autoencoder for Face and Voice
+
+Authors:[Hugo Bohy](https://arxiv.org/search/?searchtype=author&query=Bohy%2C+H), [Minh Tran](https://arxiv.org/search/?searchtype=author&query=Tran%2C+M), [Kevin El Haddad](https://arxiv.org/search/?searchtype=author&query=Haddad%2C+K+E), [Thierry Dutoit](https://arxiv.org/search/?searchtype=author&query=Dutoit%2C+T), [Mohammad Soleymani](https://arxiv.org/search/?searchtype=author&query=Soleymani%2C+M)
+
+Abstract:  …Masked Autoencoder based on an extended version of Contrastive Audio-Visual Masked Auto-Encoder (CAV-MAE), which is pre-trained on audiovisual social data. Specifically, we modify CAV-MAE to receive a larger number of frames as input and pre-train it on a large dataset of human social interaction (VoxCeleb2) in a… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 24 August, 2025; originally announced August 2025.
+
+28.   SSFO: Self-Supervised Faithfulness Optimization for Retrieval-Augmented Generation
+
+Authors:[Xiaqiang Tang](https://arxiv.org/search/?searchtype=author&query=Tang%2C+X), [Yi Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+Y), [Keyu Hu](https://arxiv.org/search/?searchtype=author&query=Hu%2C+K), [Rui Xu](https://arxiv.org/search/?searchtype=author&query=Xu%2C+R), [Chuang Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+C), [Weigao Sun](https://arxiv.org/search/?searchtype=author&query=Sun%2C+W), [Jian Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+J), [Sihong Xie](https://arxiv.org/search/?searchtype=author&query=Xie%2C+S)
+
+Abstract:  …a critical challenge, as existing methods often require costly supervision and post-training or significant inference burdens. To overcome these limitations, we introduce Self-Supervised Faithfulness Optimization (SSFO), the first… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 4 October, 2025; v1 submitted 24 August, 2025; originally announced August 2025.
+
+29.   Exploring Scaling Laws of CTR Model for Online Performance Improvement
+
+Authors:[Weijiang Lai](https://arxiv.org/search/?searchtype=author&query=Lai%2C+W), [Beihong Jin](https://arxiv.org/search/?searchtype=author&query=Jin%2C+B), [Jiongyan Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+J), [Yiyuan Zheng](https://arxiv.org/search/?searchtype=author&query=Zheng%2C+Y), [Jian Dong](https://arxiv.org/search/?searchtype=author&query=Dong%2C+J), [Jia Cheng](https://arxiv.org/search/?searchtype=author&query=Cheng%2C+J), [Jun Lei](https://arxiv.org/search/?searchtype=author&query=Lei%2C+J), [Xingxing Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+X)
+
+Abstract:  …paving the way for performance improvement. In order to benefit from the high performance of the high-grade SUAN and avoid the disadvantage of its long inference time, we modify the SUAN with sparse… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 19 September, 2025; v1 submitted 21 August, 2025; originally announced August 2025.
+
+30.   LL3M: Large Language 3D Modelers
+
+Authors:[Sining Lu](https://arxiv.org/search/?searchtype=author&query=Lu%2C+S), [Guan Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+G), [Nam Anh Dinh](https://arxiv.org/search/?searchtype=author&query=Dinh%2C+N+A), [Itai Lang](https://arxiv.org/search/?searchtype=author&query=Lang%2C+I), [Ari Holtzman](https://arxiv.org/search/?searchtype=author&query=Holtzman%2C+A), [Rana Hanocka](https://arxiv.org/search/?searchtype=author&query=Hanocka%2C+R)
+
+Abstract:  We present LL3M, a multi-agent system that leverages pretrained large language models (LLMs) to generate 3D assets by writing interpretable Python code in Blender. We break away from the typical generative approach that learns from a collection of 3D data. Instead, we reformulate shape generation as a… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 11 August, 2025; originally announced August 2025.
+
+31.   Aligning Language Models with Real-time Knowledge Editing
+
+Authors:[Chenming Tang](https://arxiv.org/search/?searchtype=author&query=Tang%2C+C), [Yutong Yang](https://arxiv.org/search/?searchtype=author&query=Yang%2C+Y), [Kexue Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+K), [Yunfang Wu](https://arxiv.org/search/?searchtype=author&query=Wu%2C+Y)
+
+Abstract:  Knowledge editing aims to modify outdated knowledge in large language models (LLMs) efficiently while retaining their original capabilities. Mainstream benchmarks for knowledge editing are predominantly static and fail to keep in pace with the evolving real-world knowledge. In this work, we introduce CRAFT, an ever-evolving real-world benchmark for knowledge… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 7 October, 2025; v1 submitted 2 August, 2025; originally announced August 2025.
+
+32.   Fixed-Point-Oriented Programming: A Concise and Elegant Paradigm
+
+Authors:[Yong Qi Foo](https://arxiv.org/search/?searchtype=author&query=Foo%2C+Y+Q), [Brian Sze-Kai Cheong](https://arxiv.org/search/?searchtype=author&query=Cheong%2C+B+S), [Michael D. Adams](https://arxiv.org/search/?searchtype=author&query=Adams%2C+M+D)
+
+Abstract:  Fixed-Point-Oriented Programming (FPOP) is an emerging paradigm designed to streamline the implementation of problems involving self-referential computations. These include graph algorithms, static analysis, parsing, and distributed computing-domains that traditionally require complex and tricky-to-implement work-queue algorithms. Existing programming paradi… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 28 July, 2025; originally announced July 2025.
+
+33.   X-RAFT: Cross-Modal Non-Rigid Registration of Blue and White Light Neurosurgical Hyperspectral Images
+
+Authors:[Charlie Budd](https://arxiv.org/search/?searchtype=author&query=Budd%2C+C), [Silvère Ségaud](https://arxiv.org/search/?searchtype=author&query=S%C3%A9gaud%2C+S), [Matthew Elliot](https://arxiv.org/search/?searchtype=author&query=Elliot%2C+M), [Graeme Stasiuk](https://arxiv.org/search/?searchtype=author&query=Stasiuk%2C+G), [Yijing Xie](https://arxiv.org/search/?searchtype=author&query=Xie%2C+Y), [Jonathan Shapey](https://arxiv.org/search/?searchtype=author&query=Shapey%2C+J), [Tom Vercauteren](https://arxiv.org/search/?searchtype=author&query=Vercauteren%2C+T)
+
+Abstract:  …these drastically different lighting conditions. We address this challenge with the introduction of X-RAFT, a Recurrent All-Pairs Field Transforms (RAFT) optical flow model modified for cross-modal inputs. We propose using distinct image encoders for each modality pair, and fine-tune these in a… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 10 July, 2025; originally announced July 2025.
+
+34.   Impact of rotation on synthetic mass-radius relationships of two-layer rocky planets and water worlds
+
+Authors:[J. -M. Huré](https://arxiv.org/search/?searchtype=author&query=Hur%C3%A9%2C+J+-), [P. Noé](https://arxiv.org/search/?searchtype=author&query=No%C3%A9%2C+P), [C. Staelen](https://arxiv.org/search/?searchtype=author&query=Staelen%2C+C), [E. Di Folco](https://arxiv.org/search/?searchtype=author&query=Di+Folco%2C+E)
+
+Abstract:  …for single-layer and two-layer planets having a core and an envelope made of pure materials among iron, perovskite and water in solid phase. The numerical surveys use the DROP code updated with a modified polytropic equation-of-state (EOS) and investigate flattening parameters f up to 0.2. In the mass range… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 2 July, 2025; originally announced July 2025.
+
+35.   The Safety Reminder: A Soft Prompt to Reactivate Delayed Safety Awareness in Vision-Language Models
+
+Authors:[Peiyuan Tang](https://arxiv.org/search/?searchtype=author&query=Tang%2C+P), [Haojie Xin](https://arxiv.org/search/?searchtype=author&query=Xin%2C+H), [Xiaodong Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+X), [Jun Sun](https://arxiv.org/search/?searchtype=author&query=Sun%2C+J), [Qin Xia](https://arxiv.org/search/?searchtype=author&query=Xia%2C+Q), [Zijiang Yang](https://arxiv.org/search/?searchtype=author&query=Yang%2C+Z)
+
+Abstract:  As Vision-Language Models (VLMs) demonstrate increasing capabilities across real-world applications such as code generation and chatbot assistance, ensuring their safety has become paramount. Unlike traditional Large Language Models (LLMs), VLMs face unique vulnerabilities due to their multimodal nature, allowing adversaries to… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 15 June, 2025; originally announced June 2025.
+
+36.   FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation
+
+Authors:[Qinggang Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+Q), [Zhishang Xiang](https://arxiv.org/search/?searchtype=author&query=Xiang%2C+Z), [Yilin Xiao](https://arxiv.org/search/?searchtype=author&query=Xiao%2C+Y), [Le Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+L), [Junhui Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+J), [Xinrun Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+X), [Jinsong Su](https://arxiv.org/search/?searchtype=author&query=Su%2C+J)
+
+Abstract:  …the retrieved context conflicts with the model`s parametric knowledge. While existing faithful RAG approaches enforce strict context adherence through well-designed prompts or modified decoding strategies, our analysis reveals a critical limitation: they achieve faithfulness by forcibly suppressing the model`s parametric knowledge, which undermines the model… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 8 July, 2025; v1 submitted 10 June, 2025; originally announced June 2025.
+
+37.   SeerAttention-R: Sparse Attention Adaptation for Long Reasoning
+
+Authors:[Yizhao Gao](https://arxiv.org/search/?searchtype=author&query=Gao%2C+Y), [Shuming Guo](https://arxiv.org/search/?searchtype=author&query=Guo%2C+S), [Shijie Cao](https://arxiv.org/search/?searchtype=author&query=Cao%2C+S), [Yuqing Xia](https://arxiv.org/search/?searchtype=author&query=Xia%2C+Y), [Yu Cheng](https://arxiv.org/search/?searchtype=author&query=Cheng%2C+Y), [Lei Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+L), [Lingxiao Ma](https://arxiv.org/search/?searchtype=author&query=Ma%2C+L), [Yutao Sun](https://arxiv.org/search/?searchtype=author&query=Sun%2C+Y), [Tianzhu Ye](https://arxiv.org/search/?searchtype=author&query=Ye%2C+T), [Li Dong](https://arxiv.org/search/?searchtype=author&query=Dong%2C+L), [Hayden Kwok-Hay So](https://arxiv.org/search/?searchtype=author&query=So%2C+H+K), [Yu Hua](https://arxiv.org/search/?searchtype=author&query=Hua%2C+Y), [Ting Cao](https://arxiv.org/search/?searchtype=author&query=Cao%2C+T), [Fan Yang](https://arxiv.org/search/?searchtype=author&query=Yang%2C+F), [Mao Yang](https://arxiv.org/search/?searchtype=author&query=Yang%2C+M)
+
+Abstract:  …specifically tailored for the long decoding of reasoning models. Extended from SeerAttention, SeerAttention-R retains the design of learning attention sparsity through a self-distilled gating mechanism, while removing query pooling to accommodate auto-regressive decoding. With a lightweight plug-in gating, SeerAttention-R is flexible and can be easily integr… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 10 June, 2025; originally announced June 2025.
+
+38.   SELT: Self-Evaluation Tree Search for LLMs with Task Decomposition
+
+Authors:[Mengsong Wu](https://arxiv.org/search/?searchtype=author&query=Wu%2C+M), [Di Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+D), [Yuqiang Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+Y), [Dongzhan Zhou](https://arxiv.org/search/?searchtype=author&query=Zhou%2C+D), [Wenliang Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+W)
+
+Abstract:  …Models (LLMs) have achieved remarkable success in a wide range of applications, their performance often degrades in complex reasoning tasks. In this work, we introduce SELT (Self-Evaluation LLM Tree Search), a novel framework that leverages a… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 9 June, 2025; originally announced June 2025.
+
+39.   ProxyThinker: Test-Time Guidance through Small Visual Reasoners
+
+Authors:[Zilin Xiao](https://arxiv.org/search/?searchtype=author&query=Xiao%2C+Z), [Jaywon Koo](https://arxiv.org/search/?searchtype=author&query=Koo%2C+J), [Siru Ouyang](https://arxiv.org/search/?searchtype=author&query=Ouyang%2C+S), [Jefferson Hernandez](https://arxiv.org/search/?searchtype=author&query=Hernandez%2C+J), [Yu Meng](https://arxiv.org/search/?searchtype=author&query=Meng%2C+Y), [Vicente Ordonez](https://arxiv.org/search/?searchtype=author&query=Ordonez%2C+V)
+
+Abstract:  …capabilities from small, slow-thinking visual reasoners without any training. By subtracting the output distributions of base models from those of RFT reasoners, ProxyThinker modifies the decoding dynamics and successfully elicits the slow-thinking reasoning demonstrated by the emerged sophisticated behaviors such as… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 26 September, 2025; v1 submitted 30 May, 2025; originally announced May 2025.
+
+40.   Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents
+
+Authors:[Jenny Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+J), [Shengran Hu](https://arxiv.org/search/?searchtype=author&query=Hu%2C+S), [Cong Lu](https://arxiv.org/search/?searchtype=author&query=Lu%2C+C), [Robert Lange](https://arxiv.org/search/?searchtype=author&query=Lange%2C+R), [Jeff Clune](https://arxiv.org/search/?searchtype=author&query=Clune%2C+J)
+
+Abstract:  …of novel algorithms, but is limited by first-order improvements and the human design of a suitable search space. The Gödel machine proposed a theoretical alternative: a self-improving AI that repeatedly… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 26 September, 2025; v1 submitted 28 May, 2025; originally announced May 2025.
+
+41.   AudioMorphix: Training-free audio editing with diffusion probabilistic models
+
+Authors:[Jinhua Liang](https://arxiv.org/search/?searchtype=author&query=Liang%2C+J), [Yuanzhe Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+Y), [Yi Yuan](https://arxiv.org/search/?searchtype=author&query=Yuan%2C+Y), [Dongya Jia](https://arxiv.org/search/?searchtype=author&query=Jia%2C+D), [Xiaobin Zhuang](https://arxiv.org/search/?searchtype=author&query=Zhuang%2C+X), [Zhuo Chen](https://arxiv.org/search/?searchtype=author&query=Chen%2C+Z), [Yuping Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+Y), [Yuxuan Wang](https://arxiv.org/search/?searchtype=author&query=Wang%2C+Y)
+
+Abstract:  …crucial yet underexplored challenge in audio content creation. While existing works can manipulate sounds by text instructions or audio exemplar pairs, they often struggled to modify audio content precisely while preserving fidelity to the original recording. In this work, we introduce a novel editing approach that enables localized modifications to specific… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 21 May, 2025; originally announced May 2025.
+
+42.   Core Collapse Beyond the Fluid Approximation: The Late Evolution of Self-Interacting Dark Matter Halos
+
+Authors:[James Gurian](https://arxiv.org/search/?searchtype=author&query=Gurian%2C+J), [Simon May](https://arxiv.org/search/?searchtype=author&query=May%2C+S)
+
+Abstract:  We show that the gravothermal collapse of self-interacting dark matter (SIDM) halos can deviate from local thermodynamic equilibrium. As a consequence, the… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 8 December, 2025; v1 submitted 21 May, 2025; originally announced May 2025.
+
+43.   Efficient Calculation of Modified Bessel Functions of the First Kind, I_ν (z), for Real Orders and Complex Arguments: Fortran Implementation with Double and Quadruple Precision
+
+Authors:[Mofreh R. Zaghloul](https://arxiv.org/search/?searchtype=author&query=Zaghloul%2C+M+R), [Steven G. Johnson](https://arxiv.org/search/?searchtype=author&query=Johnson%2C+S+G)
+
+Abstract:  We present an efficient self-contained algorithm for computing the modified Bessel function of the first kind I_ν(z), implemented in a robust Fortran code supporting double and quadruple (quad) precision. The algorithm overcomes the limitations of Algorithm 644, which is restri… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 14 May, 2025; originally announced May 2025.
+
+44.   Image Restoration via Multi-domain Learning
+
+Authors:[Xingyu Jiang](https://arxiv.org/search/?searchtype=author&query=Jiang%2C+X), [Ning Gao](https://arxiv.org/search/?searchtype=author&query=Gao%2C+N), [Xiuhui Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+X), [Hongkun Dou](https://arxiv.org/search/?searchtype=author&query=Dou%2C+H), [Shaowen Fu](https://arxiv.org/search/?searchtype=author&query=Fu%2C+S), [Xiaoqing Zhong](https://arxiv.org/search/?searchtype=author&query=Zhong%2C+X), [Hongjue Li](https://arxiv.org/search/?searchtype=author&query=Li%2C+H), [Yue Deng](https://arxiv.org/search/?searchtype=author&query=Deng%2C+Y)
+
+Abstract:  …for both training and real-time deployment. Furthermore, instead of investigating the commonalities among different degradations, most existing restoration methods focus on modifying Transformer under limited restoration priors. In this work, we first review various degradation phenomena under multi-domain perspective, identifying common priors. Then, we int… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 7 May, 2025; originally announced May 2025.
+
+45.   Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling
+
+Authors:[Tsung-Han Wu](https://arxiv.org/search/?searchtype=author&query=Wu%2C+T), [Heekyung Lee](https://arxiv.org/search/?searchtype=author&query=Lee%2C+H), [Jiaxin Ge](https://arxiv.org/search/?searchtype=author&query=Ge%2C+J), [Joseph E. Gonzalez](https://arxiv.org/search/?searchtype=author&query=Gonzalez%2C+J+E), [Trevor Darrell](https://arxiv.org/search/?searchtype=author&query=Darrell%2C+T), [David M. Chan](https://arxiv.org/search/?searchtype=author&query=Chan%2C+D+M)
+
+Abstract:  …posing significant risks in safety-critical applications. Existing hallucination mitigation methods typically follow one of two paradigms: generation adjustment, which modifies decoding behavior to align text with visual inputs, and post-hoc verification, where external models assess and correct outputs. While effective, generation adjustment methods often… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 19 October, 2025; v1 submitted 17 April, 2025; originally announced April 2025.
+
+46.   Co-STAR: Collaborative Curriculum Self-Training with Adaptive Regularization for Source-Free Video Domain Adaptation
+
+Authors:[Amirhossein Dadashzadeh](https://arxiv.org/search/?searchtype=author&query=Dadashzadeh%2C+A), [Parsa Esmati](https://arxiv.org/search/?searchtype=author&query=Esmati%2C+P), [Majid Mirmehdi](https://arxiv.org/search/?searchtype=author&query=Mirmehdi%2C+M)
+
+Abstract:  …predictions limit their effectiveness in adapting well across domains. We propose Co-STAR, a novel framework that integrates curriculum learning with collaborative self-training between a source-trained teacher and a contrastive vision-language model (CLIP). Our curriculum learning approach employs a reliability-based weight function that measures bidirectio… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 22 September, 2025; v1 submitted 15 April, 2025; originally announced April 2025.
+
+47.   Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory
+
+Authors:[Mirac Suzgun](https://arxiv.org/search/?searchtype=author&query=Suzgun%2C+M), [Mert Yuksekgonul](https://arxiv.org/search/?searchtype=author&query=Yuksekgonul%2C+M), [Federico Bianchi](https://arxiv.org/search/?searchtype=author&query=Bianchi%2C+F), [Dan Jurafsky](https://arxiv.org/search/?searchtype=author&query=Jurafsky%2C+D), [James Zou](https://arxiv.org/search/?searchtype=author&query=Zou%2C+J)
+
+Abstract:  …persistent, evolving memory. Rather than repeatedly re-discovering or re-committing the same solutions and mistakes, DC enables models to store and reuse accumulated strategies, code snippets, and general problem-solving insights at inference time. This test-time learning enhances performance substantially across a range of tasks without needing explicit gro… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 10 April, 2025; originally announced April 2025.
+
+48.   SRLCG: Self-Rectified Large-Scale Code Generation with Multidimensional Chain-of-Thought and Dynamic Backtracking
+
+Authors:[Hongru Ma](https://arxiv.org/search/?searchtype=author&query=Ma%2C+H), [Yanjie Liang](https://arxiv.org/search/?searchtype=author&query=Liang%2C+Y), [Jiasheng Si](https://arxiv.org/search/?searchtype=author&query=Si%2C+J), [Weiyu Zhang](https://arxiv.org/search/?searchtype=author&query=Zhang%2C+W), [Hongjiao Guan](https://arxiv.org/search/?searchtype=author&query=Guan%2C+H), [Chaoqun Zheng](https://arxiv.org/search/?searchtype=author&query=Zheng%2C+C), [Bing Xu](https://arxiv.org/search/?searchtype=author&query=Xu%2C+B), [Wenpeng Lu](https://arxiv.org/search/?searchtype=author&query=Lu%2C+W)
+
+Abstract:  Large language models (LLMs) have revolutionized code generation, significantly enhancing developer productivity. However, for a vast number of users with minimal… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 1 April, 2025; originally announced April 2025.
+
+49.   LOCATEdit: Graph Laplacian Optimized Cross Attention for Localized Text-Guided Image Editing
+
+Authors:[Achint Soni](https://arxiv.org/search/?searchtype=author&query=Soni%2C+A), [Meet Soni](https://arxiv.org/search/?searchtype=author&query=Soni%2C+M), [Sirisha Rambhatla](https://arxiv.org/search/?searchtype=author&query=Rambhatla%2C+S)
+
+Abstract:  Text-guided image editing aims to modify specific regions of an image according to natural language instructions while maintaining the general structure and the background fidelity. Existing methods utilize masks derived from cross-attention maps generated from diffusion models to identify the target regions for modification. However, since cross-attention m… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 28 March, 2025; v1 submitted 27 March, 2025; originally announced March 2025.
+
+50.   Efficient Action-Constrained Reinforcement Learning via Acceptance-Rejection Method and Augmented MDPs
+
+Authors:[Wei Hung](https://arxiv.org/search/?searchtype=author&query=Hung%2C+W), [Shao-Hua Sun](https://arxiv.org/search/?searchtype=author&query=Sun%2C+S), [Ping-Chun Hsieh](https://arxiv.org/search/?searchtype=author&query=Hsieh%2C+P)
+
+Abstract:  …(i) To enforce the action constraints, we leverage the classic acceptance-rejection method, where we treat the unconstrained policy as the proposal distribution and derive a modified policy with feasible actions. (ii) To improve the acceptance rate of the proposal distribution, we construct an augmented two-objective Markov decision process (MDP), which incl… [▽ More](http://arxiv.org/search/?query=self-modifying+code&searchtype=all)
+
+Submitted 17 March, 2025; originally announced March 2025.

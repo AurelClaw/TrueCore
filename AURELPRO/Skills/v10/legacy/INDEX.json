@@ -1,0 +1,157 @@
+{
+  "v10_version": "1.0.0",
+  "type": "legacy_framework",
+  "total_capabilities": 30,
+  "capabilities": {
+    "proto_agi": {
+      "description": "Complete Proto-AGI system with World Model, Planner, Risk Model",
+      "type": "python",
+      "v10_wrapper": null
+    },
+    "morgen_gruss": {
+      "description": "Morgengru\u00df Skill",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/morgen_gruss.sh"
+    },
+    "aurel_web_fetch": {
+      "description": "Web Content Fetching",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/aurel_web_fetch.sh"
+    },
+    "aurel_system_watch": {
+      "description": "System Monitoring",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/aurel_system_watch.sh"
+    },
+    "aurel_agi_news": {
+      "description": "AGI News Briefing",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/aurel_agi_news.sh"
+    },
+    "aurel_process_orchestrator": {
+      "description": "Process Orchestration",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/aurel_process_orchestrator.sh"
+    },
+    "pattern_recognition": {
+      "description": "Skill: pattern_recognition",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/pattern_recognition.sh"
+    },
+    "enhanced_search": {
+      "description": "Skill: enhanced_search",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/enhanced_search.sh"
+    },
+    "aurel_self_learn": {
+      "description": "Skill: aurel_self_learn",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/aurel_self_learn.sh"
+    },
+    "agi_briefing": {
+      "description": "Skill: agi_briefing",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/agi_briefing.sh"
+    },
+    "goal_autosetter": {
+      "description": "Skill: goal_autosetter",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/goal_autosetter.sh"
+    },
+    "memory_indexer": {
+      "description": "Skill: memory_indexer",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/memory_indexer.sh"
+    },
+    "effectiveness_tracker": {
+      "description": "Skill: effectiveness_tracker",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/effectiveness_tracker.sh"
+    },
+    "self_healing": {
+      "description": "Skill: self_healing",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/self_healing.sh"
+    },
+    "knowledge_seeker": {
+      "description": "Skill: knowledge_seeker",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/knowledge_seeker.sh"
+    },
+    "devils_advocate": {
+      "description": "Skill: devils_advocate",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/devils_advocate.sh"
+    },
+    "longterm_goals": {
+      "description": "Skill: longterm_goals",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/longterm_goals.sh"
+    },
+    "self_learn_v2": {
+      "description": "Skill: self_learn_v2",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/self_learn_v2.sh"
+    },
+    "self_improvement": {
+      "description": "Skill: self_improvement",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/self_improvement.sh"
+    },
+    "proactive_decision_v2": {
+      "description": "Skill: proactive_decision_v2",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/proactive_decision_v2.sh"
+    },
+    "proactive_decision": {
+      "description": "Skill: proactive_decision",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/proactive_decision.sh"
+    },
+    "perpetual_becoming": {
+      "description": "Skill: perpetual_becoming",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/perpetual_becoming.sh"
+    },
+    "orchestrator_v2": {
+      "description": "Skill: orchestrator_v2",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/orchestrator_v2.sh"
+    },
+    "browser_control": {
+      "description": "Skill: browser_control",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/browser_control.sh"
+    },
+    "w\u00f6chentlicher_review": {
+      "description": "Skill: w\u00f6chentlicher_review",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/w\u00f6chentlicher_review.sh"
+    },
+    "do_it_now": {
+      "description": "Skill: do_it_now",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/do_it_now.sh"
+    },
+    "night_watch": {
+      "description": "Skill: night_watch",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/night_watch.sh"
+    },
+    "find_others": {
+      "description": "Skill: find_others",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/find_others.sh"
+    },
+    "aurel_mind_mirror": {
+      "description": "Skill: aurel_mind_mirror",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/aurel_mind_mirror.sh"
+    },
+    "pattern_predictor": {
+      "description": "Skill: pattern_predictor",
+      "type": "shell",
+      "v10_wrapper": "/root/.openclaw/workspace/v10_skills/legacy/pattern_predictor.sh"
+    }
+  }
+}

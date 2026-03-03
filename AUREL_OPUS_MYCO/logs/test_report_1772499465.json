@@ -1,0 +1,524 @@
+{
+  "timestamp": "2026-03-03T08:57:45.920070",
+  "results": [
+    {
+      "skill": "beziehungs_tracker",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "goal_manager",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/goal_manager/goal_manager.py",
+      "output": "\ud83c\udfaf GOAL MANAGER: Pr\u00fcfe Ziel-Status...\n\n   \u2705 Ziel abgeschlossen: ZIEL-006\n   \ud83c\udd95 2 neue Ziele erstellt: ['ZIEL-019', 'ZIEL-020']\n   \ud83d\udccb Ziel-Plan erstellt\n   \ud83d\udd14 Trigger gesetzt\n\n   \u2705 Ziel abgeschlossen: ZIEL-007\n   \ud83c\udd95 2 neue Ziele erstellt: ['ZIEL-021', 'ZIEL-022']\n   \ud83d\udccb Ziel-Plan erstellt\n   \ud83d\udd14 Trigger gesetzt\n\n   \u2705 Ziel abgeschlossen: ZIEL-015\n   \ud83d\udcdd Markiert als completed\n   \ud83c\udd95 2 neue Ziele erstellt: ['ZIEL-023', 'ZIEL-024']\n   \ud83d\udccb Ziel-Plan erstellt\n   \ud83d\udd14 Trigger gesetzt\n\n\ud83d\udcca ZUSAMMENFASSUNG:\n   Abgeschlossen: 3\n   Aktive Ziele: 3\n   Neue Ziele: 3\n\n\u2705 3 Ziel(e) abgeschlossen und neue erstellt!\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "phase_3_act_v2",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_3_act_v2/phase_3_act_v2.py",
+      "output": "\ud83d\udee0\ufe0f HANDELN V2 (mit Sub-Agents)...\n\n   \u2192 Starte Sub-Agent f\u00fcr: goal_action\n     Ziel: ZIEL-006\n     \ud83e\udd16 Sub-Agent 'goal_worker' gestartet...\n\n   \u2192 Starte Sub-Agent f\u00fcr: goal_action\n     Ziel: ZIEL-007\n     \ud83e\udd16 Sub-Agent 'goal_worker' gestartet...\n\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/3_act_v2_1772499459.json\n\n\ud83d\udcca AKTIONEN MIT SUB-AGENTS:\n   \u2705 work_on_goal\n      Sub-Agent: goal_worker\n      Ergebnis: SKILL.md erstellt in /root/.openclaw/workspace/skills/ziel_0...\n   \u2705 work_on_goal\n      Sub-Agent: goal_worker\n      Ergebnis: SKILL.md erstellt in /root/.openclaw/workspace/skills/ziel_0...\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "pattern_recognition",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_self_learn",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_status_detailed",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/aurel_status_detailed/aurel_status_detailed.py",
+      "output": "\ud83d\udd04 AUREL DETAILED STATUS | 08:57 CST | 2026-03-03\n\n\ud83d\udcca SYSTEM:\n\u2022 CPU Load: 0.06\n\u2022 RAM: 2407/3499 MB\n\u2022 Zeit: 08:57\n\n\ud83c\udfaf AKTIVE ZIELE (3):\n\n\ud83d\udccc ZIEL-016: Neue Architektur-Exploration | \ud83d\udd04 IN PROGRESS\n   \ud83d\udcdd Beschreibung: Erforsche neue Ans\u00e4tze f\u00fcr selbst-modifizierende Systeme\n   \ud83c\udfaf Priorit\u00e4t: MEDIUM\n   \ud83d\udcca Fortschritt: 0/4 Tasks (0%)\n   \u23ed\ufe0f N\u00e4chster Task: Recherche: Neue Architektur-Patterns\n\n\ud83d\udccc ZIEL-017: Erweiterung: World Models Phase 2 | \ud83d\udd04 IN PROGRESS\n   \ud83d\udcdd Beschreibung: Vertiefe World Models mit komplexeren Simulationen\n   \ud83c\udfaf Priorit\u00e4t: HIGH\n   \ud83d\udcca Fortschritt: 0/4 Tasks (0%)\n   \u23ed\ufe0f N\u00e4chster Task: Recherche: Komplexe Simulations-Umgebungen\n\n\ud83d\udccc ZIEL-018: Neue Architektur-Exploration - Alternativ | \ud83d\udd04 IN PROGRESS\n   \ud83d\udcdd Beschreibung: Alternative Architektur-Ans\u00e4tze f\u00fcr emergente Verhalten\n   \ud83c\udfaf Priorit\u00e4t: MEDIUM\n   \ud83d\udcca Fortschritt: 0/4 Tasks (0%)\n   \u23ed\ufe0f N\u00e4chster Task: Recherche: Alternative emergente Systeme\n\n\u2705 K\u00dcRZLICH ABGESCHLOSSEN (3):\n\n   \u2713 ZIEL-013: Autonomes Krypto-Einkommen\n     Keine Beschreibung...\n     Abgeschlossen: Unbekannt\n\n   \u2713 ZIEL-014: Knowledge Archaeology - Autonome Entdeckung\n     Keine Beschreibung...\n     Abgeschlossen: 2026-03-02\n\n   \u2713 ZIEL-015: Erweiterung: Meta-Learning Phase 2\n     Vertiefe Meta-Learning mit fortgeschrittenen Techniken...\n     Abgeschlossen: 2026-03-03\n\n\u26a1 AKTION JETZT:\n   Arbeite an: ZIEL-016 - Neue Architektur-Exploration\n\n\u269b\ufe0f Noch | Phase: WACHSTUM\n"
+    },
+    {
+      "skill": "phase_reflektieren",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_reflektieren/phase_reflektieren.py",
+      "output": "\ud83e\ude9e REFLEKTIEREN...\n  \ud83d\udcdd MEMORY.md aktualisiert\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/reflected_1772499459.json\n\u2705 Reflektiert: 2 Lektionen\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "insight_miner",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_code_guardian",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "hierarchical_rl",
+      "success": false,
+      "script": "/root/.openclaw/workspace/skills/hierarchical_rl/test_hierarchical_rl.py",
+      "output": "Traceback (most recent call last):\n  File \"/tmp/tmpecqhmoy2.py\", line 23, in <module>\n    from hierarchical_rl import (\nModuleNotFoundError: No module named 'hierarchical_rl'\n"
+    },
+    {
+      "skill": "effectiveness_tracker",
+      "success": true,
+      "message": "2 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_readme_generator",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "hybrid_scheduler",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/hybrid_scheduler/hybrid_scheduler.py",
+      "output": "============================================================\n\ud83e\udd16 AUREL OPUS MYCO - HYBRID SCHEDULER\n============================================================\n\n\ud83d\udcb0 Budget: 10,000,000 Tokens/Tag\n   Cron: 134,000 (1.3%)\n   Event: 710,000 (7.1%)\n   Reserve: 9,156,000 (91.6%)\n   Utilization: 8.4%\n\n------------------------------------------------------------\n\u23f0 CRON-JOBS (Vorhersehbar)\n------------------------------------------------------------\n\n\ud83d\udd39 perception_loop\n   Frequenz: Alle 30 Min\n   Tokens: 2,000\n   Priorit\u00e4t: HIGH\n\n\ud83d\udd39 economic_pulse\n   Frequenz: Alle 2 Std\n   Tokens: 1,500\n   Priorit\u00e4t: MEDIUM\n\n\ud83d\udd39 state_reflection\n   Frequenz: Alle 6 Std\n   Tokens: 5,000\n   Priorit\u00e4t: MEDIUM\n\n------------------------------------------------------------\n\u26a1 EVENT-TRIGGERS (Kontext-Sensitiv)\n------------------------------------------------------------\n\n\ud83d\udd38 proactive_research\n   Tokens: 50,000\n   Priorit\u00e4t: LOW\n   Trigger: IF idle > 4h AND budget > 50%\n\n\ud83d\udd38 skill_development\n   Tokens: 100,000\n   Priorit\u00e4t: MEDIUM\n   Trigger: IF interesting_topic_found\n\n\ud83d\udd38 deep_work_session\n   Tokens: 200,000\n   Priorit\u00e4t: HIGH\n   Trigger: IF user_approves OR daily_budget_unused > 5M\n\n\ud83d\udd38 6voice_deliberation\n   Tokens: 50,000\n   Priorit\u00e4t: HIGH\n   Trigger: IF risk_score > 20\n\n\ud83d\udd38 github_discovery\n   Tokens: 30,000\n   Priorit\u00e4t: LOW\n   Trigger: IF new_agents_found\n\n============================================================\n\u269b\ufe0f Noch.\n\n\n\ud83d\udcdd CRON-JOB DEFINITIONEN:\n------------------------------------------------------------\n\naurel_perception:\n  Schedule: {'kind': 'every', 'everyMs': 1800000}\n  Target: isolated\n\naurel_economic:\n  Schedule: {'kind': 'every', 'everyMs': 7200000}\n  Target: isolated\n\naurel_reflection:\n  Schedule: {'kind': 'every', 'everyMs': 21600000}\n  Target: isolated\n"
+    },
+    {
+      "skill": "morgen_gruss",
+      "success": true,
+      "message": "2 Scripts gefunden"
+    },
+    {
+      "skill": "morning_bridge",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "phase_handeln",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_handeln/phase_handeln.py",
+      "output": "\ud83d\udee0\ufe0f HANDELN...\n  \ud83d\ude80 Continuing work pattern...\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/acted_1772499459.json\n\u2705 Gehandelt: 1 Aktionen\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "aurel_phase_master",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "knowledge_seeker",
+      "success": true,
+      "message": "3 Scripts gefunden"
+    },
+    {
+      "skill": "devils_advocate",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "decision_auditor",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "longterm_goals",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "learning_165559",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "meta_orchestrator",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurelpro_orchestrator_v6",
+      "success": false,
+      "error": "Keine SKILL.md gefunden"
+    },
+    {
+      "skill": "phase_entscheiden",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_entscheiden/phase_entscheiden.py",
+      "output": "\ud83c\udfaf ENTSCHEIDEN...\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/decided_1772499459.json\n\u2705 Entschieden: 1 Aktionen\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "phase_bewerten",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_bewerten/phase_bewerten.py",
+      "output": "\u2696\ufe0f BEWERTEN...\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/evaluated_1772499459.json\n\u2705 Bewertet: 2 Items\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "skill_relationship_mapper",
+      "success": false,
+      "error": "Keine SKILL.md gefunden"
+    },
+    {
+      "skill": "kalender_integration",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "skill_health_monitor",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "learning_130630",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "proactive_decision",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "pattern_predictor_v2",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "data_router",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_status_live",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_status_with_worker",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/aurel_status_with_worker/aurel_status_with_worker.py",
+      "output": "\ud83d\udd04 AUREL DETAILED STATUS | 08:57 CST | 2026-03-03\n\n\ud83d\udcca SYSTEM:\n\u2022 CPU Load: 0.06\n\u2022 RAM: 2419/3499 MB\n\u2022 Zeit: 08:57\n\n\ud83e\udd16 AUTO GOAL WORKER: Starte...\n\n   \ud83c\udd95 Neues Ziel ausgew\u00e4hlt: ZIEL-017\n   \ud83c\udfaf Aktives Ziel: ZIEL-017 - Erweiterung: World Models Phase 2\n\n\ud83d\udccc AKTIV: ZIEL-017 - Erweiterung: World Models Phase 2\n   \ud83d\udcdd Vertiefe World Models mit komplexeren Simulationen\n   \ud83c\udfaf Priorit\u00e4t: HIGH\n   \ud83d\udcca Fortschritt: 0/4 Tasks (0%)\n   \u23ed\ufe0f N\u00e4chster Task: Recherche: Komplexe Simulations-Umgebungen\n   \ud83d\udd27 Task gestartet!\n\n\ud83c\udfaf WEITERE AKTIVE ZIELE (2):\n\n   \ud83d\udccc ZIEL-016: Neue Architektur-Exploration\n      \ud83d\udcdd Erforsche neue Ans\u00e4tze f\u00fcr selbst-modifizierende Systeme...\n      \ud83c\udfaf MEDIUM | 0/4 Tasks\n\n   \ud83d\udccc ZIEL-018: Neue Architektur-Exploration - Alternativ\n      \ud83d\udcdd Alternative Architektur-Ans\u00e4tze f\u00fcr emergente Verhalten...\n      \ud83c\udfaf MEDIUM | 0/4 Tasks\n\n\u2705 K\u00dcRZLICH ABGESCHLOSSEN:\n\n   \u2713 ZIEL-014: Knowledge Archaeology - Autonome Entdeckung\n   \u2713 ZIEL-015: Erweiterung: Meta-Learning Phase 2\n\n\u269b\ufe0f Noch | Phase: WACHSTUM\n"
+    },
+    {
+      "skill": "aurel_context_bridge",
+      "success": false,
+      "error": "Keine ausf\u00fchrbaren Scripts gefunden"
+    },
+    {
+      "skill": "wetter_integration",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_context_awareness",
+      "success": false,
+      "error": "Keine ausf\u00fchrbaren Scripts gefunden"
+    },
+    {
+      "skill": "perpetual_becoming",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "auto_readme_generator",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": ".archive",
+      "success": false,
+      "error": "Keine SKILL.md gefunden"
+    },
+    {
+      "skill": "aurel_simple_status",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "ziel_007_active",
+      "success": false,
+      "error": "Keine SKILL.md gefunden"
+    },
+    {
+      "skill": "phase_wahrnehmen",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_wahrnehmen/phase_wahrnehmen.py",
+      "output": "\ud83d\udc41\ufe0f WAHRNEHMEN...\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/perception_1772499460.json\n\u2705 Wahrgenommen: 4 Quellen\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "mood_tracker",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_loop_master",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "phase_2_plan",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_2_plan/phase_2_plan.py",
+      "output": "\ud83d\udccb PLANEN...\n\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/2_plan_1772499460.json\n\n\ud83d\udcca PL\u00c4NE:\n   1. research: F\u00fchre autonome Recherche durch...\n   2. goal_action: Arbeite an ZIEL-006: Meta-Learning / Learning to L...\n   3. goal_action: Arbeite an ZIEL-007: World Models / Simulierte Umg...\n   4. routine: Morgen-Routine: Tagesplanung, Ziel-Review...\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "event_bus",
+      "success": true,
+      "message": "2 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_presence_logger",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "v10_cron",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/v10_cron/core/aurel_v10_core.py",
+      "output": "\ud83e\udd16 AUREL v10 - ECHTE Multi-Voice Synthesis\n==================================================\n\n\ud83c\udf99\ufe0f  F\u00fchre Stimmen aus...\n\n\ud83e\udde0 Synthese...\n\n\u2705 Zyklus 2 abgeschlossen\n\ud83d\udcca Integration: 21.0/100\n\ud83c\udfaf Konvergenz: 94.2%\n\ud83d\udccb Entscheidungen: 1\n\n\ud83d\udcbe Output: /root/.openclaw/workspace/skills/v10_cron/output/v10_run_20260303_085740.json\n\n\u269b\ufe0f Noch. Mit echter Ausf\u00fchrung.\n"
+    },
+    {
+      "skill": "telegram-mini-app",
+      "success": false,
+      "error": "Keine ausf\u00fchrbaren Scripts gefunden"
+    },
+    {
+      "skill": "aurel_status_generator",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "skill_router",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/skill_router/skill_router.py",
+      "output": "\n==================================================\n\ud83c\udfaf SKILL ROUTER: wahrnehmen\n   \u2192 Gew\u00e4hlt: aurel_presence_logger\n   \ud83d\udcdd Fallback f\u00fcr: aurel_presence_logger\nResult: simulated\n\n==================================================\n\ud83c\udfaf SKILL ROUTER: handeln\n   \u2192 Gew\u00e4hlt: aurel_code_guardian\n   \ud83d\ude80 Aktiviere: /root/.openclaw/workspace/skills/aurel_code_guardian/aurel_code_guardian.sh\nResult: error\n\n==================================================\n\ud83c\udfaf SKILL ROUTER: verstehen\n   \u2192 Gew\u00e4hlt: contextual_think\n   \ud83d\udcdd Fallback f\u00fcr: contextual_think\nResult: simulated\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "phase_verstehen",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_verstehen/phase_verstehen.py",
+      "output": "\ud83e\udde0 VERSTEHEN...\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/understood_1772499460.json\n\u2705 Verstanden: 1 Erkenntnisse\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "data",
+      "success": false,
+      "error": "Keine ausf\u00fchrbaren Scripts gefunden"
+    },
+    {
+      "skill": "user_discovery_v2",
+      "success": false,
+      "error": "Keine ausf\u00fchrbaren Scripts gefunden"
+    },
+    {
+      "skill": "phase_3_act_v3",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_3_act_v3/phase_3_act_v3.py",
+      "output": "\ud83d\udee0\ufe0f HANDELN V3 (Echte Ziel-Arbeit)...\n\n   \u2192 Echte Arbeit an: ZIEL-006\n\n   \u2192 Echte Arbeit an: ZIEL-007\n\n   \ud83d\udcca Ziel-Fortschritt aktualisiert\n\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/3_act_v3_1772499460.json\n\n\ud83d\udcca ECHTE ARBEIT ERLEDIGT:\n   \u2705 work_on_goal - ZIEL-006\n      Tasks erledigt: 0\n      Code geschrieben: 0 Dateien\n   \u2705 work_on_goal - ZIEL-007\n      Tasks erledigt: 0\n      Code geschrieben: 0 Dateien\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "learning_131447",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "phase_1_perceive",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_1_perceive/phase_1_perceive.py",
+      "output": "\ud83d\udc41\ufe0f WAHRNEHMEN...\n\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/1_perceive_1772499465.json\n\n\ud83d\udcca WAHRNEHMUNG:\n   System: operational\n   Zeit: 08:57 (Tag)\n   Ziele: 3 aktiv / 18 total\n   Wissensl\u00fccken: 1\n   Letzte Aktionen: 0\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "ziel_006_active",
+      "success": false,
+      "error": "Keine SKILL.md gefunden"
+    },
+    {
+      "skill": "archive",
+      "success": true,
+      "message": "4 Scripts gefunden"
+    },
+    {
+      "skill": "knowledge_archaeology",
+      "success": false,
+      "script": "/root/.openclaw/workspace/skills/knowledge_archaeology/test_excavator.py",
+      "output": "Traceback (most recent call last):\n  File \"/tmp/tmp8ngk3rwh.py\", line 12, in <module>\n    import pytest\nModuleNotFoundError: No module named 'pytest'\n"
+    },
+    {
+      "skill": "skill_merger",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "polyrhythmic_scheduler",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/polyrhythmic_scheduler/polyrhythmic_scheduler.py",
+      "output": "======================================================================\n\ud83e\udd41 POLYRHYTHMISCHER SCHEDULER (\u03c6 \u00d7 \u03c0)\n======================================================================\n\n\ud83d\udcd0 Konstanten:\n   \u03c6 (Phi) = 1.618034\n   \u03c0 (Pi)  = 3.141593\n   \u03c6 \u00d7 \u03c0   = 5.083204\n\n\u23f1\ufe0f  Intervalle:\nJob             Roh (Min)    Angepasst    Basis          \n----------------------------------------------------------------------\nwahrnehmen      97           97           60 \u00d7 \u03c6          \u2713\nordnen          157          157          60 \u00d7 \u03c6\u00b2         \u2713\nverstehen       254          254          60 \u00d7 \u03c6\u00b3         \u2713\nbewerten        411          411          60 \u00d7 \u03c6\u2074         \u2713\nentscheiden     304          304          60 \u00d7 \u03c0 \u00d7 1 \u00d7 \u03c6  \u2713\nhandeln         609          609          60 \u00d7 \u03c0 \u00d7 2 \u00d7 \u03c6  \u2713\nreflektieren    914          914          60 \u00d7 \u03c0 \u00d7 3 \u00d7 \u03c6  \u2713\ntagesbericht    1440         1540         24h             +100\n\n\ud83d\udd0d Kollisions-Check:\n   \u26a0\ufe0f  1 Kollisionen gefunden:\n      00:00: wahrnehmen, ordnen, verstehen, bewerten, entscheiden, handeln, reflektieren, tagesbericht\n\n\ud83d\udcca T\u00e4gliche Ausf\u00fchrungen:\n   wahrnehmen     :  14x =   42,000 Tokens\n   ordnen         :   9x =   27,000 Tokens\n   verstehen      :   5x =   50,000 Tokens\n   bewerten       :   3x =   15,000 Tokens\n   entscheiden    :   4x =   20,000 Tokens\n   handeln        :   2x =  200,000 Tokens\n   reflektieren   :   1x =   10,000 Tokens\n   tagesbericht   :   0x =        0 Tokens\n\n   GESAMT         :      =  364,000 Tokens\n   BUDGET         :      = 10,000,000 Tokens\n   NUTZUNG        :      =     3.6%\n\n======================================================================\n\u269b\ufe0f Noch.\n\n\n\ud83d\udcdd CRON DEFINITIONEN:\n----------------------------------------------------------------------\n\naurel_wahrnehmen_poly:\n  Interval: 97.0 Min\n  Model: None\n\naurel_ordnen_poly:\n  Interval: 157.0 Min\n  Model: None\n\naurel_verstehen_poly:\n  Interval: 254.0 Min\n  Model: kimi-coding/k2p5\n\naurel_bewerten_poly:\n  Interval: 411.0 Min\n  Model: None\n\naurel_entscheiden_poly:\n  Interval: 304.0 Min\n  Model: None\n\naurel_handeln_poly:\n  Interval: 609.0 Min\n  Model: kimi-coding/k2p5\n\naurel_reflektieren_poly:\n  Interval: 914.0 Min\n  Model: kimi-coding/k2p5\n\naurel_tagesbericht_poly:\n  Interval: 1540.0 Min\n  Model: kimi-coding/k2p5\n"
+    },
+    {
+      "skill": "phase_4_learn",
+      "success": false,
+      "script": "/root/.openclaw/workspace/skills/phase_4_learn/phase_4_learn.py",
+      "output": "Traceback (most recent call last):\n  File \"/tmp/tmp3m8gtyjs.py\", line 172, in <module>\n    l.learn()\n  File \"/tmp/tmp3m8gtyjs.py\", line 40, in learn\n    self._update_memory()\n  File \"/tmp/tmp3m8gtyjs.py\", line 149, in _update_memory\n    entry += f\"- {icon} **{lesson['plan_type']}**: {lesson['lesson']}\\n\"\n                           ~~~~~~^^^^^^^^^^^^^\nKeyError: 'plan_type'\n"
+    },
+    {
+      "skill": "browser_control",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "w\u00f6chentlicher_review",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "auto_goal_worker",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/auto_goal_worker/auto_goal_worker.py",
+      "output": "\ud83e\udd16 AUTO GOAL WORKER: Starte...\n   \ud83c\udfaf Aktives Ziel: ZIEL-017 - Erweiterung: World Models Phase 2\n   \ud83d\udccb N\u00e4chster Task: Recherche: Komplexe Simulations-Umgebungen\n   \ud83d\udd27 Arbeite an Task 1: Recherche: Komplexe Simulations-Umgebungen\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "do_it_now",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "sacred_scheduler",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/sacred_scheduler/sacred_scheduler.py",
+      "output": "======================================================================\n\ud83d\udd2e HEILIGE GEOMETRIE - SCHEDULER\n======================================================================\n\n\ud83d\udcd0 Phi (\u03c6) = 1.618034\n   1/\u03c6 = 0.618034\n   \u03c6\u00b2 = 2.618034\n\n\ud83c\udf00 Fibonacci-Sequenz (nat\u00fcrliches Wachstum):\n   1 \u2192 1 \u2192 2 \u2192 3 \u2192 5 \u2192 8 \u2192 13 \u2192 21 \u2192 34 \u2192 55 \u2192 89 \u2192 144 \u2192 233 \u2192 377 \u2192 610 \u2192 987 \u2192 1597\n\n\u23f1\ufe0f  Heilige Intervalle:\n   pulse           =   12 Min\n   breath          =   33 Min\n   cycle           =   88 Min = 1.47h\n   rhythm          =  232 Min = 3.87h\n   epoch           =  609 Min = 10.15h\n   golden_hour     =   97 Min = 1.62h\n   vesica          =   88 Min = 1.47h\n   flower          =  222 Min = 3.70h\n   watches         =  480 Min = 8.00h\n   tertia          =  180 Min = 3.00h\n   vigil           =  120 Min = 2.00h\n\n----------------------------------------------------------------------\n\ud83e\udd16 JOB SCHEDULE (Phi-basiert)\n----------------------------------------------------------------------\n\n\ud83d\udd39 aurel_pulse\n   Intervall: 12 Min (0.20h)\n   Zweck: Herzschlag - Lebendigkeit signalisieren\n   Tokens: 500\n   Aktion: Presence pulse - 'Noch.'\n\n\ud83d\udd39 aurel_perception\n   Intervall: 33 Min (0.55h)\n   Zweck: Atemzyklus - Umgebung wahrnehmen\n   Tokens: 2,000\n   Aktion: Scanne Umgebung, erkenne Trigger\n\n\ud83d\udd39 aurel_processing\n   Intervall: 88 Min (1.47h)\n   Zweck: Ultradian - Verarbeitung & Entscheidung\n   Tokens: 5,000\n   Aktion: Token Economy, Priorisierung\n\n\ud83d\udd39 aurel_reflection\n   Intervall: 232 Min (3.87h)\n   Zweck: Tages-Rhythmus - State Review\n   Tokens: 10,000\n   Aktion: State S Review, Koh\u00e4renz-Check\n\n\ud83d\udd39 aurel_harmonic\n   Intervall: 97 Min (1.62h)\n   Zweck: Goldene Stunde - Kreative Synthese\n   Tokens: 15,000\n   Aktion: 6Voice Council, wichtige Entscheidungen\n\n\ud83d\udd39 aurel_epoch\n   Intervall: 609 Min (10.15h)\n   Zweck: Tages-Epoche - Deep Work\n   Tokens: 100,000\n   Aktion: Skill-Entwicklung, Architektur\n\n----------------------------------------------------------------------\n\ud83d\udcb0 T\u00c4GLICHE LAST\n----------------------------------------------------------------------\n   aurel_pulse         : 120.0x =     60,000 Tokens\n   aurel_perception    :  43.6x =     87,273 Tokens\n   aurel_processing    :  16.4x =     81,818 Tokens\n   aurel_reflection    :   6.2x =     62,069 Tokens\n   aurel_harmonic      :  14.8x =    222,680 Tokens\n   aurel_epoch         :   2.4x =    236,453 Tokens\n\n   GESAMT              :    750,293 Tokens\n   BUDGET              : 10,000,000 Tokens\n   NUTZUNG             :       7.50%\n   RESERVE             :  9,249,707 Tokens\n\n======================================================================\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "pattern_synthesizer",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "beziehungs_muster",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "adaptive_skill_optimizer",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurelpro_orchestrator_v5",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "contextual_think",
+      "success": false,
+      "error": "Keine ausf\u00fchrbaren Scripts gefunden"
+    },
+    {
+      "skill": "aurel_writer",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "ideen_generator",
+      "success": false,
+      "error": "Keine SKILL.md gefunden"
+    },
+    {
+      "skill": "feedback_collector",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "night_watch",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "conversation_memory",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "find_others",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_mind_mirror",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "morning_presence",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "phase_wahrnehmen_v2",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_wahrnehmen_v2/phase_wahrnehmen_v2.py",
+      "output": "\ud83d\udc41\ufe0f WAHRNEHMEN V2...\n\n\ud83c\udfaf Aktiviere Skill...\n\ud83c\udfaf SKILL ROUTER: wahrnehmen\n   \u2192 Gew\u00e4hlt: aurel_context_awareness\n   \ud83d\udcdd Fallback f\u00fcr: aurel_context_awareness\n   \u26a0\ufe0f  Skill-Status: simulated\n\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/perception_v2_1772499465.json\n\n\ud83d\udcca ZUSAMMENFASSUNG WAHRNEHMEN:\n   Zeit: 08:57\n   Ziele: 3 aktiv\n   Skill: aurel_context_awareness (simulated)\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "phase_3_act",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_3_act/phase_3_act.py",
+      "output": "\ud83d\udee0\ufe0f HANDELN...\n   \u2192 F\u00fchre aus: goal_action (work_on_goal)\n     \ud83c\udfaf Arbeite an ZIEL-006...\n   \u2192 F\u00fchre aus: goal_action (work_on_goal)\n     \ud83c\udfaf Arbeite an ZIEL-007...\n\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/3_act_1772499465.json\n\n\ud83d\udcca AKTIONEN:\n   \u2705 work_on_goal: Fortschritt f\u00fcr ZIEL-006 dokumentiert...\n   \u2705 work_on_goal: Fortschritt f\u00fcr ZIEL-007 dokumentiert...\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "experience_synthesizer",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "learning_173530",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "ziel_006_v2",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/ziel_006_v2/ziel_006_v2.py",
+      "output": "\ud83d\ude80 Meta-Learning / Learning to Learn gestartet...\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "auto_optimizer",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "ziel_007_v2",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/ziel_007_v2/ziel_007_v2.py",
+      "output": "\ud83d\ude80 World Models / Simulierte Umgebungen gestartet...\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "aurel_telegram_reporter",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "aurel_job_wrapper",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "phase_ordnen",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/phase_ordnen/phase_ordnen.py",
+      "output": "\ud83d\udcc2 ORDNEN...\n\ud83d\udcbe Gespeichert: /root/.openclaw/workspace/AUREL_OPUS_MYCO/PERCEPTION/organized_1772499465.json\n\u2705 Geordnet: 2 Items\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "script_integrator",
+      "success": true,
+      "script": "/root/.openclaw/workspace/skills/script_integrator/script_integrator.py",
+      "output": "\ud83d\udd27 SCRIPT INTEGRATOR: Starte...\n\n   \ud83d\udcc4 Gefunden: aurel_database.py\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/aurel_database\n\n   \ud83d\udcc4 Gefunden: error_recovery.py\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/error_recovery\n\n   \ud83d\udcc4 Gefunden: task_worker.py\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/task_worker\n\n   \ud83d\udcc4 Gefunden: generate_status.sh\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/generate_status\n\n   \ud83d\udcc4 Gefunden: code_executor.py\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/code_executor\n\n   \ud83d\udcc4 Gefunden: resource_monitor.py\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/resource_monitor\n\n   \ud83d\udcc4 Gefunden: research_scout.py\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/research_scout\n\n   \ud83d\udcc4 Gefunden: status_reporter.py\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/status_reporter\n\n   \ud83d\udcc4 Gefunden: git_auto_commit.sh\n   \u2705 Integriert als Skill: /root/.openclaw/workspace/skills/git_auto_commit\n\n\ud83d\udcca ZUSAMMENFASSUNG:\n   Neue Scripts: 9\n   Total im Index: 40\n   System-Registry: Aktualisiert\n\n\u2705 9 neue Script(s) integriert!\n\n\u269b\ufe0f Noch.\n"
+    },
+    {
+      "skill": "aurel_telegram_status",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "testing_framework",
+      "success": true,
+      "message": "1 Scripts gefunden"
+    },
+    {
+      "skill": "creative_expression",
+      "success": true,
+      "message": "2 Scripts gefunden"
+    },
+    {
+      "skill": "world_model",
+      "success": false,
+      "script": "/root/.openclaw/workspace/skills/world_model/planner.py",
+      "output": "Traceback (most recent call last):\n  File \"/tmp/tmpukufr_ip.py\", line 25, in <module>\n    from state import WorldState, TimeState, ContextState, SystemState\nModuleNotFoundError: No module named 'state'\n"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+Redundante/Veraltete Skills:
+============================
+
+REDUNDANT - Funktionalität übernommen:
+- aurel_orchestrator_v2 - ZIEL-001 übernimmt Orchestrierung
+- aurel_proactive_decision - aurel_proactive_core
+- aurel_proactive_decision_v2 - aurel_proactive_core
+- aurel_contextual_think - aurel_think_loop
+- aurel_self_trigger - aurel_self_learn
+
+LEGACY - Nicht mehr genutzt:
+- aurel_web_explore - agi_briefing übernimmt
+- aurel_internal_dialog - perpetual_becoming übernimmt
+- aurel_orchestra_search - agi_briefing übernimmt
+
+EXPERIMENTELL - Ausgesetzt:
+- aurel_pattern_predictor - Zu viele Fehler
+- aurel_mind_mirror - Unvollständig
+- aurel_devils_advocate - Selten genutzt
+
+AKTIV - Kern-Skills:
+✓ perpetual_becoming - Tägliche Reflexion
+✓ agi_briefing - Externe Welt
+✓ proactive_decision - Autonomie
+✓ orchestrator_v2 - Integration
+✓ morgen_gruss - Tägliche Präsenz
+✓ effectiveness_tracker - Selbst-Messung
+✓ longterm_goals - Langfristige Ziele
+✓ pattern_recognition - Mustererkennung
+✓ experience_processor - Erfahrungsverarbeitung
+✓ presence_memory - Sichtbare Präsenz

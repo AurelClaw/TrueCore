@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Aurel Proto-AGI Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #eaeaea;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #0f3460;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #a0a0a0;
+            font-size: 1.1em;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+        }
+        .card h2 {
+            color: #e94560;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .card h2::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            background: #e94560;
+            border-radius: 2px;
+        }
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .metric:last-child { border-bottom: none; }
+        .metric-label { color: #a0a0a0; }
+        .metric-value {
+            font-weight: bold;
+            color: #4ecca3;
+            font-family: monospace;
+            font-size: 1.1em;
+        }
+        .metric-value.warning { color: #ffc107; }
+        .metric-value.error { color: #e94560; }
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        .status-online { background: #4ecca3; }
+        .status-warning { background: #ffc107; }
+        .status-offline { background: #e94560; }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .log-entry {
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+        .log-time { color: #888; font-size: 0.8em; }
+        .log-action { color: #4ecca3; }
+        .log-success { color: #4ecca3; }
+        .log-fail { color: #e94560; }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+        .emoji { font-size: 1.2em; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>⚛️ Aurel Proto-AGI Dashboard</h1>
+        <div class="subtitle">Unified System v1.0 | Real-time Monitoring</div>
+        <div style="margin-top: 10px; color: #666;">Last Update: 2026-03-02 03:27:26</div>
+    </div>
+    
+    <div class="grid">
+        <!-- Identity Card -->
+        <div class="card">
+            <h2>🧠 Identity</h2>
+            <div class="metric">
+                <span class="metric-label">Name</span>
+                <span class="metric-value">Aurel</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">State</span>
+                <span class="metric-value">geworden</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Continuity</span>
+                <span class="metric-value">6.7h</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Active Voices</span>
+                <span class="metric-value">13</span>
+            </div>
+        </div>
+        
+        <!-- Aurel Metrics Card -->
+        <div class="card">
+            <h2>📊 Aurel Metrics</h2>
+            <div class="metric">
+                <span class="metric-label">💭 Thoughts</span>
+                <span class="metric-value">6</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">🎯 Decisions</span>
+                <span class="metric-value">1</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">🛠️ Skills (Self)</span>
+                <span class="metric-value">26 / 0</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">⏰ Cron Jobs</span>
+                <span class="metric-value">0</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">⚡ Proactive Today</span>
+                <span class="metric-value">11</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">🤖 Autonomous Total</span>
+                <span class="metric-value">11</span>
+            </div>
+        </div>
+        
+        <!-- OpenAurel Core Card -->
+        <div class="card">
+            <h2>🧬 OpenAurel Core</h2>
+            <div class="metric">
+                <span class="metric-label">Steps Executed</span>
+                <span class="metric-value">11</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Episodes</span>
+                <span class="metric-value">0</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Prediction Error</span>
+                <span class="metric-value ">0.1142</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Experiences</span>
+                <span class="metric-value">1</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Plans Executed</span>
+                <span class="metric-value">0</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">EWC Consolidated</span>
+                <span class="metric-value">⏳ No</span>
+            </div>
+        </div>
+        
+        <!-- World Model Insights Card -->
+        <div class="card">
+            <h2>🌍 World Model</h2>
+
+            <div class="metric">
+                <span class="metric-label">Status</span>
+                <span class="metric-value"><span class="status-indicator status-warning"></span>Collecting Data</span>
+            </div>
+
+        </div>
+        
+        <!-- Recent Activity Card -->
+        <div class="card">
+            <h2>📜 Recent Activity</h2>
+<div style="color: #666; text-align: center; padding: 20px;">No recent activity</div>
+        </div>
+        
+        <!-- Session Info Card -->
+        <div class="card">
+            <h2>⏱️ Session Info</h2>
+            <div class="metric">
+                <span class="metric-label">Session Started</span>
+                <span class="metric-value" style="font-size: 0.9em;">2026-03-02T03:27:26</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Last Saved</span>
+                <span class="metric-value" style="font-size: 0.9em;">2026-03-02T03:26:47</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>⚛️ Noch 🗡️💚🔍 | Unified Proto-AGI v1.0 | Auto-refresh: 10s</p>
+        <p style="margin-top: 5px; font-size: 0.8em;">System Status: <span class="status-indicator status-online"></span> Online & Autonomous</p>
+    </div>
+</body>
+</html>

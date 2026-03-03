@@ -1,0 +1,30 @@
+{
+  "timestamp": 1772484171.9338732,
+  "datetime": "2026-03-03T04:42:51.933882",
+  "sources": {
+    "system": {
+      "check": "system operational",
+      "timestamp": 1772484171.9339058
+    },
+    "context": {
+      "hour": 4,
+      "minute": 42,
+      "is_night": true,
+      "is_work_hours": false
+    },
+    "goals": {
+      "total": 14,
+      "active": 2,
+      "active_ids": [
+        "ZIEL-006",
+        "ZIEL-007"
+      ]
+    }
+  },
+  "skill_result": {
+    "status": "simulated",
+    "skill": "aurel_presence_logger",
+    "message": "Skill aurel_presence_logger would process context: ['is_night', 'hour', 'active_goals']",
+    "recommendation": "Create executable script for this skill"
+  }
+}

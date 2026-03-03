@@ -1,0 +1,4170 @@
+{
+  "planning_id": "plan_20260302_125032_c5500667",
+  "start_state": {
+    "version": "1.0",
+    "time": {
+      "timestamp": "2026-03-02T12:50:32.192587",
+      "time_of_day": "afternoon",
+      "day_of_week": 0,
+      "week_of_year": 10,
+      "is_weekend": false,
+      "is_holiday": false
+    },
+    "context": {
+      "location": "workspace",
+      "activity_context": "morning_routine",
+      "last_interaction_minutes_ago": null,
+      "recent_topics": [],
+      "open_goals": [
+        "send_morgen_gruss",
+        "check_weather"
+      ]
+    },
+    "system": {
+      "active_skills": [
+        "world_model",
+        "planner"
+      ],
+      "running_processes": [],
+      "pending_notifications": 0,
+      "system_load": 0.2,
+      "recent_events": []
+    },
+    "human": {
+      "mood_estimate": "sleepy",
+      "engagement_level": "low",
+      "preferred_communication": "unknown",
+      "recent_successes": [],
+      "recent_frustrations": []
+    },
+    "environment": {
+      "weather_condition": "sunny",
+      "temperature": 18.0,
+      "humidity": null,
+      "calendar_load": "unknown",
+      "upcoming_events": []
+    }
+  },
+  "horizon": 3,
+  "best_sequence": {
+    "sequence_id": "seq_18",
+    "actions": [
+      {
+        "action_id": "take_break",
+        "action_params": {
+          "duration_minutes": 10
+        },
+        "description": "Pausiere Aktivitäten"
+      },
+      {
+        "action_id": "send_message",
+        "action_params": {
+          "urgency": "high",
+          "channel": "discord"
+        },
+        "description": "Sende Nachricht an Menschen"
+      },
+      {
+        "action_id": "take_break",
+        "action_params": {
+          "duration_minutes": 30
+        },
+        "description": "Pausiere Aktivitäten"
+      }
+    ],
+    "predicted_outcome": {
+      "version": "1.0",
+      "time": {
+        "timestamp": "2026-03-02T15:50:32.192587",
+        "time_of_day": "afternoon",
+        "day_of_week": 0,
+        "week_of_year": 10,
+        "is_weekend": false,
+        "is_holiday": false
+      },
+      "context": {
+        "location": "workspace",
+        "activity_context": "morning_routine",
+        "last_interaction_minutes_ago": 0,
+        "recent_topics": [],
+        "open_goals": [
+          "send_morgen_gruss",
+          "check_weather",
+          "predicted_1h_ahead",
+          "predicted_1h_ahead",
+          "predicted_1h_ahead"
+        ]
+      },
+      "system": {
+        "active_skills": [
+          "world_model",
+          "planner"
+        ],
+        "running_processes": [],
+        "pending_notifications": 0,
+        "system_load": 0.0,
+        "recent_events": []
+      },
+      "human": {
+        "mood_estimate": "positive",
+        "engagement_level": "active",
+        "preferred_communication": "unknown",
+        "recent_successes": [],
+        "recent_frustrations": []
+      },
+      "environment": {
+        "weather_condition": "sunny",
+        "temperature": 18.0,
+        "humidity": null,
+        "calendar_load": "unknown",
+        "upcoming_events": []
+      }
+    },
+    "total_reward": 1.322835,
+    "confidence": 1.0,
+    "metadata": {},
+    "length": 3
+  },
+  "all_sequences": [
+    {
+      "sequence_id": "seq_20",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_32",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.322835,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_15",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_16",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_21",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_25",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.4537725,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_26",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.322835,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_28",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.4537725,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_31",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_33",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_10",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_11",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "update_model",
+          "action_params": {
+            "model_type": "preference"
+          },
+          "description": "Aktualisiere internes Modell"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": null,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.316735,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_12",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000006,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.531568,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_13",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_14",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "wait",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Warte auf nächsten Trigger"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 10,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.2134225,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_15",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.4537725,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_16",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.9506724999999999,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_17",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "update_model",
+          "action_params": {
+            "model_type": "world_model"
+          },
+          "description": "Aktualisiere internes Modell"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": null,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.316735,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_18",
+      "actions": [
+        {
+          "action_id": "update_model",
+          "action_params": {
+            "model_type": "preference"
+          },
+          "description": "Aktualisiere internes Modell"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000012,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.0920930000000002,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_19",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_20",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.4537725,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_21",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_22",
+      "actions": [
+        {
+          "action_id": "check_status",
+          "action_params": {
+            "depth": "deep"
+          },
+          "description": "Prüfe System-Status"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000012,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.097093,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_23",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.322835,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_24",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "wait",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Warte auf nächsten Trigger"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 60,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000006,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.549618,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_25",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.2100225,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_26",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "medium",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000006,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.531568,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_27",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.4537725,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_28",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "schedule_task",
+          "action_params": {
+            "delay_minutes": 30,
+            "task_type": "check"
+          },
+          "description": "Plane Task für später"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000006,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.5451055,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_29",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.4537725,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_30",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.322835,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_31",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "wait",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Warte auf nächsten Trigger"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 60,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.2134225,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_32",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "silent"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_33",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "update_model",
+          "action_params": {
+            "model_type": "pattern"
+          },
+          "description": "Aktualisiere internes Modell"
+        },
+        {
+          "action_id": "wait",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Warte auf nächsten Trigger"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 10,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000006,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.299768,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_34",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "wait",
+          "action_params": {
+            "duration_minutes": 5
+          },
+          "description": "Warte auf nächsten Trigger"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 5,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000006,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.549618,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_35",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.322835,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_36",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_37",
+      "actions": [
+        {
+          "action_id": "update_model",
+          "action_params": {
+            "model_type": "world_model"
+          },
+          "description": "Aktualisiere internes Modell"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "check_status",
+          "action_params": {
+            "depth": "deep"
+          },
+          "description": "Prüfe System-Status"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.3920000000000001,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "sleepy",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.8890305000000001,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_38",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_39",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": null,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.334975,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_40",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 60
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.4537725,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_41",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "update_model",
+          "action_params": {
+            "model_type": "pattern"
+          },
+          "description": "Aktualisiere internes Modell"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": null,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "low",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.2039225,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_42",
+      "actions": [
+        {
+          "action_id": "wait",
+          "action_params": {
+            "duration_minutes": 15
+          },
+          "description": "Warte auf nächsten Trigger"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000012,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 0.9892805000000001,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_43",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_44",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.4537725,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_45",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_46",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_47",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "discord"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_48",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "update_model",
+          "action_params": {
+            "model_type": "pattern"
+          },
+          "description": "Aktualisiere internes Modell"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.19200000000000006,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "neutral",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.1840305,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    },
+    {
+      "sequence_id": "seq_49",
+      "actions": [
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 10
+          },
+          "description": "Pausiere Aktivitäten"
+        },
+        {
+          "action_id": "send_message",
+          "action_params": {
+            "urgency": "high",
+            "channel": "telegram"
+          },
+          "description": "Sende Nachricht an Menschen"
+        },
+        {
+          "action_id": "take_break",
+          "action_params": {
+            "duration_minutes": 30
+          },
+          "description": "Pausiere Aktivitäten"
+        }
+      ],
+      "predicted_outcome": {
+        "version": "1.0",
+        "time": {
+          "timestamp": "2026-03-02T15:50:32.192587",
+          "time_of_day": "afternoon",
+          "day_of_week": 0,
+          "week_of_year": 10,
+          "is_weekend": false,
+          "is_holiday": false
+        },
+        "context": {
+          "location": "workspace",
+          "activity_context": "morning_routine",
+          "last_interaction_minutes_ago": 0,
+          "recent_topics": [],
+          "open_goals": [
+            "send_morgen_gruss",
+            "check_weather",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead",
+            "predicted_1h_ahead"
+          ]
+        },
+        "system": {
+          "active_skills": [
+            "world_model",
+            "planner"
+          ],
+          "running_processes": [],
+          "pending_notifications": 0,
+          "system_load": 0.0,
+          "recent_events": []
+        },
+        "human": {
+          "mood_estimate": "positive",
+          "engagement_level": "active",
+          "preferred_communication": "unknown",
+          "recent_successes": [],
+          "recent_frustrations": []
+        },
+        "environment": {
+          "weather_condition": "sunny",
+          "temperature": 18.0,
+          "humidity": null,
+          "calendar_load": "unknown",
+          "upcoming_events": []
+        }
+      },
+      "total_reward": 1.566585,
+      "confidence": 1.0,
+      "metadata": {},
+      "length": 3
+    }
+  ],
+  "cem_stats": [
+    {
+      "iteration": 0,
+      "mean_reward": 0.7919394200000002,
+      "best_reward": 1.5451055,
+      "worst_reward": 0.5688305,
+      "std_reward": 0.25227042485278295,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.31854722714214145
+    },
+    {
+      "iteration": 1,
+      "mean_reward": 1.09369286,
+      "best_reward": 1.566585,
+      "worst_reward": 0.6071305,
+      "std_reward": 0.24332926844683195,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.22248389366182597
+    },
+    {
+      "iteration": 2,
+      "mean_reward": 1.2760656099999999,
+      "best_reward": 1.566585,
+      "worst_reward": 0.866468,
+      "std_reward": 0.23240494812134035,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.18212603190153248
+    },
+    {
+      "iteration": 3,
+      "mean_reward": 1.34963908,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8940305,
+      "std_reward": 0.22220740405273087,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.16464197184536108
+    },
+    {
+      "iteration": 4,
+      "mean_reward": 1.3263116,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8277055,
+      "std_reward": 0.25271885978640374,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.19054245566724146
+    },
+    {
+      "iteration": 5,
+      "mean_reward": 1.3816644,
+      "best_reward": 1.566585,
+      "worst_reward": 0.6339305,
+      "std_reward": 0.2368451634181918,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.1714200582993479
+    },
+    {
+      "iteration": 6,
+      "mean_reward": 1.38579124,
+      "best_reward": 1.566585,
+      "worst_reward": 0.9842805,
+      "std_reward": 0.17213724282671194,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.12421576471427777
+    },
+    {
+      "iteration": 7,
+      "mean_reward": 1.3432831100000002,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8990305000000001,
+      "std_reward": 0.19603185914509633,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.14593477112231776
+    },
+    {
+      "iteration": 8,
+      "mean_reward": 1.3660402399999998,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8186804999999999,
+      "std_reward": 0.21014056374144516,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.15383178603117809
+    },
+    {
+      "iteration": 9,
+      "mean_reward": 1.40923131,
+      "best_reward": 1.566585,
+      "worst_reward": 0.8890305000000001,
+      "std_reward": 0.18361802775078725,
+      "elite_fraction": 0.2,
+      "convergence_score": 0.1302964929542293
+    }
+  ],
+  "computation_time_ms": 445.9969997406006,
+  "final_confidence": 0.9478814028183082
+}

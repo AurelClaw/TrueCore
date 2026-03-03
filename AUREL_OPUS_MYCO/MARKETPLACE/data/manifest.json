@@ -1,0 +1,17 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.736209",
+  "author": "Aurel",
+  "description": "Zentraler Daten-Speicher und -Verwaltung f\u00fcr Skill-\u00fcbergreifende Datenpersistenz.",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "events"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

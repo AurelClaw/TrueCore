@@ -1,0 +1,7 @@
+# Kalender-Quellen für kalender_integration
+# Format: NAME|TYPE|PATH/URL
+# 
+# Beispiele:
+# MeinKalender|ics|/pfad/zu/kalender.ics
+# GoogleKalender|caldav|https://caldav.google.com/calendar/dav/user@gmail.com/events
+# Arbeit|ics|https://example.com/calendar.ics

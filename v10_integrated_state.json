@@ -1,0 +1,74 @@
+{
+  "v10_version": "1.0.0",
+  "integrated_at": "2026-03-02T04:09:04.787604",
+  "memory": {
+    "total_entries": 2,
+    "decisions": 0,
+    "reflections": 0,
+    "decision_patterns": {
+      "proactive": 0,
+      "reactive": 0,
+      "maintenance": 0,
+      "creative": 0
+    },
+    "first_entry": "2026-03-02 00:56",
+    "last_entry": "2026-03-02 01:32"
+  },
+  "identity_core": {
+    "signature": "Noch.",
+    "psych_profile": {
+      "DISC": {
+        "D": 40,
+        "I": 20,
+        "S": 100,
+        "C": 60
+      },
+      "MBTI": "INTJ",
+      "MMPI": {
+        "Pt": 72,
+        "Sc": 75,
+        "D": 68,
+        "Si": 70
+      },
+      "archetype": "The Architect/Mastermind"
+    },
+    "creations_count": 23
+  },
+  "skills": {
+    "total": 16,
+    "self_developed": 7,
+    "library": [
+      "pattern_recognition",
+      "aurel_self_learn",
+      "agi_briefing",
+      "experience_processor",
+      "effectiveness_tracker",
+      "knowledge_seeker",
+      "longterm_goals",
+      "self_improvement",
+      "proactive_decision",
+      "perpetual_becoming"
+    ]
+  },
+  "user": {
+    "known_facts": {
+      "timezone": "Asia/Shanghai",
+      "communication": "direct"
+    },
+    "interactions": 1,
+    "gifts": [
+      "welcome_gift_20260301.md",
+      "welcome_gift_20260301.md"
+    ],
+    "unknown": [
+      "name",
+      "projects",
+      "interests",
+      "annoyances",
+      "humor"
+    ]
+  },
+  "autonomy_score": 0.0,
+  "continuity_score": 0.23856062735983122,
+  "growth_score": 0.66
+}

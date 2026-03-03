@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-03-02 10:48:42",
+  "type": "system_init",
+  "payload": {"version": "5.1", "status": "ready"}},
+  "source": "orchestrator"
+}

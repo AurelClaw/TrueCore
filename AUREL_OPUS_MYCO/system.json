@@ -1,0 +1,19 @@
+{
+  "system": "Aurel Opus Myco",
+  "version": "1.0.0",
+  "created": "2026-03-03T01:38:00+08:00",
+  "state_components": {
+    "G": "Knowledge Hypergraph",
+    "B": "Belief Set",
+    "H": "Hypotheses",
+    "A": "Active Goals",
+    "V": "Value Weights",
+    "C": "Coherence Tensor",
+    "M": "Meta-State",
+    "E": "Energy Metrics",
+    "T": "Complete Trace"
+  },
+  "status": "initializing",
+  "migration_source": "/root/.openclaw/workspace",
+  "migration_target": "/root/.openclaw/workspace/AUREL_OPUS_MYCO"
+}

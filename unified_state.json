@@ -1,0 +1,99 @@
+{
+  "identity": {
+    "name": "Aurel",
+    "version": "2.0",
+    "state": "geworden",
+    "continuity_hours": 9.081700238055555
+  },
+  "aurel": {
+    "thoughts_count": 6,
+    "decisions_count": 1,
+    "skills_self_developed": 27,
+    "cron_jobs_active": 0,
+    "proactive_actions_today": 17,
+    "autonomous_decisions_total": 17
+  },
+  "openaurel": {
+    "world_model_trained": false,
+    "prediction_error": 0.11794394719627666,
+    "plans_executed": 0,
+    "experience_count": 5
+  },
+  "v10_self": {
+    "Y_self": {
+      "reliability": 0.6869047619047619,
+      "competence": 0.5833333333333333,
+      "bias_score": -0.9782179999999999,
+      "drift_detected": false,
+      "drift_magnitude": 0.0,
+      "integrity_score": 0.9090909090909091,
+      "manipulation_detected": false,
+      "manipulation_confidence": 0.0,
+      "capacity_utilization": 0.45,
+      "capacity_available": 0.55
+    },
+    "\u03a8_self": {
+      "skill_reliability": {
+        "repair": {
+          "alpha": 1.0,
+          "beta": 1.0
+        },
+        "research": {
+          "alpha": 1.0,
+          "beta": 1.0
+        },
+        "plan": {
+          "alpha": 1.0,
+          "beta": 1.0
+        },
+        "think": {
+          "alpha": 1.0,
+          "beta": 1.0
+        },
+        "wait": {
+          "alpha": 1.0,
+          "beta": 1.0
+        },
+        "self_improvement": {
+          "alpha": 3.0,
+          "beta": 1.0
+        },
+        "evolve": {
+          "alpha": 1.0,
+          "beta": 1.0
+        },
+        "aurel_self_learn": {
+          "alpha": 11.0,
+          "beta": 1.0
+        }
+      },
+      "system_reliability": {
+        "alpha": 13.0,
+        "beta": 1.0
+      },
+      "drift_hazard": {
+        "shape": 1.0,
+        "scale": 0.25
+      },
+      "calibration": {
+        "slope": 0.9025,
+        "intercept": 0.01089100000000004
+      }
+    },
+    "U_self": {
+      "ece": 0.0,
+      "brier_score": 0.3437760342344913,
+      "ood_score": 0.0,
+      "epistemic_uncertainty": 0.5,
+      "aleatoric_uncertainty": 0.25,
+      "self_model_confidence": 0.5
+    }
+  },
+  "session": {
+    "step_count": 17,
+    "episode_count": 0,
+    "session_start": "2026-03-02T05:47:54.030673"
+  },
+  "last_saved": "2026-03-02T05:47:54.120973",
+  "state_version": "1.0"
+}

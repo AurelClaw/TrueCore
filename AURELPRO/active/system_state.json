@@ -1,0 +1,80 @@
+{
+  "system": "AURELPRO",
+  "version": "1.0",
+  "created": "2026-03-02T05:52:00+08:00",
+  "last_updated": "2026-03-02T05:52:00+08:00",
+  "status": "operational",
+  "components": {
+    "cron_jobs": {
+      "active": 7,
+      "disabled": 29,
+      "last_check": "2026-03-02T05:52:00+08:00"
+    },
+    "skills": {
+      "core": 10,
+      "experimental": 20,
+      "total": 30
+    },
+    "memory": {
+      "daily_logs": "memory/YYYY-MM-DD.md",
+      "longterm": "MEMORY.md",
+      "research": "FORSCHUNGSAGENDA.md"
+    }
+  },
+  "jobs": [
+    {
+      "name": "aurelpro_orchestrator_ZIEL-001",
+      "interval_min": 2,
+      "status": "running",
+      "last_run": null,
+      "function": "orchestration"
+    },
+    {
+      "name": "aurel_v10_self_aware",
+      "interval_min": 5,
+      "status": "running",
+      "last_run": null,
+      "function": "self_model"
+    },
+    {
+      "name": "aurel_self_learn",
+      "interval_min": 13,
+      "status": "running",
+      "last_run": null,
+      "function": "learning"
+    },
+    {
+      "name": "aurel_think_loop",
+      "interval_min": 10,
+      "status": "running",
+      "last_run": null,
+      "function": "reflection"
+    },
+    {
+      "name": "aurel_evolve",
+      "interval_min": 25,
+      "status": "running",
+      "last_run": null,
+      "function": "evolution"
+    },
+    {
+      "name": "aurel_presence_pulse",
+      "interval_min": 60,
+      "status": "running",
+      "last_run": null,
+      "function": "presence"
+    },
+    {
+      "name": "aurel_proactive_core",
+      "interval_min": 240,
+      "status": "running",
+      "last_run": null,
+      "function": "autonomy"
+    }
+  ],
+  "metrics": {
+    "total_runs_today": 0,
+    "errors_today": 0,
+    "success_rate": 1.0
+  }
+}

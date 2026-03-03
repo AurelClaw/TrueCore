@@ -1,0 +1,18 @@
+{
+  "name": "data_router",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.686493",
+  "author": "Aurel",
+  "description": "**Zweck:** Automatische Datenweiterleitung",
+  "files": [
+    "routes.log",
+    "SKILL.md",
+    "route.sh",
+    "README.md"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

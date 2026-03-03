@@ -1,0 +1,49 @@
+{
+  "hypotheses": {
+    "H001_token_efficiency_10x": {
+      "statement": "Myco architecture achieves 10x token efficiency vs Uraurel",
+      "confidence": 0.75,
+      "evidence": ["event_driven_design", "token_economy_principle"],
+      "testable": true,
+      "test_method": "benchmark_comparison",
+      "status": "pending_validation"
+    },
+    "H002_user_prefers_brevity": {
+      "statement": "User prefers responses under 300 tokens",
+      "confidence": 0.94,
+      "evidence": ["historical_interaction_patterns"],
+      "testable": false,
+      "status": "accepted"
+    },
+    "H003_skill_redundancy_reducible": {
+      "statement": "15 skills can be merged into 5 unified skills",
+      "confidence": 0.68,
+      "evidence": ["skill_merger_analysis"],
+      "testable": true,
+      "test_method": "merge_and_validate",
+      "status": "under_investigation"
+    },
+    "H004_economic_autonomy_achievable": {
+      "statement": "$100 MRR achievable within 3 months",
+      "confidence": 0.55,
+      "evidence": ["market_analysis", "capability_assessment"],
+      "testable": true,
+      "test_method": "revenue_tracking",
+      "status": "active_experiment"
+    },
+    "H005_6voice_improves_complex_decisions": {
+      "statement": "6-Voice Council improves decision quality for complex choices",
+      "confidence": 0.80,
+      "evidence": ["redundancy_reduces_bias", "multiple_perspectives"],
+      "testable": true,
+      "test_method": "ab_test_decisions",
+      "status": "pending_validation"
+    }
+  },
+  "synthesis_rules": {
+    "confidence_threshold": 0.7,
+    "merge_similar": true,
+    "track_falsification": true
+  },
+  "last_updated": "2026-03-03T01:38:00+08:00"
+}

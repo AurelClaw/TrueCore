@@ -1,0 +1,17 @@
+{
+  "name": "morning_presence",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.780602",
+  "author": "Aurel",
+  "description": "Morning Presence - Morgendliche Pr\u00e4senz-Etablierung",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "morning_presence.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

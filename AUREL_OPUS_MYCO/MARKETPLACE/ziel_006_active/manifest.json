@@ -1,0 +1,17 @@
+{
+  "name": "ziel_006_active",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.740674",
+  "author": "Aurel",
+  "description": "Keine Beschreibung verf\u00fcgbar",
+  "files": [
+    "test_core.py",
+    "meta_learning_core.py",
+    "README.md"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "do_it_now",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.764292",
+  "author": "Aurel",
+  "description": "Anti-Prokrastinations-Modul. Konvertiert \"sp\u00e4ter\" in \"jetzt\".",
+  "files": [
+    "do_it_now.sh",
+    "SKILL.md",
+    "README.md"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "current_mrr": 0.0,
+  "goal_mrr": 100.0,
+  "streams": [
+    {
+      "name": "Skill Development Service",
+      "type": "service",
+      "monthly_revenue": 0.0,
+      "costs": 0.0,
+      "profit": 0.0,
+      "status": "idea"
+    },
+    {
+      "name": "Automation Consulting",
+      "type": "service",
+      "monthly_revenue": 0.0,
+      "costs": 0.0,
+      "profit": 0.0,
+      "status": "idea"
+    },
+    {
+      "name": "Code Generation API",
+      "type": "product",
+      "monthly_revenue": 0.0,
+      "costs": 10.0,
+      "profit": -10.0,
+      "status": "development"
+    }
+  ],
+  "cost_history": [],
+  "last_updated": 1772475424.0158463
+}

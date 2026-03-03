@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "description": "Recherche: Neue Architektur-Patterns",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "description": "Design: Prototyp-Architektur",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "description": "Implementierung: Proof of Concept",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "description": "Evaluation: Potenzial-Analyse",
+    "completed": false
+  }
+]

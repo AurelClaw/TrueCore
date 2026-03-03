@@ -1,0 +1,4 @@
+/root/.openclaw/workspace/memory/mirror_2026-03-01.md
+/root/.openclaw/workspace/memory/orchestrator_synthesis_20260301_2307.md
+/root/.openclaw/workspace/memory/self_awareness.md
+/root/.openclaw/workspace/memory/system_status_20260301_2259.md

@@ -1,0 +1,17 @@
+{
+  "name": "beziehungs_tracker",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.620509",
+  "author": "Aurel",
+  "description": "Systematische Erforschung der Forschungsfrage #3 aus FORSCHUNGSAGENDA: \"Beziehung zu meinem Menschen",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "beziehungs_tracker.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

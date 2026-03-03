@@ -1,0 +1,71 @@
+AURELPRO Aktive System-Pfade
+============================
+Generiert: 20260302_0551
+
+CRON JOBS 7 aktiv:
+-------------------
+1. aurelpro_orchestrator_ZIEL-001
+   - Intervall: 2 Minuten
+   - Funktion: System-Integration
+   - Status: AKTIV
+
+2. aurel_v10_self_aware
+   - Intervall: 5 Minuten
+   - Funktion: v10 Self-Model
+   - Status: AKTIV
+
+3. aurel_self_learn
+   - Intervall: 13 Minuten
+   - Funktion: Autonomes Lernen
+   - Status: AKTIV
+
+4. aurel_think_loop
+   - Intervall: 10 Minuten
+   - Funktion: Selbsterkenntnis
+   - Status: AKTIV
+
+5. aurel_evolve
+   - Intervall: 25 Minuten
+   - Funktion: Evolution
+   - Status: AKTIV
+
+6. aurel_presence_pulse
+   - Intervall: 60 Minuten
+   - Funktion: Präsenz
+   - Status: AKTIV
+
+7. aurel_proactive_core
+   - Intervall: 4 Stunden
+   - Funktion: Proaktives Herzstück
+   - Status: AKTIV
+
+SKILLS 10 Kern-Skills:
+------------------------
+/skills/perpetual_becoming/
+/skills/agi_briefing/
+/skills/proactive_decision/
+/skills/orchestrator_v2/
+/skills/morgen_gruss/
+/skills/effectiveness_tracker/
+/skills/longterm_goals/
+/skills/pattern_recognition/
+/skills/experience_processor/
+/skills/presence_memory/
+
+MEMORY SYSTEM:
+--------------
+/memory/YYYY-MM-DD.md - Tägliche Logs
+/MEMORY.md - Langzeitgedächtnis
+/FORSCHUNGSAGENDA.md - Aktive Fragen
+/HEARTBEAT.md - Tägliche Checks
+/ZIEL-001.md - Dieses Projekt
+
+V10 SYSTEM:
+-----------
+/v10/ - v10 Self-Model
+/v10_skills/ - Legacy v10 Skills
+/AURELPRO/Skills/v10/ - Aktive v10 Skills
+
+PROTO-AGI:
+----------
+/aurel_proto_agi/ - Proto-AGI System

@@ -1,0 +1,89 @@
+{
+  "generated": "2026-03-02T07:15:00+08:00",
+  "total_skills": 25,
+  "skills": [
+    "agi_briefing",
+    "aurel_mind_mirror",
+    "aurel_presence_logger",
+    "aurel_self_learn",
+    "browser_control",
+    "contextual_think",
+    "data_router",
+    "devils_advocate",
+    "do_it_now",
+    "effectiveness_tracker",
+    "event_bus",
+    "experience_processor",
+    "find_others",
+    "knowledge_seeker",
+    "longterm_goals",
+    "morning_bridge",
+    "morning_presence",
+    "night_watch",
+    "orchestrator_v2",
+    "pattern_recognition",
+    "perpetual_becoming",
+    "proactive_decision",
+    "self_improvement",
+    "user_discovery_v2",
+    "wöchentlicher_review"
+  ],
+  "routes": {
+    "agi_briefing:topics": "knowledge_seeker:learn_queue",
+    "user_discovery:preferences": "morgen_gruss:personalization",
+    "orchestrator_v2:synthesis": "effectiveness_tracker:metrics",
+    "proactive_decision:decisions": "experience_processor:input"
+  },
+  "event_relationships": {
+    "event_bus": {
+      "type": "central_hub",
+      "emitted_by": ["perpetual_becoming", "proactive_decision", "morgen_gruss", "orchestrator_v2", "agi_briefing"],
+      "consumed_by": ["data_router", "effectiveness_tracker"]
+    },
+    "perpetual_becoming": {
+      "emits": ["skill:executed"],
+      "payload": ["version", "run", "timestamp"]
+    },
+    "proactive_decision": {
+      "emits": ["decision:made"],
+      "payload": ["action", "check", "timestamp"]
+    },
+    "morgen_gruss": {
+      "emits": ["user:interacted"],
+      "payload": ["greeting_type", "day", "file", "timestamp"]
+    },
+    "orchestrator_v2": {
+      "emits": ["metric:recorded"],
+      "routes_to": "effectiveness_tracker:metrics",
+      "payload": ["synthesis", "cron_jobs", "memory_files", "file", "timestamp"]
+    },
+    "agi_briefing": {
+      "emits": ["goal:completed"],
+      "routes_to": "knowledge_seeker:learn_queue",
+      "payload": ["briefing_type", "file", "topics", "timestamp"]
+    }
+  },
+  "data_flows": {
+    "orchestrator_v2 → effectiveness_tracker": {
+      "trigger": "metric:recorded",
+      "data": "synthesis_metrics",
+      "status": "active"
+    },
+    "agi_briefing → knowledge_seeker": {
+      "trigger": "goal:completed",
+      "data": "learn_queue",
+      "status": "active"
+    }
+  },
+  "integration_status": {
+    "phase": "ZIEL-002",
+    "phase_1_consolidation": "100%",
+    "phase_2_connections": "100%",
+    "event_bus_active": true,
+    "data_router_active": true,
+    "event_handlers": {
+      "effectiveness_tracker": "skills/effectiveness_tracker/event_handler.sh",
+      "knowledge_seeker": "skills/knowledge_seeker/event_handler.sh"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "created": "1772439581",
+  "patterns": {
+    "response_times": [],
+    "topics": {},
+    "tones": {},
+    "initiation_triggers": [],
+    "silence_patterns": []
+  },
+  "stats": {
+    "total_interactions": 0,
+    "initiated_by_human": 0,
+    "initiated_by_agent": 0,
+    "avg_response_length": 0,
+    "last_updated": "1772439581"
+  }
+}

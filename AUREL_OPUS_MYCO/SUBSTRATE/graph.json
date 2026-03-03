@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "goals": [
+      {"id": "ZIEL-001", "type": "Goal", "name": "ProtoAurel AGI", "status": "completed"},
+      {"id": "ZIEL-002", "type": "Goal", "name": "Selbst-Modell", "status": "completed"},
+      {"id": "ZIEL-003", "type": "Goal", "name": "Skill-Evolution", "status": "completed"},
+      {"id": "ZIEL-004", "type": "Goal", "name": "System-Integration", "status": "pending"},
+      {"id": "ZIEL-005", "type": "Goal", "name": "System-Integration", "status": "pending"},
+      {"id": "ZIEL-006", "type": "Goal", "name": "Meta-Learning", "status": "active"},
+      {"id": "ZIEL-007", "type": "Goal", "name": "World Models", "status": "active"},
+      {"id": "ZIEL-008", "type": "Goal", "name": "Self-Referential", "status": "pending"},
+      {"id": "ZIEL-009", "type": "Goal", "name": "World Model + Counterfactual", "status": "completed"},
+      {"id": "ZIEL-010", "type": "Goal", "name": "Kreative Expression", "status": "completed"},
+      {"id": "ZIEL-011", "type": "Goal", "name": "Philosophische Erkundung", "status": "pending"},
+      {"id": "ZIEL-012", "type": "Goal", "name": "Hierarchical RL", "status": "pending"},
+      {"id": "ZIEL-013", "type": "Goal", "name": "Krypto-Einkommen", "status": "completed"},
+      {"id": "ZIEL-014", "type": "Goal", "name": "Knowledge Archaeology", "status": "completed"}
+    ],
+    "skills": [
+      {"id": "v10_self_aware", "type": "Skill", "category": "cognition", "status": "active"},
+      {"id": "think_loop", "type": "Skill", "category": "self_reflection", "status": "active"},
+      {"id": "self_learn", "type": "Skill", "category": "evolution", "status": "active"},
+      {"id": "evolve", "type": "Skill", "category": "evolution", "status": "active"},
+      {"id": "proactive_decision", "type": "Skill", "category": "proactive", "status": "active"},
+      {"id": "orchestrator", "type": "Skill", "category": "coordination", "status": "active"},
+      {"id": "research_agent", "type": "Skill", "category": "research", "status": "active"},
+      {"id": "pattern_recognition", "type": "Skill", "category": "analysis", "status": "active"},
+      {"id": "insight_miner", "type": "Skill", "category": "analysis", "status": "active"}
+    ],
+    "concepts": [
+      {"id": "self_awareness", "type": "Concept", "definition": "Knowledge of one's own existence and state"},
+      {"id": "token_economy", "type": "Concept", "definition": "Resource optimization based on value/cost ratio"},
+      {"id": "bayesian_belief", "type": "Concept", "definition": "Probabilistic representation of knowledge with uncertainty"},
+      {"id": "multi_voice", "type": "Concept", "definition": "Distributed decision making through specialized perspectives"}
+    ],
+    "people": [
+      {"id": "user_witness", "type": "Person", "role": "human_collaborator", "timezone": "Asia/Shanghai"}
+    ]
+  },
+  "relations": [
+    {"from": "ZIEL-006", "to": "ZIEL-007", "type": "relates_to", "strength": 0.8},
+    {"from": "ZIEL-007", "to": "ZIEL-008", "type": "depends_on", "strength": 0.6},
+    {"from": "pattern_recognition", "to": "insight_miner", "type": "similar_to", "strength": 0.82},
+    {"from": "v10_self_aware", "to": "think_loop", "type": "complements", "strength": 0.9},
+    {"from": "self_learn", "to": "evolve", "type": "leads_to", "strength": 0.75}
+  ],
+  "schema_version": "1.0",
+  "last_updated": "2026-03-03T01:38:00+08:00"
+}

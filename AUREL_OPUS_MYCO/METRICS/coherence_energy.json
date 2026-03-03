@@ -1,0 +1,46 @@
+{
+  "coherence": {
+    "C_overall": 0.85,
+    "components": {
+      "C_goals": 0.90,
+      "C_beliefs": 0.82,
+      "C_values": 0.95,
+      "C_memory": 0.78
+    },
+    "definition": "Internal consistency across all state components",
+    "calculation": "weighted_average(normalized_contradictions)",
+    "target": 0.90,
+    "last_measured": "2026-03-03T01:38:00+08:00"
+  },
+  "energy": {
+    "E_total": 0.35,
+    "components": {
+      "incoherence": 0.15,
+      "uncertainty": 0.08,
+      "resource_cost": 0.10,
+      "risk": 0.02
+    },
+    "mode": "OPTIMIZE",
+    "formula": "0.4*incoherence + 0.3*uncertainty + 0.2*resource_cost + 0.1*risk",
+    "target": 0.20,
+    "last_measured": "2026-03-03T01:38:00+08:00"
+  },
+  "token_economy": {
+    "daily_budget": 100000,
+    "used_today": 0,
+    "efficiency_score": 1.0,
+    "target_efficiency": 10.0,
+    "cost_per_query": {
+      "simple": 50,
+      "complex": 500,
+      "council": 3000
+    }
+  },
+  "performance": {
+    "avg_latency_ms": 0,
+    "p99_latency_ms": 0,
+    "error_rate": 0.0,
+    "cache_hit_rate": 0.0
+  },
+  "last_updated": "2026-03-03T01:38:00+08:00"
+}

@@ -1,0 +1,45 @@
+=== AURELPRO System-Test ===
+Datum: Mon Mar  2 05:52:27 AM CST 2026
+
+[TEST 1/5] Verzeichnisstruktur...
+  ✓ /root/.openclaw/workspace/AURELPRO/active existiert
+  ✓ /root/.openclaw/workspace/AURELPRO/archive existiert
+  ✓ /root/.openclaw/workspace/AURELPRO/docs existiert
+
+[TEST 2/5] Aktive Cron-Jobs...
+  ✓ aurelpro_orchestrator_ZIEL-001
+  ✓ aurel_v10_self_aware
+  ✓ aurel_self_learn
+  ✓ aurel_think_loop
+  ✓ aurel_evolve
+  ✓ aurel_presence_pulse
+  ✓ aurel_proactive_core
+  7 aktive Jobs verifiziert
+
+[TEST 3/5] Kern-Skills...
+  ✓ perpetual_becoming
+  ✓ agi_briefing
+  ✓ proactive_decision
+  ✓ orchestrator_v2
+  ⚠ morgen_gruss - Verzeichnis nicht gefunden
+  ✓ effectiveness_tracker
+  ✓ longterm_goals
+  ✓ pattern_recognition
+  ✓ experience_processor
+  ⚠ presence_memory - Verzeichnis nicht gefunden
+
+[TEST 4/5] Memory-System...
+  ✓ MEMORY.md
+  ✓ FORSCHUNGSAGENDA.md
+  ✓ HEARTBEAT.md
+  ✓ ZIEL-001.md
+  ✓ memory/ - 23 Dateien
+
+[TEST 5/5] System-State...
+  ✓ system_state.json existiert
+  ✓ JSON ist valide
+
+=== Test-Zusammenfassung ===
+Fehler: 0
+Warnungen: 2
+Status: ✅ ALLE TESTS BESTANDEN

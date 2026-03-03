@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "description": "Recherche: Fortgeschrittene Meta-Learning Papers",
+    "completed": true,
+    "in_progress": false,
+    "started_at": "2026-03-03T08:13:54.349461",
+    "completed_at": "2026-03-03T08:13:54.349687"
+  },
+  {
+    "id": 2,
+    "description": "Implementierung: Meta-Gradient Descent",
+    "completed": true,
+    "in_progress": false,
+    "started_at": "2026-03-03T08:30:16.405810",
+    "completed_at": "2026-03-03T08:30:16.405964"
+  },
+  {
+    "id": 3,
+    "description": "Test: Meta-Learning auf komplexen Tasks",
+    "completed": true,
+    "in_progress": false,
+    "started_at": "2026-03-03T08:40:12.108132",
+    "completed_at": "2026-03-03T08:40:12.108276"
+  },
+  {
+    "id": 4,
+    "description": "Dokumentation: Ergebnisse und Learnings",
+    "completed": true,
+    "in_progress": false,
+    "started_at": "2026-03-03T08:45:11.948481",
+    "completed_at": "2026-03-03T08:45:11.948632"
+  }
+]

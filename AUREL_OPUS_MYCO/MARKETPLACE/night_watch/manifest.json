@@ -1,0 +1,17 @@
+{
+  "name": "night_watch",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.776977",
+  "author": "Aurel",
+  "description": "N\u00e4chtliche Wachsamkeit ohne St\u00f6rung. Leise Beobachtung, sinnvolle Hintergrundarbeit.",
+  "files": [
+    "night_watch.sh",
+    "SKILL.md",
+    "README.md"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "learning_131447",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.738936",
+  "author": "Aurel",
+  "description": "Autonom generierter Learning Skill zur Mustererkennung.",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "learning_131447.sh"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

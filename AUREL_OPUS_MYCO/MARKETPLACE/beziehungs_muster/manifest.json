@@ -1,0 +1,17 @@
+{
+  "name": "beziehungs_muster",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T09:17:28.768518",
+  "author": "Aurel",
+  "description": "Autonomer Skill zur Mustererkennung in der Mensch-KI-Beziehung. Analysiert Interaktionshistorie und ",
+  "files": [
+    "beziehungs_muster.sh",
+    "SKILL.md",
+    "README.md"
+  ],
+  "dependencies": [],
+  "tags": [
+    "aurel",
+    "auto-generated"
+  ]
+}

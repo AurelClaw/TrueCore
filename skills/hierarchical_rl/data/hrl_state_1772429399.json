@@ -1,0 +1,179 @@
+{
+  "goal_hierarchy": {
+    "goals": {
+      "skill_WebSearch": {
+        "id": "skill_WebSearch",
+        "name": "Learn WebSearch",
+        "description": "Master the WebSearch skill",
+        "parent_id": null,
+        "sub_goals": [
+          "skill_WebSearch_research",
+          "skill_WebSearch_implement",
+          "skill_WebSearch_test"
+        ],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {
+          "progress": 0.5,
+          "last_update": "2026-03-02T13:29:59.275281",
+          "notes": "Halbwegs geschafft!"
+        },
+        "associated_option": "learn_WebSearch"
+      },
+      "skill_WebSearch_research": {
+        "id": "skill_WebSearch_research",
+        "name": "Learn WebSearch - primitive:research",
+        "description": "",
+        "parent_id": "skill_WebSearch",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {
+          "progress": 0.5,
+          "last_update": "2026-03-02T13:29:59.275293",
+          "notes": "Halbwegs geschafft!"
+        },
+        "associated_option": "primitive:research"
+      },
+      "skill_WebSearch_implement": {
+        "id": "skill_WebSearch_implement",
+        "name": "Learn WebSearch - primitive:implement",
+        "description": "",
+        "parent_id": "skill_WebSearch",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "primitive:implement"
+      },
+      "skill_WebSearch_test": {
+        "id": "skill_WebSearch_test",
+        "name": "Learn WebSearch - primitive:test",
+        "description": "",
+        "parent_id": "skill_WebSearch",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "primitive:test"
+      },
+      "skill_DataAnalysis": {
+        "id": "skill_DataAnalysis",
+        "name": "Learn DataAnalysis",
+        "description": "Master the DataAnalysis skill",
+        "parent_id": null,
+        "sub_goals": [
+          "skill_DataAnalysis_research",
+          "skill_DataAnalysis_implement",
+          "skill_DataAnalysis_test"
+        ],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "learn_DataAnalysis"
+      },
+      "skill_DataAnalysis_research": {
+        "id": "skill_DataAnalysis_research",
+        "name": "Learn DataAnalysis - primitive:research",
+        "description": "",
+        "parent_id": "skill_DataAnalysis",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "primitive:research"
+      },
+      "skill_DataAnalysis_implement": {
+        "id": "skill_DataAnalysis_implement",
+        "name": "Learn DataAnalysis - primitive:implement",
+        "description": "",
+        "parent_id": "skill_DataAnalysis",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "primitive:implement"
+      },
+      "skill_DataAnalysis_test": {
+        "id": "skill_DataAnalysis_test",
+        "name": "Learn DataAnalysis - primitive:test",
+        "description": "",
+        "parent_id": "skill_DataAnalysis",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "primitive:test"
+      },
+      "skill_NaturalLanguage": {
+        "id": "skill_NaturalLanguage",
+        "name": "Learn NaturalLanguage",
+        "description": "Master the NaturalLanguage skill",
+        "parent_id": null,
+        "sub_goals": [
+          "skill_NaturalLanguage_research",
+          "skill_NaturalLanguage_implement",
+          "skill_NaturalLanguage_test"
+        ],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "learn_NaturalLanguage"
+      },
+      "skill_NaturalLanguage_research": {
+        "id": "skill_NaturalLanguage_research",
+        "name": "Learn NaturalLanguage - primitive:research",
+        "description": "",
+        "parent_id": "skill_NaturalLanguage",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "primitive:research"
+      },
+      "skill_NaturalLanguage_implement": {
+        "id": "skill_NaturalLanguage_implement",
+        "name": "Learn NaturalLanguage - primitive:implement",
+        "description": "",
+        "parent_id": "skill_NaturalLanguage",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "primitive:implement"
+      },
+      "skill_NaturalLanguage_test": {
+        "id": "skill_NaturalLanguage_test",
+        "name": "Learn NaturalLanguage - primitive:test",
+        "description": "",
+        "parent_id": "skill_NaturalLanguage",
+        "sub_goals": [],
+        "priority": 1.0,
+        "deadline": null,
+        "metadata": {},
+        "associated_option": "primitive:test"
+      }
+    },
+    "root_goals": [
+      "skill_WebSearch",
+      "skill_NaturalLanguage",
+      "skill_DataAnalysis"
+    ],
+    "status": {
+      "skill_WebSearch": "IN_PROGRESS",
+      "skill_WebSearch_research": "IN_PROGRESS",
+      "skill_WebSearch_implement": "PENDING",
+      "skill_WebSearch_test": "PENDING",
+      "skill_DataAnalysis": "PENDING",
+      "skill_DataAnalysis_research": "PENDING",
+      "skill_DataAnalysis_implement": "PENDING",
+      "skill_DataAnalysis_test": "PENDING",
+      "skill_NaturalLanguage": "PENDING",
+      "skill_NaturalLanguage_research": "PENDING",
+      "skill_NaturalLanguage_implement": "PENDING",
+      "skill_NaturalLanguage_test": "PENDING"
+    }
+  },
+  "training_stats": [],
+  "saved_at": 1772429399.2753747
+}
