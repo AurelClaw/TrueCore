@@ -1,9 +1,0 @@
-[PROACTIVE] Proaktive Entscheidungsanalyse...
-
-[KONTEXT]
-→ Uhrzeit: 17:00
-→ Phase: TAG
-→ Empfohlen: Aktive Arbeit, Ziele verfolgen
-
-[DRINGLICHKEIT]
-→ Keine blockierten Ziele

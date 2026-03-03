@@ -1,9 +1,0 @@
-[PROACTIVE] Proaktive Entscheidungsanalyse...
-
-[KONTEXT]
-→ Uhrzeit: 19:00
-→ Phase: ABEND
-→ Empfohlen: Reflexion, Konsolidierung
-
-[DRINGLICHKEIT]
-→ Keine blockierten Ziele
